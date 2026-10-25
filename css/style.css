@@ -481,19 +481,26 @@ html[data-lang="zh"] .lang-switch__opt[data-opt="zh"] { background: var(--cobalt
   border: var(--line) solid var(--cobalt);
   border-radius: 28px;
 }
-.tea-stage__cup { position: relative; display: grid; place-items: center; }
+.tea-stage__cup {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: clamp(320px, 30vw, 430px);
+}
 .tea-stage__splash {
   position: absolute;
-  inset: 12% 10%;
+  inset: 10% 6%;
   border-radius: 46% 54% 52% 48% / 55% 45% 55% 45%;
   background: var(--tint, var(--peach-soft));
   transition: background 0.4s;
 }
 .tea-stage__cup img {
   position: relative;
-  width: 100%;
-  max-width: 360px;
-  mix-blend-mode: multiply;
+  width: min(112%, 420px);
+  max-width: 420px;
+  max-height: 430px;
+  object-fit: contain;
 }
 .tea-stage__cup img.is-pouring { animation: pour 0.55s cubic-bezier(.25,.8,.35,1.2); }
 @keyframes pour {
@@ -958,7 +965,8 @@ html[data-lang="zh"] .lang-switch__opt[data-opt="zh"] { background: var(--cobalt
   .scene__sun { right: 6%; top: 4%; }
   .mascot { right: auto; left: 52%; }
   .tea-stage { grid-template-columns: 1fr; }
-  .tea-stage__cup img { max-width: 240px; }
+  .tea-stage__cup { min-height: 280px; }
+  .tea-stage__cup img { width: min(100%, 260px); max-width: 260px; max-height: 280px; }
   .tea-meters > div { grid-template-columns: 7em 1fr; }
   .stickers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 14px; }
   .sticker__desc { display: none; }
