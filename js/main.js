@@ -14,12 +14,33 @@
     get() { try { return localStorage.getItem(LANG_KEY); } catch { return null; } },
     set(v) { try { localStorage.setItem(LANG_KEY, v); } catch { /* private mode */ } },
   };
+  const normalizeLang = (value = "") => {
+    const lang = String(value).toLowerCase();
+    if (lang === "zh" || lang === "cn" || lang.startsWith("zh-")) return "zh";
+    if (lang === "en" || lang.startsWith("en-")) return "en";
+    return null;
+  };
+  const syncLangLinks = (lang) => {
+    $$('a[href]').forEach((a) => {
+      const href = a.getAttribute("href");
+      if (!href || /^(?:mailto:|tel:|javascript:)/i.test(href)) return;
+      const url = new URL(href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      url.searchParams.set("lang", lang);
+      a.href = url.href;
+    });
+  };
   const setLang = (lang) => {
     document.documentElement.dataset.lang = lang;
     document.documentElement.lang = lang === "zh" ? "zh-Hans" : "en";
     storage.set(lang);
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", lang);
+    history.replaceState(null, "", url);
+    syncLangLinks(lang);
   };
-  setLang(storage.get() || ((navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en"));
+  const urlLang = normalizeLang(new URLSearchParams(window.location.search).get("lang"));
+  setLang(urlLang || normalizeLang(storage.get()) || normalizeLang(navigator.language) || "en");
   $$("[data-lang-switch]").forEach((btn) =>
     btn.addEventListener("click", () => setLang(document.documentElement.dataset.lang === "zh" ? "en" : "zh"))
   );
