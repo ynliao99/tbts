@@ -57,7 +57,7 @@ window.TBTS = {
       "id": "bubble-milk-tea",
       "en": "House Milk Tea Blend",
       "zh": "经典珍珠奶茶 · 特调拼配",
-      "img": "assets/img/tea/bubble-milk-tea.webp",
+      "img": "assets/img/tea/bubble-milk-tea.png",
       "desc_en": "Special House Blend crafted for our milk tea series. A sweet honey aroma upon the first sip, followed by a rich and indulgent aftertaste.",
       "desc_zh": "Tea By The Sea 奶茶系列特别拼配，入口甜感花蜜香，回味浑厚浓郁，有着独特的甘醇口感。",
       "notes_en": "Caramel, fruity honey",
@@ -69,7 +69,7 @@ window.TBTS = {
       "id": "jasmine-green",
       "en": "Jasmine Green Tea",
       "zh": "高山绿茶",
-      "img": "assets/img/tea/jasmine-green.webp",
+      "img": "assets/img/tea/jasmine-green.png",
       "desc_en": "Classic green tea, with a rich infusion of jasmine floral notes, followed by a smooth and pleasant finish.",
       "desc_zh": "经典绿茶口味，入口浓郁茉莉花香，尾韵绿茶顺口茶香。",
       "notes_en": "Jasmine flower, refreshing",
@@ -81,7 +81,7 @@ window.TBTS = {
       "id": "classic-oolong",
       "en": "Classic Oolong Tea",
       "zh": "炭焙乌龙",
-      "img": "assets/img/tea/classic-oolong.webp",
+      "img": "assets/img/tea/classic-oolong.png",
       "desc_en": "A semi-fermented tea offering a smooth and mellow taste with a distinctive Pu-erh aroma, with hints of roasted and caramel fragrance.",
       "desc_zh": "半发酵茶类，茶感温润带特殊普洱香气，并带着炭香及焦糖香气。",
       "notes_en": "Smoky roasted, caramel",
@@ -93,7 +93,7 @@ window.TBTS = {
       "id": "osmanthus",
       "en": "Osmanthus Tea",
       "zh": "馥郁桂香",
-      "img": "assets/img/tea/osmanthus.webp",
+      "img": "assets/img/tea/osmanthus.png",
       "desc_en": "Oolong tea as the base, blended with the unique fragrance of osmanthus flowers. Smooth, rich, and leaves a lingering sweetness.",
       "desc_zh": "以岩选上等乌龙茶为素材，透过多次制作工序，将桂花独有的香气融入，醇厚回甘。",
       "notes_en": "Osmanthus, roasted",
@@ -105,7 +105,7 @@ window.TBTS = {
       "id": "peach-oolong",
       "en": "Peach Oolong Tea",
       "zh": "桃香乌龙",
-      "img": "assets/img/tea/peach-oolong.webp",
+      "img": "assets/img/tea/peach-oolong.png",
       "desc_en": "Taiwanese oolong tea with dried white peaches. A smooth and rich oolong flavor with a white peach aroma.",
       "desc_zh": "台湾清香乌龙配上白桃干果，日式口感，入口香醇乌龙，尾韵白桃香气，口感清爽。",
       "notes_en": "Roasted, peach",
@@ -117,7 +117,7 @@ window.TBTS = {
       "id": "earl-grey",
       "en": "Earl Grey",
       "zh": "伯爵茶",
-      "img": "assets/img/tea/earl-grey.webp",
+      "img": "assets/img/tea/earl-grey.png",
       "desc_en": "Selected Assam tea with a distinct honeyed aroma and a rich, robust body, lifted with a touch of bergamot.",
       "desc_zh": "严选印度阿萨姆茶叶，拥有独特的蜜糖香，口感浓郁厚实，佐以淡淡佛手柑香气，带给味蕾多层次的享受。",
       "notes_en": "Honey, bergamot, slightly smoky",
@@ -129,7 +129,7 @@ window.TBTS = {
       "id": "taiwanese-oolong",
       "en": "Taiwanese Oolong Tea",
       "zh": "冻顶乌龙",
-      "img": "assets/img/tea/taiwanese-oolong.webp",
+      "img": "assets/img/tea/taiwanese-oolong.png",
       "desc_en": "A delightful aroma of flowers, with a smooth and sweet taste. Leaves a lingering, satisfying aftertaste.",
       "desc_zh": "茶汤水色澄清明亮，花香扑鼻，入口滋味圆滑甘润，饮后回韵无穷。",
       "notes_en": "Roasted, floral",
@@ -141,7 +141,7 @@ window.TBTS = {
       "id": "hawaii",
       "en": "Hawaii Tea",
       "zh": "夏威夷茶",
-      "img": "assets/img/tea/hawaii.webp",
+      "img": "assets/img/tea/hawaii.png",
       "desc_en": "Refreshing floral and fruity tea with a crystal-clear infusion and a sweet fruity aroma.",
       "desc_zh": "清爽花果茶，茶汤晶莹剔透，散发清爽甜美的水果香气。",
       "notes_en": "Floral, fruity",
@@ -161,14 +161,14 @@ window.TBTS = {
           "zh": "芝士/满杯桃桃",
           "desc": "A slush-like beverage made with FRESH Peach and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/peach-jasmine-green-tea-smoothie.jpg"
+          "img": "assets/img/drinks/peach-jasmine-green-tea-smoothie.png"
         },
         {
           "en": "Peach Jasmine Green Tea",
           "zh": "白桃茉莉绿茶",
           "desc": "Peach Flavored Jasmine Green Tea with Peach Chunk",
           "price": "$5.50+",
-          "img": "assets/img/drinks/peach-jasmine-green-tea.jpg"
+          "img": "assets/img/drinks/peach-jasmine-green-tea.png"
         }
       ]
     },
@@ -182,77 +182,77 @@ window.TBTS = {
           "zh": "经典珍珠奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Black Tea, including Chewy Boba",
           "price": "$6.50+",
-          "img": "assets/img/drinks/bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/bubble-milk-tea.png"
         },
         {
           "en": "Green Bubble Milk Tea",
           "zh": "茉香珍珠奶绿",
           "desc": "Milk Tea made with FRESHLY BREWED Jasmine Green Tea, including Chewy Boba",
           "price": "$6.75+",
-          "img": "assets/img/drinks/green-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/green-bubble-milk-tea.png"
         },
         {
           "en": "Peach Oolong Bubble Milk Tea",
           "zh": "白桃珍珠奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Peach Oolong Tea(peach, fruity and roasted) , including Chewy Boba",
           "price": "$6.75+",
-          "img": "assets/img/drinks/peach-oolong-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/peach-oolong-bubble-milk-tea.png"
         },
         {
           "en": "Taiwanese Oolong Bubble Milk Tea",
           "zh": "冻顶乌龙珍珠奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Taiwanese Oolong Tea(floral and light roasted), including Chewy Boba",
           "price": "$6.75+",
-          "img": "assets/img/drinks/taiwanese-oolong-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/taiwanese-oolong-bubble-milk-tea.png"
         },
         {
           "en": "Hawaii Bubble Milk Tea",
           "zh": "夏威夷珍珠奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Hawaii Tea(strong floral and fruity), including Chewy Boba",
           "price": "$6.75+",
-          "img": "assets/img/drinks/hawaii-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/hawaii-bubble-milk-tea.png"
         },
         {
           "en": "Classic Oolong Bubble Milk Tea",
           "zh": "碳焙乌龙珍珠奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Premium Roasted Oolong Tea(smokey and roasted), including Chewy Boba",
           "price": "$6.75+",
-          "img": "assets/img/drinks/classic-oolong-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/classic-oolong-bubble-milk-tea.png"
         },
         {
           "en": "Fresh Taro Bubble Milk Tea",
           "zh": "芋泥啵啵奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Black Tea, including FRESH Taro Paste and Chewy Boba",
           "price": "$6.95+",
-          "img": "assets/img/drinks/fresh-taro-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/fresh-taro-bubble-milk-tea.png"
         },
         {
           "en": "Cheese Foam Milk Tea",
           "zh": "芝士奶茶",
           "desc": "Black Milk Tea, TOP with Cheese Foam (NO boba in this item, add topping if you want)",
           "price": "$6.50+",
-          "img": "assets/img/drinks/cheese-foam-milk-tea.jpg"
+          "img": "assets/img/drinks/cheese-foam-milk-tea.png"
         },
         {
           "en": "Crème Brûlée Milk Tea",
           "zh": "法式布蕾奶茶",
           "desc": "Black Milk Tea with Crème Brûlée (swirled in a cup). (NO boba in this item, add topping if you want)",
           "price": "$6.50+",
-          "img": "assets/img/drinks/creme-brulee-milk-tea.jpg"
+          "img": "assets/img/drinks/creme-brulee-milk-tea.png"
         },
         {
           "en": "Oreo Milk Tea",
           "zh": "奥利奥奶茶",
           "desc": "Oreo with Black Milk Tea (NO boba in this item, add topping if you want)",
           "price": "$6.50+",
-          "img": "assets/img/drinks/oreo-milk-tea.jpg"
+          "img": "assets/img/drinks/oreo-milk-tea.png"
         },
         {
           "en": "Red Bean Milk Tea",
           "zh": "红豆奶茶",
           "desc": "Sweetened red bean with Black Milk Tea (NO boba in this item, add topping if you want)",
           "price": "$6.50+",
-          "img": "assets/img/drinks/red-bean-milk-tea.jpg"
+          "img": "assets/img/drinks/red-bean-milk-tea.png"
         }
       ]
     },
@@ -266,56 +266,56 @@ window.TBTS = {
           "zh": "满杯/芝芝黑提",
           "desc": "A slush-like beverage made with FRESH Black Grape and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/black-grape-tea-smoothie.jpg"
+          "img": "assets/img/drinks/black-grape-tea-smoothie.png"
         },
         {
           "en": "Avocado Tea Smoothie",
           "zh": "满杯/芝芝牛油果",
           "desc": "A slush-like beverage made with FRESH Avocado, Pear, FRESHLY BREWED Jasmine Green Tea, and Milk, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/avocado-tea-smoothie.jpg"
+          "img": "assets/img/drinks/avocado-tea-smoothie.png"
         },
         {
           "en": "Mango Tea Smoothie",
           "zh": "满杯/芝芝芒芒",
           "desc": "A slush-like beverage made with FRESH Mango and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/mango-tea-smoothie.jpg"
+          "img": "assets/img/drinks/mango-tea-smoothie.png"
         },
         {
           "en": "Berry Tea Smoothie",
           "zh": "满杯/芝芝莓果",
           "desc": "A slush-like beverage made with FRESH Strawberry, Blueberry and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/berry-tea-smoothie.jpg"
+          "img": "assets/img/drinks/berry-tea-smoothie.png"
         },
         {
           "en": "Strawberry Tea Smoothie",
           "zh": "满杯/芝芝草莓",
           "desc": "A slush-like beverage made with FRESH Strawberry and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/strawberry-tea-smoothie.jpg"
+          "img": "assets/img/drinks/strawberry-tea-smoothie.png"
         },
         {
           "en": "Pineapple Tea Smoothie",
           "zh": "满杯/芝芝凤梨",
           "desc": "A slush-like beverage made with FRESH Pineapple and Four Seasons Oolong Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/pineapple-tea-smoothie.jpg"
+          "img": "assets/img/drinks/pineapple-tea-smoothie.png"
         },
         {
           "en": "Watermelon Tea Smoothie",
           "zh": "满杯/芝芝西瓜",
           "desc": "A slush-like beverage made with FRESH Watermelon and FRESHLY BREWED Four Season Oolong Tea, with Optional Cheese Foam (Recommended).",
           "price": "$7.50+",
-          "img": "assets/img/drinks/watermelon-tea-smoothie.jpg"
+          "img": "assets/img/drinks/watermelon-tea-smoothie.png"
         },
         {
           "en": "Mango Pomelo",
           "zh": "杨枝甘露",
           "desc": "A caffeine-free slush-like beverage that consists of FRESH Mango, White Boba and Grapefruit Pulps, with Cheese Foam. *Caffeine Free",
           "price": "$9.25+",
-          "img": "assets/img/drinks/mango-pomelo.jpg"
+          "img": "assets/img/drinks/mango-pomelo.png"
         }
       ]
     },
@@ -329,28 +329,28 @@ window.TBTS = {
           "zh": "满满水果绿",
           "desc": "Made with FRESH-smashed Watermelon, Orange, Lime, Lemon, and Passion Fruit, mixed with FRESHLY BREWED Jasmine Green Tea *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/fresh-fruit-green-tea.jpg"
+          "img": "assets/img/drinks/fresh-fruit-green-tea.png"
         },
         {
           "en": "Fresh Lemon Green Tea",
           "zh": "仲夏柠檬绿",
           "desc": "Made with FRESH-smashed Whole Lime and Lemon, mixed with FRESHLY BREWED Jasmine Green Tea *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/fresh-lemon-green-tea.jpg"
+          "img": "assets/img/drinks/fresh-lemon-green-tea.png"
         },
         {
           "en": "Fresh Fruit Oolong Tea",
           "zh": "满满水果四季春",
           "desc": "Made with FRESH-smashed Watermelon, Orange, Lime, Lemon, and Passion Fruit, mixed with FRESHLY BREWED Four Season Oolong Tea. *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/fresh-fruit-oolong-tea.jpg"
+          "img": "assets/img/drinks/fresh-fruit-oolong-tea.png"
         },
         {
           "en": "Fresh Lemon Oolong Tea",
           "zh": "仲夏四季春",
           "desc": "Made with FRESH-smashed Whole Lime and Lemon, mixed with FRESHLY BREWED Four Season Oolong Tea. *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/fresh-lemon-oolong-tea.jpg"
+          "img": "assets/img/drinks/fresh-lemon-oolong-tea.png"
         }
       ]
     },
@@ -364,21 +364,21 @@ window.TBTS = {
           "zh": "芒果椰椰",
           "desc": "A slush-like beverage that consists of Fresh Mango and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/coco-mango.jpg"
+          "img": "assets/img/drinks/coco-mango.png"
         },
         {
           "en": "Coco Red Bean",
           "zh": "红豆椰椰",
           "desc": "A slush-like beverage that consists of Sweetened Red Bean and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/coco-red-bean.jpg"
+          "img": "assets/img/drinks/coco-red-bean.png"
         },
         {
           "en": "Coco Watermelon",
           "zh": "西瓜椰椰",
           "desc": "A slush-like beverage that consists of Fresh Watermelon and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
           "price": "$7.50+",
-          "img": "assets/img/drinks/coco-watermelon.jpg"
+          "img": "assets/img/drinks/coco-watermelon.png"
         }
       ]
     },
@@ -392,14 +392,14 @@ window.TBTS = {
           "zh": "芋泥啵啵奶茶",
           "desc": "Milk Tea made with FRESHLY BREWED Black Tea, including FRESH Taro Paste and Chewy Boba",
           "price": "$6.95+",
-          "img": "assets/img/drinks/fresh-taro-bubble-milk-tea.jpg"
+          "img": "assets/img/drinks/fresh-taro-bubble-milk-tea.png"
         },
         {
           "en": "Fresh Taro Bubble With Milk",
           "zh": "芋泥啵啵牛奶",
           "desc": "FRESH Taro Paste with Milk, Chewy Boba *Caffeine Free",
           "price": "$6.95+",
-          "img": "assets/img/drinks/fresh-taro-bubble-with-milk.jpg"
+          "img": "assets/img/drinks/fresh-taro-bubble-with-milk.png"
         }
       ]
     },
@@ -413,21 +413,21 @@ window.TBTS = {
           "zh": "抹茶拿铁",
           "desc": "Organic Japanese Matcha with Milk, Adding Sugar Recommended",
           "price": "$7.50+",
-          "img": "assets/img/drinks/matcha-latte.jpg"
+          "img": "assets/img/drinks/matcha-latte.png"
         },
         {
           "en": "Frozen Matcha Latte",
           "zh": "抹茶拿铁冰沙",
           "desc": "A slush-like beverage made with Organic Japanese Matcha with Milk，Adding Sugar Recommended",
           "price": "$7.50+",
-          "img": "assets/img/drinks/frozen-matcha-latte.jpg"
+          "img": "assets/img/drinks/frozen-matcha-latte.png"
         },
         {
           "en": "Strawberrry Matcha Latte",
           "zh": "草莓抹茶拿铁",
           "desc": "Organic Japanese Matcha with Milk and chunky strawberry jam",
           "price": "$8.25+",
-          "img": "assets/img/drinks/strawberry-matcha-latte.jpg"
+          "img": "assets/img/drinks/strawberry-matcha-latte.png"
         }
       ]
     },
@@ -441,21 +441,21 @@ window.TBTS = {
           "zh": "西柚养乐多",
           "desc": "Fresh-smashed Grapefruit with Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
           "price": "$7.75+",
-          "img": "assets/img/drinks/grapefruit-yakult.jpg"
+          "img": "assets/img/drinks/grapefruit-yakult.png"
         },
         {
           "en": "Orange Yakult",
           "zh": "鲜橙养乐多",
           "desc": "Fresh-smashed Orange with Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
           "price": "$7.75+",
-          "img": "assets/img/drinks/orange-yakult.jpg"
+          "img": "assets/img/drinks/orange-yakult.png"
         },
         {
           "en": "Lemon Yakult",
           "zh": "柠檬养乐多",
           "desc": "Fresh-smashed Lemon and Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
           "price": "$7.75+",
-          "img": "assets/img/drinks/lemon-yakult.jpg"
+          "img": "assets/img/drinks/lemon-yakult.png"
         }
       ]
     },
@@ -469,49 +469,49 @@ window.TBTS = {
           "zh": "炭焙乌龙茶",
           "desc": "FRESHLY BREWED Premium Roasted Oolong Tea(smokey and roasted), with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/classic-oolong-tea.jpg"
+          "img": "assets/img/drinks/classic-oolong-tea.png"
         },
         {
           "en": "Jasmine Green Tea",
           "zh": "高山绿茶",
           "desc": "FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/jasmine-green-tea.jpg"
+          "img": "assets/img/drinks/jasmine-green-tea.png"
         },
         {
           "en": "Peach Oolong Tea",
           "zh": "桃香乌龙",
           "desc": "FRESHLY BREWED Peach Oolong Tea(peach, fruity and roasted) , with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/peach-oolong-tea.jpg"
+          "img": "assets/img/drinks/peach-oolong-tea.png"
         },
         {
           "en": "Taiwanese Oolong Tea",
           "zh": "冻顶乌龙",
           "desc": "FRESHLY BREWED Taiwanese Oolong Tea(floral and light roasted), with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/taiwanese-oolong-tea.jpg"
+          "img": "assets/img/drinks/taiwanese-oolong-tea.png"
         },
         {
           "en": "Osmanthus Tea",
           "zh": "桂花乌龙茶",
           "desc": "FRESHLY BREWED Osmanthus Oolong Tea(floral and roasted) , with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/osmanthus-tea.jpg"
+          "img": "assets/img/drinks/osmanthus-tea.png"
         },
         {
           "en": "Earl Grey",
           "zh": "伯爵茶",
           "desc": "FRESHLY BREWED Earl Grey Tea(citrus and floral, slightly smokey), with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/earl-grey.jpg"
+          "img": "assets/img/drinks/earl-grey.png"
         },
         {
           "en": "Hawaii Tea",
           "zh": "夏威夷茶",
           "desc": "FRESHLY BREWED Hawaii Tea (strong floral and fruity), with Optional Cheese Foam (Recommended)",
           "price": "$4.75+",
-          "img": "assets/img/drinks/hawaii-tea.jpg"
+          "img": "assets/img/drinks/hawaii-tea.png"
         }
       ]
     },
@@ -525,28 +525,28 @@ window.TBTS = {
           "zh": "美式",
           "desc": "Medium 2 shots | Large 3 shots. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
           "price": "$5.25+",
-          "img": "assets/img/drinks/americano.jpg"
+          "img": "assets/img/drinks/americano.png"
         },
         {
           "en": "Latte",
           "zh": "拿铁",
           "desc": "Medium 2 shots | Large 3 shots. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
           "price": "$5.50+",
-          "img": "assets/img/drinks/latte.jpg"
+          "img": "assets/img/drinks/latte.png"
         },
         {
           "en": "Cheese Foam Coffee",
           "zh": "芝士咖啡",
           "desc": "Medium 2 shots | Large 3 shots, Top with Cheese Foam. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
           "price": "$5.75+",
-          "img": "assets/img/drinks/cheese-foam-coffee.jpg"
+          "img": "assets/img/drinks/cheese-foam-coffee.png"
         },
         {
           "en": "Crème Brûlée Coffee",
           "zh": "布蕾咖啡",
           "desc": "Medium 2 shots | Large 3 shots, with Crème Brûlée (swirled in a cup). The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
           "price": "$5.75+",
-          "img": "assets/img/drinks/creme-brulee-coffee.jpg"
+          "img": "assets/img/drinks/creme-brulee-coffee.png"
         }
       ]
     },
@@ -560,27 +560,27 @@ window.TBTS = {
           "zh": "纽约芝士蛋糕",
           "desc": "*Gluten Free, 4.5oz/piece",
           "price": "$6.99",
-          "img": "assets/img/drinks/new-york-cheesecake.jpg"
+          "img": "assets/img/drinks/new-york-cheesecake.png"
         },
         {
           "en": "Key Lime Cheesecake",
           "zh": "青柠芝士蛋糕",
           "desc": "4.9oz/piece",
           "price": "$7.99",
-          "img": "assets/img/drinks/key-lime-cheesecake.jpg"
+          "img": "assets/img/drinks/key-lime-cheesecake.png"
         },
         {
           "en": "Chocolate Truffle Mousse Cake",
           "zh": "松露巧克力慕斯蛋糕",
           "desc": "3.5oz/piece",
           "price": "$9.99",
-          "img": "assets/img/drinks/chocolate-truffle-mousse-cake.jpg"
+          "img": "assets/img/drinks/chocolate-truffle-mousse-cake.png"
         },
         {
           "en": "Pumpkin Cheesecake",
           "zh": "南瓜芝士蛋糕",
           "price": "$7.99",
-          "img": "assets/img/drinks/pumpkin-cheesecake.jpg"
+          "img": "assets/img/drinks/pumpkin-cheesecake.png"
         }
       ]
     },
@@ -592,27 +592,27 @@ window.TBTS = {
         {
           "en": "Butter Croissant",
           "price": "$2.99",
-          "img": "assets/img/drinks/butter-croissant.jpg"
+          "img": "assets/img/drinks/butter-croissant.png"
         },
         {
           "en": "Sweet Cheese Danish",
           "price": "$4.99",
-          "img": "assets/img/drinks/sweet-cheese-danish.jpg"
+          "img": "assets/img/drinks/sweet-cheese-danish.png"
         },
         {
           "en": "Spinach & Feta Savory Pastry",
           "price": "$5.59",
-          "img": "assets/img/drinks/spinach-feta-savory-pastry.jpg"
+          "img": "assets/img/drinks/spinach-feta-savory-pastry.png"
         },
         {
           "en": "Matcha Cheese Foam Cinnamon Bun",
           "price": "$6.69",
-          "img": "assets/img/drinks/matcha-cheese-foam-cinnamon-bun.jpg"
+          "img": "assets/img/drinks/matcha-cheese-foam-cinnamon-bun.png"
         },
         {
           "en": "Ham & Cheese Croissant",
           "price": "$5.99",
-          "img": "assets/img/drinks/ham-cheese-croissant.jpg"
+          "img": "assets/img/drinks/ham-cheese-croissant.png"
         }
       ]
     },
