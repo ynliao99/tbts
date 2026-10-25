@@ -819,6 +819,11 @@ html[data-lang="zh"] .lang-switch__opt[data-opt="zh"] { background: var(--cobalt
 .socials { display: grid; gap: 8px; }
 .socials a { display: inline-flex; align-items: center; gap: 8px; }
 .site-footer__legal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
   margin-top: 40px;
   padding-top: 18px;
   border-top: 1px solid rgb(255 255 255 / 0.2);
@@ -826,6 +831,7 @@ html[data-lang="zh"] .lang-switch__opt[data-opt="zh"] { background: var(--cobalt
   color: rgb(255 255 255 / 0.7);
 }
 .site-footer__legal p { margin: 0; color: inherit; }
+.site-footer__legal a { color: inherit; }
 
 /* ---------- Menu page ---------- */
 .menu-hero {
