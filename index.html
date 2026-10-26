@@ -31,6 +31,7 @@
   <symbol id="i-gull" viewBox="0 0 40 16"><path d="M2 12C7 4 14 4 20 11c6-7 13-7 18 1"/></symbol>
   <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4m0 10v4M3 12h4m10 0h4m-2.8-6.2-2.8 2.8m-6.8 6.8-2.8 2.8m0-12.4 2.8 2.8m6.8 6.8 2.8 2.8"/></symbol>
   <symbol id="i-cup" viewBox="0 0 24 24"><path d="M6 8h12l-1.2 11a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 8Z"/><path d="M5 8h14M13 3l-1.5 5"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z"/></symbol>
 </svg>
 
 <a class="skip" href="#main">
@@ -420,16 +421,27 @@
           <span lang="en">Featured in “36 Hours in Boston” as a stop on the East Boston waterfront.</span>
           <span lang="zh">入选《纽约时报》“波士顿 36 小时”东波士顿海滨推荐。</span>
         </p>
-        <p class="press__reviews">
-          <span lang="en">Like us? Leave a review on</span><span lang="zh">喜欢的话，欢迎在这里留个评价：</span>
-          <a data-review="google" href="https://www.google.com/maps/search/?api=1&amp;query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128" target="_blank" rel="noopener">Google</a>,
-          <a href="https://www.yelp.com/biz/teabythesea-boston" target="_blank" rel="noopener">Yelp</a>,
-          <a href="https://www.tripadvisor.com/Restaurant_Review-g60745-d28054986-Reviews-Tea_By_The_Sea-Boston_Massachusetts.html" target="_blank" rel="noopener">Tripadvisor</a>
-        </p>
+        <div class="press__reviews">
+          <p class="press__reviews-label">
+            <span lang="en">Like us? Leave a review on</span><span lang="zh">喜欢我们？欢迎在以下平台留下评价：</span>
+          </p>
+          <a class="review-pill" data-review="google" href="https://www.google.com/maps/search/?api=1&amp;query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span>Google Reviews</span>
+          </a>
+          <a class="review-pill" data-review="yelp" href="https://www.yelp.com/biz/teabythesea-boston" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+            <span>Yelp</span>
+          </a>
+          <a class="review-pill" data-review="tripadvisor" href="https://www.tripadvisor.com/Restaurant_Review-g60745-d28054986-Reviews-Tea_By_The_Sea-Boston_Massachusetts.html" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>
+            <span>Tripadvisor</span>
+          </a>
+        </div>
       </div>
       <div class="press__frame" data-parallax="0.06">
-        <img class="press__img" src="assets/img/store/nyt-feature.png" loading="lazy" width="2000" height="941"
-             alt="Clipping of The New York Times 36 Hours in Boston feature mentioning Tea By The Sea">
+        <img class="press__img" src="assets/img/store/nyt-feature.png" loading="lazy" width="2400" height="1129"
+             alt="Clipping of The New York Times 36 Hours in Boston feature recommending Tea By The Sea">
       </div>
     </div>
   </section>
@@ -439,9 +451,16 @@
     <div class="wrap space__grid">
       <div class="space__media" data-parallax="0.07">
         <div class="photo-shell">
-          <img class="space__img" src="assets/img/store/interior-hall.jpg" loading="lazy" width="1200" height="900"
+          <img class="space__img" src="assets/img/store/interior-hall.jpg" loading="lazy" width="2048" height="1536"
                alt="The open interior of Tea By The Sea with the order counter and harbor windows">
         </div>
+        <figure class="space__accent-card" aria-hidden="true">
+          <div class="photo-shell">
+            <img src="assets/img/store/lounge.jpg" loading="lazy" width="2048" height="1536"
+                 alt="Comfortable lounge area inside Tea By The Sea">
+          </div>
+          <figcaption><span lang="en">Sofa lounge &amp; reading corner</span><span lang="zh">沙发休息区 · 阅览角</span></figcaption>
+        </figure>
       </div>
       <div class="space__copy">
         <p class="section-kicker"><span lang="en">Events &amp; catering</span><span lang="zh">场地预约与外送</span></p>
@@ -452,6 +471,13 @@
           <span lang="en">Birthdays, indoor competitions, meetups, alumni reunions, small workshops or just a big group of friends. Our space comes with harbor views and a drink for everyone.</span>
           <span lang="zh">生日会、室内比赛、社团聚会、校友重聚、小型工作坊，或者只是一大群朋友聚一聚。空间自带海景，饮品管够。</span>
         </p>
+        <div class="space__tags" aria-label="Event types">
+          <span class="space__tag"><span lang="en">🎂 Birthday bashes</span><span lang="zh">🎂 生日派对</span></span>
+          <span class="space__tag"><span lang="en">🏆 Competitions &amp; game nights</span><span lang="zh">🏆 比赛与桌游</span></span>
+          <span class="space__tag"><span lang="en">🎓 Alumni reunions</span><span lang="zh">🎓 校友重聚</span></span>
+          <span class="space__tag"><span lang="en">🎨 Small workshops</span><span lang="zh">🎨 小型工作坊</span></span>
+          <span class="space__tag"><span lang="en">🍵 Social gatherings &amp; catering</span><span lang="zh">🍵 聚会与饮品外送</span></span>
+        </div>
         <p>
           <span lang="en">We cater, too. Tell us your date and group size below, or email us directly.</span><span lang="zh">也承接饮品外送订餐（Catering）。在下方填写活动日期与人数即可发起邮件咨询。</span>
         </p>
