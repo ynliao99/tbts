@@ -52,5 +52,5 @@ scripts/deploy.sh --legacy-content   # CMS 还没发布过内容时，用初版�
 - nginx 配置的源文件是 `scripts/nginx/`（站点配置 + 安全头片段），服务器上在 `/etc/nginx/sites.d/` 和 `/etc/nginx/snippets/`；改完手动上传，再 `nginx -t && systemctl reload nginx`
 - 旧地址 `menu.html`、`privacy.html`、`terms.html` 301 到 `/menu`、`/privacy`、`/terms`
 - HTTPS 证书是 Let's Encrypt（certbot，证书名 `teabytheseaboston.com`，覆盖裸域和 www），由服务器上的 `certbot-renew.timer` 自动续期，续完自动 reload nginx；`certbot renew --dry-run --cert-name teabytheseaboston.com` 可演练续期
-- DNS 在阿里云（ns1/ns2.alidns.com），裸域和 www 都是 A 记录 47.89.231.163
+- DNS 在阿里云（ns1/ns2.alidns.com），裸域和 www 经 ESA 回源到 47.89.231.163
 - GitHub Pages 已停用
