@@ -2239,26 +2239,6 @@ html.is-ready .scene {
   background: var(--paper);
   color: var(--cobalt);
 }
-.final-cta__sub {
-  max-width: 36rem;
-  margin: 16px 0 0;
-  color: rgb(255 255 255 / 0.8);
-  font-size: 18px;
-  line-height: 28px;
-}
-.final-cta__actions {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  flex-shrink: 0;
-}
-.app-badges__label {
-  margin: 20px 0 10px;
-  color: rgb(255 255 255 / 0.72);
-  font-size: 14px;
-  line-height: 20px;
-}
-
 /* ---------- App store badges ---------- */
 /* 官方徽标原样使用（Apple / Google 品牌规范：不改色、不加描边），只统一高度 */
 .app-badges {
@@ -2280,15 +2260,37 @@ html.is-ready .scene {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgb(0 0 0 / 0.25);
 }
-.app-badges--footer { margin-bottom: 8px; }
-.app-badges--footer .app-badge img { height: 40px; }
-.site-footer__head--app { margin-top: 24px; }
-.menu-hero__actions {
+/* 按访客系统只露出对应商店；识别不到（电脑）两个都显示 */
+html[data-os="ios"] .app-badge--android,
+html[data-os="android"] .app-badge--ios { display: none; }
+
+/* Come find us：照片和地图下方整行，仅电脑版 */
+.visit__apps {
+  grid-column: 1 / -1;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
+.visit__apps-label {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.visit__apps .app-badge img { height: 36px; }
+
+/* 页脚：放在 logo 下方，徽标竖排 */
+.site-footer__app { margin-top: 24px; }
+.app-badges--footer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.app-badges--footer .app-badge { border-radius: 7px; }
+.app-badges--footer .app-badge img { height: 36px; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -2554,7 +2556,9 @@ html.is-ready .scene {
   .space__grid,
   .visit__grid { gap: 48px; }
   .stickers { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* 三列：logo + App 徽标占左侧两行，右边两列放地址/联系/关注 */
+  .site-footer__grid { grid-template-columns: minmax(10rem, 0.8fr) 1fr 1fr; }
+  .site-footer__grid > :first-child { grid-row: span 2; }
 }
 
 @media (max-width: 60rem) {
@@ -2698,6 +2702,10 @@ html.is-ready .scene {
   .nav__list.is-open li:nth-child(5) a { transition-delay: 280ms; }
   .site-header__actions { margin-left: auto; }
   .site-header__actions .btn { display: none; }
+  .site-header__actions .btn--app { display: inline-flex; }
+  .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-footer__grid > :first-child { grid-row: auto; }
+  .visit__apps { display: none; }
   .hero__title,
   .menu-hero h1 { font-size: 48px; }
   .tagline__text { font-size: 36px; line-height: 40px; }
@@ -2711,8 +2719,6 @@ html.is-ready .scene {
     align-items: start;
     flex-direction: column;
   }
-  .final-cta__actions,
-  .menu-hero__actions { align-items: flex-start; }
   .site-footer__legal { grid-template-columns: 1fr; }
 }
 

@@ -80,6 +80,12 @@
   setLinks('[data-review="google"]', info.mapUrl, true);
   setLinks("[data-instagram]", info.instagram, true);
   setLinks("[data-xhs]", info.xiaohongshu, true);
+  // 顶部「下载 App」：手机直达对应商店，识别不到系统（电脑）时留在页内锚点 #get-app
+  const appStore = {
+    ios: "https://apps.apple.com/us/app/tea-by-the-sea/id6808102062",
+    android: "https://play.google.com/store/apps/details?id=com.chowbus.branded.teabythesea",
+  }[document.documentElement.dataset.os];
+  if (appStore) setLinks("[data-app-link]", appStore, true);
   $$("[data-phone]").forEach((a) => { a.href = `tel:${info.phoneIntl}`; a.textContent = info.phone; });
   $$("[data-email]").forEach((a) => { a.href = `mailto:${info.email}`; a.textContent = info.email; });
   $$("[data-email-space]").forEach((a) => {
