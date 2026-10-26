@@ -88,12 +88,14 @@
             <span lang="en">Browse the full menu</span><span lang="zh">浏览完整菜单</span>
           </a>
         </div>
-        <p class="open-badge" data-open-status aria-live="polite"></p>
-        <ul class="hero__proof" aria-label="Store highlights">
-          <li><strong>8</strong><span lang="en">tea bases</span><span lang="zh">款原叶茶底</span></li>
-          <li><strong>11–9</strong><span lang="en">open daily</span><span lang="zh">每日营业</span></li>
-          <li><strong>Harbor</strong><span lang="en">front deck</span><span lang="zh">海滨露台</span></li>
-        </ul>
+        <div class="hero__status-cards">
+          <p class="open-badge" data-open-status aria-live="polite"></p>
+          <ul class="hero__proof" aria-label="Store highlights">
+            <li><strong>8</strong><span lang="en">tea bases</span><span lang="zh">款原叶茶底</span></li>
+            <li><strong>11–9</strong><span lang="en">open daily</span><span lang="zh">每日营业</span></li>
+            <li><strong>Harbor</strong><span lang="en">front deck</span><span lang="zh">海滨露台</span></li>
+          </ul>
+        </div>
       </div>
 
       <figure class="hero__photo" data-parallax="0.12">
@@ -304,12 +306,19 @@
       <div class="tea-explorer" data-tea-explorer>
         <div class="tea-list" role="tablist" aria-label="Tea bases" data-tea-tabs></div>
         <div class="tea-stage" role="tabpanel" data-tea-panel tabindex="0">
+          <div class="tea-stage__nav-bar">
+            <span class="tea-stage__badge" data-tea-badge><span lang="en">Base 01 / 08</span><span lang="zh">茶底 01 / 08</span></span>
+            <div class="tea-stage__controls" aria-label="Switch tea">
+              <button class="tea-stage__arrow tea-stage__arrow--prev" type="button" data-tea-prev aria-label="Previous tea">‹</button>
+              <span class="tea-stage__swipe-tag"><span lang="en">Swipe left/right</span><span lang="zh">左右滑动切换</span></span>
+              <button class="tea-stage__arrow tea-stage__arrow--next" type="button" data-tea-next aria-label="Next tea">›</button>
+            </div>
+          </div>
           <div class="tea-stage__cup">
             <span class="tea-stage__splash" aria-hidden="true"></span>
             <img data-tea-img src="assets/img/tea/bubble-milk-tea.png" alt="House Milk Tea Blend in a Tea By The Sea cup" width="700" height="700">
           </div>
           <div class="tea-stage__info" data-tea-info>
-            <span class="tea-stage__badge" data-tea-badge><span lang="en">Base 01 / 08</span><span lang="zh">茶底 01 / 08</span></span>
             <h3 class="tea-stage__name" data-tea-name></h3>
             <p class="tea-stage__zh" data-tea-zh></p>
             <p class="tea-stage__desc" data-tea-desc></p>

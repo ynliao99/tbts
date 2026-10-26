@@ -219,6 +219,9 @@
       .join("");
     panel.id = "tea-panel";
 
+    const prevBtn = $("[data-tea-prev]", explorer);
+    const nextBtn = $("[data-tea-next]", explorer);
+
     const show = (i, animate) => {
       const t = teas[i];
       const num = String(i + 1).padStart(2, "0");
@@ -227,6 +230,10 @@
         b.setAttribute("aria-selected", i === j);
         b.tabIndex = i === j ? 0 : -1;
       });
+      const activeTab = $$(".tea-tab", tabs)[i];
+      if (activeTab && tabs.scrollWidth > tabs.clientWidth) {
+        activeTab.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+      }
       panel.setAttribute("aria-labelledby", `tea-tab-${t.id}`);
       explorer.style.setProperty("--tint", TINTS[t.id]);
       if (badge) badge.innerHTML = bi(`Base ${num} / ${total}`, `茶底 ${num} / ${total}`);
@@ -255,6 +262,52 @@
       const b = e.target.closest(".tea-tab");
       if (b) show(+b.dataset.i, true);
     });
+    if (prevBtn) {
+      prevBtn.addEventListener("click", () => {
+        const cur = $$(".tea-tab", tabs).findIndex((b) => b.getAttribute("aria-selected") === "true");
+        const prev = (cur - 1 + teas.length) % teas.length;
+        show(prev, true);
+      });
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        const cur = $$(".tea-tab", tabs).findIndex((b) => b.getAttribute("aria-selected") === "true");
+        const next = (cur + 1) % teas.length;
+        show(next, true);
+      });
+    }
+
+    /* Touch swipe left/right on tea stage for mobile */
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
+    panel.addEventListener("touchstart", (e) => {
+      if (e.touches.length !== 1) return;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchStartTime = Date.now();
+    }, { passive: true });
+    panel.addEventListener("touchend", (e) => {
+      if (!touchStartX) return;
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+      const deltaX = touchEndX - touchStartX;
+      const deltaY = touchEndY - touchStartY;
+      const dt = Date.now() - touchStartTime;
+      touchStartX = 0;
+      touchStartY = 0;
+      if (dt > 650) return;
+      if (Math.abs(deltaX) > 36 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+        const cur = $$(".tea-tab", tabs).findIndex((b) => b.getAttribute("aria-selected") === "true");
+        if (deltaX < 0) {
+          const next = (cur + 1) % teas.length;
+          show(next, true);
+        } else {
+          const prev = (cur - 1 + teas.length) % teas.length;
+          show(prev, true);
+        }
+      }
+    }, { passive: true });
     tabs.addEventListener("keydown", (e) => {
       const keys = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 };
       if (!(e.key in keys)) return;
@@ -619,14 +672,27 @@
     }
   }
 
-  /* 4. Subtle Photo Parallax (IntersectionObserver + rAF, zero continuous reflow) */
+  /* 4. Subtle Photo Parallax (IntersectionObserver + rAF, desktop mouse-only for instant native mobile feel) */
   const parallaxItems = $$("[data-parallax]");
+  const heroPhoto = $(".hero__photo");
+  if (heroPhoto) {
+    setTimeout(() => {
+      heroPhoto.classList.add("is-settled");
+    }, 1200);
+  }
+
   if (parallaxItems.length && !reducedMotion) {
     const activeParallax = new Set();
     let parallaxRaf = 0;
+    const isTouchOrMobile = () =>
+      window.matchMedia("(max-width: 51.25rem), (pointer: coarse)").matches;
 
     const updateParallax = () => {
       parallaxRaf = 0;
+      if (isTouchOrMobile()) {
+        parallaxItems.forEach((el) => el.style.setProperty("--parallax-y", "0px"));
+        return;
+      }
       const vh = window.innerHeight || 1;
       activeParallax.forEach((el) => {
         const factor = parseFloat(el.dataset.parallax) || 0.08;
@@ -638,6 +704,7 @@
     };
 
     const requestParallax = () => {
+      if (isTouchOrMobile()) return;
       if (!parallaxRaf && activeParallax.size > 0) {
         parallaxRaf = requestAnimationFrame(updateParallax);
       }
@@ -659,15 +726,21 @@
 
     parallaxItems.forEach((el) => parallaxObserver.observe(el));
     window.addEventListener("scroll", requestParallax, { passive: true });
-    window.addEventListener("resize", requestParallax, { passive: true });
+    window.addEventListener("resize", () => {
+      if (isTouchOrMobile()) {
+        parallaxItems.forEach((el) => el.style.setProperty("--parallax-y", "0px"));
+      } else {
+        requestParallax();
+      }
+    }, { passive: true });
   }
 
-  /* 5. Hero 3D Pointer Tilt */
-  const heroPhoto = $(".hero__photo");
+  /* 5. Hero 3D Pointer Tilt (desktop mouse only) */
   const hero = $(".hero");
   if (heroPhoto && hero && !reducedMotion) {
     let tiltFrame;
     hero.addEventListener("pointermove", (event) => {
+      if (event.pointerType !== "mouse") return;
       cancelAnimationFrame(tiltFrame);
       tiltFrame = requestAnimationFrame(() => {
         const rect = hero.getBoundingClientRect();
