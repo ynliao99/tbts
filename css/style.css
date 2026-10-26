@@ -70,7 +70,8 @@ body.nav-open .site-header__inner {
   -webkit-backdrop-filter: none;
 }
 
-img { display: block; max-width: 100%; height: auto; }
+picture, img { display: block; }
+img { max-width: 100%; height: auto; }
 svg { display: block; }
 a { color: inherit; }
 button, input { font: inherit; }
@@ -1146,6 +1147,41 @@ html.is-ready .scene {
   gap: 80px;
   align-items: start;
 }
+.journey__intro .section-head { margin-bottom: 24px; }
+.journey__order { margin-top: 24px; }
+.journey__photo {
+  position: relative;
+  width: min(100%, 24rem);
+  margin: 0;
+  padding: 8px 8px 40px;
+  border: 2px solid var(--cobalt);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  box-shadow: 8px 8px 0 var(--peach-soft);
+  transform: rotate(-1.5deg);
+  transition: transform 900ms var(--spring), box-shadow 900ms var(--ease);
+}
+.journey__photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 62%;
+  border-radius: var(--radius-sm);
+}
+.journey__photo figcaption,
+.visit__photo figcaption {
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+  color: var(--cobalt);
+  font-family: var(--font-hand);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.journey__photo figcaption :lang(zh),
+.visit__photo figcaption :lang(zh) { font-family: var(--font-zh-hand); font-weight: 400; }
+.journey__photo:hover { transform: translateY(-8px) rotate(0deg); box-shadow: 12px 12px 0 var(--cobalt-soft); }
 .journey__steps {
   margin: 0;
   padding: 0;
@@ -1635,6 +1671,7 @@ html.is-ready .scene {
 .favs__note :lang(zh) {
   font-family: var(--font-zh-hand);
 }
+.favs__actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 16px; }
 
 /* ---------- The Deck (Asymmetric Collage + Subtle Parallax) ---------- */
 .deck {
@@ -1954,6 +1991,7 @@ html.is-ready .scene {
   align-items: start;
 }
 .visit__info .section-title { margin-bottom: 32px; }
+.visit__order { margin-top: 24px; }
 .contact-list {
   display: grid;
   gap: 16px;
@@ -2012,6 +2050,32 @@ html.is-ready .scene {
 }
 .hours tr.is-today th,
 .hours tr.is-today td { font-weight: 700; }
+
+.visit__visuals {
+  display: grid;
+  grid-template-columns: minmax(10rem, 0.72fr) minmax(18rem, 1.28fr);
+  gap: 24px;
+  align-items: center;
+}
+.visit__photo {
+  position: relative;
+  z-index: 2;
+  margin: 0 -48px 0 0;
+  padding: 8px 8px 40px;
+  border: 2px solid var(--cobalt);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  box-shadow: 8px 8px 0 var(--peach-soft);
+  transform: rotate(-2deg);
+  transition: transform 900ms var(--spring), box-shadow 900ms var(--ease);
+}
+.visit__photo img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.visit__photo:hover { transform: translateY(-8px) rotate(0deg); box-shadow: 12px 12px 0 var(--cobalt-soft); }
 
 /* Outer 24px, note at 16px gap -> 8px inner radius */
 .visit__map {
@@ -2451,6 +2515,8 @@ html.is-ready .scene {
   }
   .tea-tab { width: auto; flex: none; }
   .tea-stage { position: static; }
+  .journey__photo { width: min(100%, 32rem); }
+  .visit__visuals { grid-template-columns: minmax(12rem, 0.72fr) minmax(20rem, 1.28fr); }
   .stickers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .menu-list { grid-template-columns: 1fr; }
 }
@@ -2570,6 +2636,12 @@ html.is-ready .scene {
 @media (max-width: 40rem) {
   :root { --gutter: 16px; }
   .section-title { font-size: 36px; line-height: 40px; }
+  .section-head--row { align-items: flex-start; }
+  .favs__actions { justify-content: flex-start; }
+  .journey__photo { width: 100%; }
+  .visit__visuals { grid-template-columns: 1fr; }
+  .visit__photo { width: min(82%, 20rem); margin: 0 auto -48px 0; transform: rotate(-1.5deg); }
+  .visit__map { margin-top: 24px; }
   .section-head--row {
     align-items: start;
     flex-direction: column;
