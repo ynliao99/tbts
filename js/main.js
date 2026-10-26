@@ -158,25 +158,28 @@
   }
 
   /* ---------- Header hides on scroll down, returns on scroll up (mobile CSS) ---------- */
+  // On the menu page the header only shows above the sticky menu bar, so the two never stack.
   const siteHeader = $(".site-header");
+  const menuBar = $(".menu-bar");
   if (siteHeader) {
     let lastY = window.scrollY;
-    let ticking = false;
+    const setHidden = (hidden) => {
+      siteHeader.classList.toggle("is-hidden", hidden);
+      document.documentElement.classList.toggle("header-hidden", hidden);
+    };
     const updateHeader = () => {
       const y = window.scrollY;
       if (document.body.classList.contains("nav-open")) {
         lastY = y;
+      } else if (menuBar) {
+        setHidden(menuBar.getBoundingClientRect().top < siteHeader.getBoundingClientRect().bottom + 8);
       } else if (Math.abs(y - lastY) > 8) {
-        const hidden = y > lastY && y > 120;
-        siteHeader.classList.toggle("is-hidden", hidden);
-        document.documentElement.classList.toggle("header-hidden", hidden);
+        setHidden(y > lastY && y > 120);
         lastY = y;
       }
-      ticking = false;
     };
-    window.addEventListener("scroll", () => {
-      if (!ticking) { ticking = true; requestAnimationFrame(updateHeader); }
-    }, { passive: true });
+    window.addEventListener("scroll", updateHeader, { passive: true });
+    updateHeader();
   }
 
   /* ---------- Nav section scroll-spy ---------- */
