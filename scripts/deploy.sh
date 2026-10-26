@@ -2,8 +2,9 @@
 # 把网站发布到 wordpress-server（内网 172.27.235.198），经 panel.uswoo.cn 中转。
 #
 # 发布的是当前 HEAD 的已提交内容（git archive），不含工作区未提交的改动。
-# 只上传页面实际用到的文件：index.html、menu.html、css/、js/，以及被页面/脚本/样式
-# 按文件名引用到的 assets/ 文件；README、DESIGN、.github 和没用到的图片都不上传。
+# 只上传页面实际用到的文件：根目录的 *.html、css/、js/，以及被页面/脚本/样式按完整路径
+# 引用到的 assets/ 文件；README、DESIGN、.github、旧网站存档、assets/original 和没用到的
+# 图片都不上传。
 #
 # 用法：scripts/deploy.sh            发布
 #       scripts/deploy.sh --dry-run  只列出将上传的文件
@@ -20,10 +21,11 @@ if [[ -n "$(git status --porcelain -- index.html menu.html css js assets)" ]]; t
   echo "⚠️  网站文件有未提交的改动，这些改动不会被发布（发布的是 HEAD）。" >&2
 fi
 
-files=(index.html menu.html $(git ls-files css js))
-pages=(index.html menu.html $(git ls-files css js))
+pages=($(git ls-files ':(glob)*.html' css js))
+files=("${pages[@]}")
+# 按完整路径匹配，避免 assets/original/ 里同名的原始素材被带上
 while IFS= read -r f; do
-  if grep -qF "$(basename "$f")" "${pages[@]}"; then
+  if grep -qF "$f" "${pages[@]}"; then
     files+=("$f")
   fi
 done < <(git ls-files assets)
