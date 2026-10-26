@@ -1,0 +1,3684 @@
+{
+  "schema": 1,
+  "version": 0,
+  "publishedAt": "2026-10-26T00:00:00Z",
+  "store": {
+    "name": "Tea By The Sea",
+    "phone": "508-685-7127",
+    "phoneIntl": "+15086857127",
+    "email": "teabythesea.boston@gmail.com",
+    "address": {
+      "en": [
+        "Waterfront Entrance at",
+        "99 Sumner Street",
+        "East Boston, MA 02128"
+      ],
+      "zh": [
+        "海滨入口",
+        "99 Sumner Street",
+        "East Boston, MA 02128"
+      ]
+    },
+    "hours": [
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ],
+      [
+        660,
+        1260
+      ]
+    ],
+    "timezone": "America/New_York",
+    "links": {
+      "order": "https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845",
+      "map": "https://www.google.com/maps/search/?api=1&query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128",
+      "mapEmbed": "https://maps.google.com/maps?q=Tea%20By%20The%20Sea%2C%2099%20Sumner%20St%2C%20East%20Boston%2C%20MA%2002128&z=15&output=embed",
+      "instagram": "https://www.instagram.com/teabythesea.boston/",
+      "xiaohongshu": "https://www.xiaohongshu.com/user/profile/5f7b970400000000010079cd",
+      "yelp": "https://www.yelp.com/biz/teabythesea-boston",
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g60745-d28054986-Reviews-Tea_By_The_Sea-Boston_Massachusetts.html",
+      "google": "https://www.google.com/maps/search/?api=1&query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128",
+      "appStore": "https://apps.apple.com/us/app/tea-by-the-sea/id6808102062",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.chowbus.branded.teabythesea",
+      "appStoreId": "6808102062"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": {
+        "en": "Tea By The Sea · Boba, Smoothies & Matcha in East Boston",
+        "zh": "Tea By The Sea · 东波士顿海边的珍珠奶茶、冰沙与抹茶"
+      },
+      "description": {
+        "en": "Boba milk tea, real fruit tea smoothies and organic Japanese matcha, made with premium Asian loose leaf tea brewed fresh daily. On the East Boston waterfront at 99 Sumner Street, for pickup or delivery.",
+        "zh": "每日现泡精品亚洲原叶茶，做成珍珠奶茶、鲜果茶冰沙和日本有机抹茶。位于东波士顿海滨 99 Sumner Street，可自取或外送。"
+      }
+    },
+    "menu": {
+      "title": {
+        "en": "Menu · Tea By The Sea",
+        "zh": "菜单 · Tea By The Sea"
+      },
+      "description": {
+        "en": "The full Tea By The Sea menu with prices: bubble milk tea, cheese foam smoothies, fresh fruit tea, matcha, coffee, desserts and pastries.",
+        "zh": "Tea By The Sea 完整菜单和价格：珍珠奶茶、芝士冰沙、鲜果茶、抹茶、咖啡、甜品和点心。"
+      }
+    },
+    "ogImage": {
+      "id": null,
+      "url": "/assets/img/store/cup-in-hand.png",
+      "w": 1654,
+      "h": 1800,
+      "alt": {
+        "en": "Tea By The Sea fruit tea with the Boston skyline",
+        "zh": "Tea By The Sea 水果茶与波士顿天际线"
+      }
+    }
+  },
+  "blocks": {
+    "hero": {
+      "visible": true,
+      "eyebrow": {
+        "en": "Premium Asian tea · East Boston waterfront",
+        "zh": "精品亚洲原叶茶 · 东波士顿海滨"
+      },
+      "title": {
+        "en": "Boba, smoothies<br>&amp; matcha.<br>By the harbor.",
+        "zh": "珍珠、冰沙、抹茶，<br>就在海边。"
+      },
+      "lede": {
+        "en": "Premium Asian loose leaf tea brewed fresh every day, made into chewy boba milk teas, real fruit tea smoothies and organic Japanese matcha. Sip it on our deck facing the Boston skyline, or order for pickup or delivery.",
+        "zh": "每天现泡精品亚洲原叶茶，做成 Q 弹珍珠奶茶、鲜果茶冰沙和日本有机抹茶。坐在正对波士顿天际线的海景露台喝，或者下单到店自取、外送到家。"
+      },
+      "proof": [
+        {
+          "value": "8",
+          "label": {
+            "en": "tea bases",
+            "zh": "款原叶茶底"
+          }
+        },
+        {
+          "value": "11–9",
+          "label": {
+            "en": "open daily",
+            "zh": "每日营业"
+          }
+        },
+        {
+          "value": "Harbor",
+          "label": {
+            "en": "front deck",
+            "zh": "海滨露台"
+          }
+        }
+      ],
+      "image": {
+        "id": null,
+        "url": "/assets/img/store/cup-in-hand.png",
+        "w": 1654,
+        "h": 1800,
+        "alt": {
+          "en": "A hand holding a Tea By The Sea fruit tea against the harbor and Boston skyline",
+          "zh": "手拿一杯 Tea By The Sea 水果茶，背景是港湾和波士顿天际线"
+        }
+      },
+      "caption": {
+        "en": "Your tea comes with this view",
+        "zh": "这一杯，自带海景"
+      }
+    },
+    "signature": {
+      "visible": true,
+      "kicker": {
+        "en": "Built on premium Asian tea",
+        "zh": "以精品亚洲原叶茶为底"
+      },
+      "title": {
+        "en": "Boba. Smoothies. Matcha.",
+        "zh": "珍珠 · 冰沙 · 抹茶"
+      },
+      "sub": {
+        "en": "Three ways to drink our tea, each starting from leaves brewed fresh that morning.",
+        "zh": "三种喝法，每一杯都从当天早上现泡的原叶茶开始。"
+      },
+      "cards": [
+        {
+          "theme": "boba",
+          "title": {
+            "en": "Boba",
+            "zh": "珍珠奶茶"
+          },
+          "desc": {
+            "en": "Chewy tapioca pearls in milk tea made with freshly brewed black or oolong tea.",
+            "zh": "Q 弹珍珠，配现泡红茶或乌龙做的奶茶。"
+          },
+          "more": {
+            "en": "See boba drinks",
+            "zh": "看珍珠奶茶"
+          },
+          "category": "milk-tea",
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Bubble milk tea with boba pearls",
+              "zh": "珍珠奶茶"
+            }
+          }
+        },
+        {
+          "theme": "smoothie",
+          "title": {
+            "en": "Smoothies",
+            "zh": "鲜果冰沙"
+          },
+          "desc": {
+            "en": "Real fruit blended with ice: mango pomelo, strawberry, peach, watermelon and more.",
+            "zh": "真实鲜果打成冰沙：杨枝甘露、草莓、蜜桃、西瓜等等。"
+          },
+          "more": {
+            "en": "See smoothies",
+            "zh": "看冰沙"
+          },
+          "category": "smoothie",
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/mango-pomelo.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Mango pomelo smoothie with white boba and cheese foam",
+              "zh": "杨枝甘露"
+            }
+          }
+        },
+        {
+          "theme": "matcha",
+          "title": {
+            "en": "Matcha",
+            "zh": "抹茶"
+          },
+          "desc": {
+            "en": "Organic Japanese matcha as a latte, a frozen blend, or layered with strawberry.",
+            "zh": "日本有机抹茶，做成拿铁、冰沙，或者叠上草莓。"
+          },
+          "more": {
+            "en": "See matcha drinks",
+            "zh": "看抹茶"
+          },
+          "category": "matcha",
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/strawberry-matcha-latte.png",
+            "w": 818,
+            "h": 960,
+            "alt": {
+              "en": "Strawberry matcha latte",
+              "zh": "草莓抹茶拿铁"
+            }
+          }
+        }
+      ]
+    },
+    "tagline": {
+      "visible": true,
+      "kicker": {
+        "en": "Why East Boston walks to the water",
+        "zh": "为什么大家都往海边走"
+      },
+      "text": {
+        "en": "Fresh loose leaf tea tastes different when the harbor breeze rolls in and the Boston skyline sits right across your table.",
+        "zh": "当海风吹过港湾，波士顿天际线坐到桌边，每日现泡的原叶茶也有了不一样的味道。"
+      }
+    },
+    "benefits": {
+      "visible": true,
+      "kicker": {
+        "en": "What goes into every cup",
+        "zh": "每一杯里的讲究"
+      },
+      "title": {
+        "en": "Real leaf, custom sweetness, harbor seat included.",
+        "zh": "原叶现泡、甜度随心，外加一整片海景。"
+      },
+      "cards": [
+        {
+          "kicker": {
+            "en": "Freshly brewed daily",
+            "zh": "每日现泡原叶茶"
+          },
+          "title": {
+            "en": "Eight East Asian loose leaf bases, steeped in small batches",
+            "zh": "八款东亚原叶茶底，每日小锅现泡"
+          },
+          "body": {
+            "en": "<strong>Real tea aroma without powder</strong> — Jasmine green, roasted oolong, osmanthus and Assam black tea are brewed fresh every morning so the finish stays clean and floral.",
+            "zh": "<strong>拒绝茶粉与浓缩液</strong> — 茉莉绿茶、炭焙乌龙、桂花乌龙与阿萨姆红茶每天清晨现泡，入口花香清晰、回甘干净。"
+          }
+        },
+        {
+          "kicker": {
+            "en": "Made to your taste",
+            "zh": "甜度冰量可调"
+          },
+          "title": {
+            "en": "Dial in your exact sweetness, ice or warmth",
+            "zh": "甜度、冰量与冷热都随你定"
+          },
+          "body": {
+            "en": "<strong>Full control on every drink</strong> — Pick light sugar to let the fruit and tea shine, go less ice, or ask for a warm cup on breezy harbor afternoons.",
+            "zh": "<strong>每杯都能客制化</strong> — 想要三分糖突出茶香、少冰去冰，或是在海风天点一杯温热奶茶都可以。"
+          }
+        },
+        {
+          "kicker": {
+            "en": "Year round patio",
+            "zh": "全年海景露台"
+          },
+          "title": {
+            "en": "Front row to the downtown Boston skyline",
+            "zh": "正对市中心天际线的海滨座位"
+          },
+          "body": {
+            "en": "<strong>Indoor lounge and outdoor deck</strong> — Step right out onto the East Boston harborwalk or unwind on the window sofas with friends all year.",
+            "zh": "<strong>室内沙发与户外露台</strong> — 推门就是东波士顿海滨步道，四季都能看着对岸天际线喝茶聊天。"
+          }
+        }
+      ]
+    },
+    "journey": {
+      "visible": true,
+      "kicker": {
+        "en": "Your waterfront tea break",
+        "zh": "你的海滨喝茶路线"
+      },
+      "title": {
+        "en": "Three simple steps to a better afternoon.",
+        "zh": "三步，把普通下午变成海边时光。"
+      },
+      "sub": {
+        "en": "Order ahead for pickup or delivery: your cup is waiting at the harbor, or already on its way to you.",
+        "zh": "提前下单，自取外送都行：走到海边直接拿，或者在家等它送上门。"
+      },
+      "image": {
+        "id": null,
+        "url": "/assets/img/store/pickup-four-refined.jpg",
+        "w": 1086,
+        "h": 1448,
+        "alt": {
+          "en": "Four freshly made Tea By The Sea drinks ready for pickup with branded bags",
+          "zh": "四杯打包好的饮品"
+        }
+      },
+      "caption": {
+        "en": "made fresh, packed for the harbor",
+        "zh": "新鲜现做，拎去海边"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Choose your tea base",
+            "zh": "选一款茶底"
+          },
+          "body": {
+            "en": "Start with one of eight loose leaf teas, then pick your fruit, milk or cheese foam and set your sweetness and ice.",
+            "zh": "从八款现泡原叶茶底开始，搭配鲜果、鲜奶或芝士奶盖，再调好甜度与冰量。"
+          }
+        },
+        {
+          "title": {
+            "en": "Order for pickup or delivery",
+            "zh": "下单：自取或外送"
+          },
+          "body": {
+            "en": "Order on the web or in our app, choose pickup or delivery, and we will brew and shake it fresh.",
+            "zh": "在网页或 App 下单，选择到店自取或外送，我们马上新鲜现做。"
+          }
+        },
+        {
+          "title": {
+            "en": "Pick up by the harbor, or get it delivered",
+            "zh": "海边自取，或外送到家"
+          },
+          "body": {
+            "en": "Picking up? Use the waterfront entrance at 99 Sumner Street and grab a patio table with the skyline. Delivery? Sit tight, your tea comes to you.",
+            "zh": "自取请走 99 Sumner Street 海滨入口，顺便在露台看看对岸的波士顿；选外送，就在家等它送到门口。"
+          }
+        }
+      ]
+    },
+    "teas": {
+      "visible": true,
+      "kicker": {
+        "en": "Eight loose leaf foundations",
+        "zh": "八款现泡原叶茶底"
+      },
+      "title": {
+        "en": "Start with the tea",
+        "zh": "一切从茶底开始"
+      },
+      "sub": {
+        "en": "Eight loose leaf teas from across East Asia, selected through repeated tastings and brewed fresh every day. Every drink begins with one of them.",
+        "zh": "八款原叶茶，来自东亚各产区，经过多轮试饮挑选，每天现泡。菜单上每一杯都从其中一款开始。"
+      }
+    },
+    "favs": {
+      "visible": true,
+      "kicker": {
+        "en": "Customer favorites",
+        "zh": "人气必点"
+      },
+      "title": {
+        "en": "What people order",
+        "zh": "大家都在点"
+      },
+      "note": {
+        "en": "Sugar and ice are adjustable on every drink, and most come warm or hot too.",
+        "zh": "每杯都能调甜度和冰量，大部分饮品也可以做温的或热的。"
+      },
+      "categories": [
+        {
+          "category": "milk-tea"
+        },
+        {
+          "category": "smoothie"
+        },
+        {
+          "category": "fruit-tea"
+        },
+        {
+          "category": "coconut"
+        },
+        {
+          "category": "matcha"
+        },
+        {
+          "category": "taro"
+        },
+        {
+          "category": "yakult"
+        }
+      ]
+    },
+    "deck": {
+      "visible": true,
+      "kicker": {
+        "en": "The harbor view",
+        "zh": "港湾海景"
+      },
+      "title": {
+        "en": "A front row seat to the skyline",
+        "zh": "坐在天际线的第一排"
+      },
+      "paragraphs": [
+        {
+          "body": {
+            "en": "Our lounge and patio sit right on the harbor, facing downtown Boston. Come for a drink, stay for the sunset. The waterfront patio is open all year, and of course there are seasonal drinks.",
+            "zh": "店里的休息区和户外露台就在港湾边，正对波士顿市中心。来喝一杯，顺便看个日落。海边露台全年开放，当然还有季节限定饮品。"
+          }
+        },
+        {
+          "body": {
+            "en": "Tea By The Sea was founded by people from families rooted in tea culture. Whether you have had a hundred bubble teas or this is your first, we hope there is something here for you.",
+            "zh": "Tea By The Sea 的创始人来自喝茶长大的家庭。无论你是奶茶老手（希望这里能有一点家的感觉）还是第一次尝试，都希望你能在这里找到喜欢的那一杯。"
+          }
+        }
+      ],
+      "photos": [
+        {
+          "image": {
+            "id": null,
+            "url": "/assets/img/store/drinks-skyline.jpg",
+            "w": 1448,
+            "h": 1086,
+            "alt": {
+              "en": "Five fruit teas lined up on the railing with the Boston skyline behind",
+              "zh": "栏杆上的五杯水果茶，背后是波士顿天际线"
+            }
+          },
+          "caption": {
+            "en": "fruit teas on the railing",
+            "zh": "栏杆上的水果茶"
+          }
+        },
+        {
+          "image": {
+            "id": null,
+            "url": "/assets/img/store/sunset-skyline.jpg",
+            "w": 2048,
+            "h": 1536,
+            "alt": {
+              "en": "Sunset over the Boston skyline seen from the harbor",
+              "zh": "港湾看波士顿日落"
+            }
+          },
+          "caption": {
+            "en": "sunsets like this",
+            "zh": "这样的日落"
+          }
+        },
+        {
+          "image": {
+            "id": null,
+            "url": "/assets/img/store/cherry-blossom.jpg",
+            "w": 1086,
+            "h": 1448,
+            "alt": {
+              "en": "Cherry blossoms along the waterfront park in spring",
+              "zh": "春天海滨公园的樱花"
+            }
+          },
+          "caption": {
+            "en": "spring on the harborwalk",
+            "zh": "春天的海滨步道"
+          }
+        },
+        {
+          "image": {
+            "id": null,
+            "url": "/assets/img/store/patio-drinks-refined.jpg",
+            "w": 1536,
+            "h": 1024,
+            "alt": {
+              "en": "Three colorful Tea By The Sea drinks on the waterfront patio",
+              "zh": "海边露台上的三杯饮品"
+            }
+          },
+          "caption": {
+            "en": "three cups, one harbor table",
+            "zh": "三杯茶，一张海边桌"
+          }
+        }
+      ]
+    },
+    "press": {
+      "visible": true,
+      "kicker": {
+        "en": "Press & community",
+        "zh": "媒体推荐与口碑"
+      },
+      "title": {
+        "en": "Recommended by The New York Times",
+        "zh": "《纽约时报》推荐"
+      },
+      "body": {
+        "en": "Featured in “36 Hours in Boston” as a stop on the East Boston waterfront.",
+        "zh": "入选《纽约时报》“波士顿 36 小时”东波士顿海滨推荐。"
+      },
+      "image": {
+        "id": null,
+        "url": "/assets/img/store/nyt-feature.png",
+        "w": 2400,
+        "h": 1129,
+        "alt": {
+          "en": "Clipping of The New York Times 36 Hours in Boston feature recommending Tea By The Sea",
+          "zh": "《纽约时报》波士顿 36 小时报道截图"
+        }
+      },
+      "reviewsLabel": {
+        "en": "Like us? Leave a review on",
+        "zh": "喜欢我们？欢迎在以下平台留下评价："
+      }
+    },
+    "space": {
+      "visible": true,
+      "kicker": {
+        "en": "Events & catering",
+        "zh": "场地预约与外送"
+      },
+      "title": {
+        "en": "Host your thing here",
+        "zh": "来这里办活动"
+      },
+      "body": {
+        "en": "Birthdays, indoor competitions, meetups, alumni reunions, small workshops or just a big group of friends. Our space comes with harbor views and a drink for everyone.",
+        "zh": "生日会、室内比赛、社团聚会、校友重聚、小型工作坊，或者只是一大群朋友聚一聚。空间自带海景，饮品管够。"
+      },
+      "tags": [
+        {
+          "text": {
+            "en": "🎂 Birthday bashes",
+            "zh": "🎂 生日派对"
+          }
+        },
+        {
+          "text": {
+            "en": "🏆 Competitions & game nights",
+            "zh": "🏆 比赛与桌游"
+          }
+        },
+        {
+          "text": {
+            "en": "🎓 Alumni reunions",
+            "zh": "🎓 校友重聚"
+          }
+        },
+        {
+          "text": {
+            "en": "🎨 Small workshops",
+            "zh": "🎨 小型工作坊"
+          }
+        },
+        {
+          "text": {
+            "en": "🍵 Social gatherings & catering",
+            "zh": "🍵 聚会与饮品外送"
+          }
+        }
+      ],
+      "formIntro": {
+        "en": "We cater, too. Tell us your date and group size below, or email us directly.",
+        "zh": "也承接饮品外送订餐（Catering）。在下方填写活动日期与人数即可发起邮件咨询。"
+      },
+      "image": {
+        "id": null,
+        "url": "/assets/img/store/interior-hall.jpg",
+        "w": 2048,
+        "h": 1536,
+        "alt": {
+          "en": "The open interior of Tea By The Sea with the order counter and harbor windows",
+          "zh": "店内大厅、点单台和海景窗"
+        }
+      },
+      "accentImage": {
+        "id": null,
+        "url": "/assets/img/store/sign-wall-refined.jpg",
+        "w": 1452,
+        "h": 1083,
+        "alt": {
+          "en": "The blue Tea By The Sea sign",
+          "zh": "蓝色招牌"
+        }
+      },
+      "accentCaption": {
+        "en": "Look for the blue sign",
+        "zh": "看到蓝色招牌就到了"
+      }
+    },
+    "visit": {
+      "visible": true,
+      "kicker": {
+        "en": "East Boston waterfront",
+        "zh": "东波士顿海滨"
+      },
+      "title": {
+        "en": "Come find us",
+        "zh": "来店里坐坐"
+      },
+      "image": {
+        "id": null,
+        "url": "/assets/img/store/counter-plants-refined.jpg",
+        "w": 1086,
+        "h": 1448,
+        "alt": {
+          "en": "Tea By The Sea order counter framed by indoor plants",
+          "zh": "绿植环绕的点单台"
+        }
+      },
+      "caption": {
+        "en": "walk in, order, stay awhile",
+        "zh": "进来点一杯，坐一会儿"
+      },
+      "mapNote": {
+        "en": "use the waterfront entrance",
+        "zh": "走海边那侧的入口"
+      },
+      "appsLabel": {
+        "en": "Order ahead in our app",
+        "zh": "下载 App 提前点单"
+      }
+    },
+    "faq": {
+      "visible": true,
+      "kicker": {
+        "en": "Before you visit",
+        "zh": "到店之前"
+      },
+      "title": {
+        "en": "Good to know.",
+        "zh": "你可能想知道。"
+      },
+      "sub": {
+        "en": "The useful details on hours, entrance, drink customization and private events.",
+        "zh": "关于营业时间、海滨入口、甜度冰量与包场外送的常见问题。"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "When are you open?",
+            "zh": "营业时间是什么？"
+          },
+          "a": {
+            "en": "We are open every day from 11am to 9pm, all year round.",
+            "zh": "全年每天 11:00 至 21:00 营业。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which entrance should I use?",
+            "zh": "应该从哪个入口进店？"
+          },
+          "a": {
+            "en": "Use the waterfront entrance at 99 Sumner Street facing the harborwalk. The map above points right to the building.",
+            "zh": "请走 99 Sumner Street 朝向海滨步道一侧的入口，上方地图可直接导航。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can I change the sweetness and ice?",
+            "zh": "可以调整甜度和冰量吗？"
+          },
+          "a": {
+            "en": "Yes. Sweetness and ice levels are adjustable on every drink when you order online or at the counter.",
+            "zh": "可以，在线点单或到店点单时，每杯饮品都能自由调整甜度和冰量。"
+          }
+        },
+        {
+          "q": {
+            "en": "Do you make warm drinks?",
+            "zh": "有温饮或热饮吗？"
+          },
+          "a": {
+            "en": "Most milk teas, pure teas, taro drinks and coffees can be made warm or hot. Select your temperature when ordering.",
+            "zh": "大部分奶茶、纯茶、芋泥和咖啡系列都可以做温饮或热饮，点单时选择温度即可。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can I host an event here?",
+            "zh": "可以在店里办活动吗？"
+          },
+          "a": {
+            "en": "Yes. We welcome birthdays, meetups, workshops and group gatherings with harbor views. Use the inquiry form above to share your date and headcount.",
+            "zh": "可以。生日、社团聚会、工作坊和团体包场都欢迎，可通过上方表单或邮件告知日期和人数。"
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer catering?",
+            "zh": "提供饮品外送订餐（Catering）吗？"
+          },
+          "a": {
+            "en": "Yes. Email us with your event details, delivery time and the drinks you have in mind.",
+            "zh": "提供。请发邮件告诉我们活动时间、人数和想预订的饮品。"
+          }
+        }
+      ]
+    },
+    "finalCta": {
+      "visible": true,
+      "kicker": {
+        "en": "Tea is brewing",
+        "zh": "茶已经在泡了"
+      },
+      "title": {
+        "en": "Your next harbor break starts here.",
+        "zh": "下一次海边休息，从这一杯开始。"
+      }
+    },
+    "menuPage": {
+      "visible": true,
+      "kicker": {
+        "en": "Made fresh in East Boston",
+        "zh": "东波士顿每日新鲜制作"
+      },
+      "title": {
+        "en": "The menu",
+        "zh": "菜单"
+      },
+      "intro": {
+        "en": "Everything is made to order with fresh brewed tea and real fruit. Sugar and ice are up to you. Prices match our online order page.",
+        "zh": "每一杯都是现点现做，现泡茶底、现切水果，甜度和冰量随你调。价格与在线点单页同步。"
+      },
+      "footnote": {
+        "en": "Hot or warm options are available for most drinks. Ask us about allergens at the counter.",
+        "zh": "大部分饮品可做热饮或温饮。如有过敏原相关问题，欢迎在柜台询问。"
+      }
+    }
+  },
+  "teas": [
+    {
+      "id": "bubble-milk-tea",
+      "name": {
+        "en": "House Milk Tea Blend",
+        "zh": "经典珍珠奶茶 · 特调拼配"
+      },
+      "desc": {
+        "en": "Special House Blend crafted for our milk tea series. A sweet honey aroma upon the first sip, followed by a rich and indulgent aftertaste.",
+        "zh": "Tea By The Sea 奶茶系列特别拼配，入口甜感花蜜香，回味浑厚浓郁，有着独特的甘醇口感。"
+      },
+      "notes": {
+        "en": "Caramel, fruity honey",
+        "zh": "焦糖香、果蜜香"
+      },
+      "roast": 0,
+      "ferment": 5,
+      "tint": "#f3dcc3",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/bubble-milk-tea.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "House Milk Tea Blend in a Tea By The Sea cup",
+          "zh": "经典珍珠奶茶 · 特调拼配"
+        }
+      }
+    },
+    {
+      "id": "jasmine-green",
+      "name": {
+        "en": "Jasmine Green Tea",
+        "zh": "高山绿茶"
+      },
+      "desc": {
+        "en": "Classic green tea, with a rich infusion of jasmine floral notes, followed by a smooth and pleasant finish.",
+        "zh": "经典绿茶口味，入口浓郁茉莉花香，尾韵绿茶顺口茶香。"
+      },
+      "notes": {
+        "en": "Jasmine flower, refreshing",
+        "zh": "花草清香"
+      },
+      "roast": 0,
+      "ferment": 0,
+      "tint": "#eef0b0",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/jasmine-green.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Jasmine Green Tea in a Tea By The Sea cup",
+          "zh": "高山绿茶"
+        }
+      }
+    },
+    {
+      "id": "classic-oolong",
+      "name": {
+        "en": "Classic Oolong Tea",
+        "zh": "炭焙乌龙"
+      },
+      "desc": {
+        "en": "A semi-fermented tea offering a smooth and mellow taste with a distinctive Pu-erh aroma, with hints of roasted and caramel fragrance.",
+        "zh": "半发酵茶类，茶感温润带特殊普洱香气，并带着炭香及焦糖香气。"
+      },
+      "notes": {
+        "en": "Smoky roasted, caramel",
+        "zh": "炭香、焦糖香"
+      },
+      "roast": 5,
+      "ferment": 3,
+      "tint": "#f1c9a8",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/classic-oolong.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Classic Oolong Tea in a Tea By The Sea cup",
+          "zh": "炭焙乌龙"
+        }
+      }
+    },
+    {
+      "id": "osmanthus",
+      "name": {
+        "en": "Osmanthus Tea",
+        "zh": "馥郁桂香"
+      },
+      "desc": {
+        "en": "Oolong tea as the base, blended with the unique fragrance of osmanthus flowers. Smooth, rich, and leaves a lingering sweetness.",
+        "zh": "以岩选上等乌龙茶为素材，透过多次制作工序，将桂花独有的香气融入，醇厚回甘。"
+      },
+      "notes": {
+        "en": "Osmanthus, roasted",
+        "zh": "桂花香、焙火香"
+      },
+      "roast": 3,
+      "ferment": 4,
+      "tint": "#ffe3a3",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/osmanthus.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Osmanthus Tea in a Tea By The Sea cup",
+          "zh": "馥郁桂香"
+        }
+      }
+    },
+    {
+      "id": "peach-oolong",
+      "name": {
+        "en": "Peach Oolong Tea",
+        "zh": "桃香乌龙"
+      },
+      "desc": {
+        "en": "Taiwanese oolong tea with dried white peaches. A smooth and rich oolong flavor with a white peach aroma.",
+        "zh": "台湾清香乌龙配上白桃干果，日式口感，入口香醇乌龙，尾韵白桃香气，口感清爽。"
+      },
+      "notes": {
+        "en": "Roasted, peach",
+        "zh": "焙火香、桃香"
+      },
+      "roast": 3,
+      "ferment": 3,
+      "tint": "#ffd6c7",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/peach-oolong.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Peach Oolong Tea in a Tea By The Sea cup",
+          "zh": "桃香乌龙"
+        }
+      }
+    },
+    {
+      "id": "earl-grey",
+      "name": {
+        "en": "Earl Grey",
+        "zh": "伯爵茶"
+      },
+      "desc": {
+        "en": "Selected Assam tea with a distinct honeyed aroma and a rich, robust body, lifted with a touch of bergamot.",
+        "zh": "严选印度阿萨姆茶叶，拥有独特的蜜糖香，口感浓郁厚实，佐以淡淡佛手柑香气，带给味蕾多层次的享受。"
+      },
+      "notes": {
+        "en": "Honey, bergamot, slightly smoky",
+        "zh": "蜜香、佛手柑、略带烟熏"
+      },
+      "roast": 0,
+      "ferment": 5,
+      "tint": "#f6cdb6",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/earl-grey.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Earl Grey in a Tea By The Sea cup",
+          "zh": "伯爵茶"
+        }
+      }
+    },
+    {
+      "id": "taiwanese-oolong",
+      "name": {
+        "en": "Taiwanese Oolong Tea",
+        "zh": "冻顶乌龙"
+      },
+      "desc": {
+        "en": "A delightful aroma of flowers, with a smooth and sweet taste. Leaves a lingering, satisfying aftertaste.",
+        "zh": "茶汤水色澄清明亮，花香扑鼻，入口滋味圆滑甘润，饮后回韵无穷。"
+      },
+      "notes": {
+        "en": "Roasted, floral",
+        "zh": "焙火香、花香"
+      },
+      "roast": 0,
+      "ferment": 2,
+      "tint": "#e9d9c0",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/taiwanese-oolong.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Taiwanese Oolong Tea in a Tea By The Sea cup",
+          "zh": "冻顶乌龙"
+        }
+      }
+    },
+    {
+      "id": "hawaii",
+      "name": {
+        "en": "Hawaii Tea",
+        "zh": "夏威夷茶"
+      },
+      "desc": {
+        "en": "Refreshing floral and fruity tea with a crystal-clear infusion and a sweet fruity aroma.",
+        "zh": "清爽花果茶，茶汤晶莹剔透，散发清爽甜美的水果香气。"
+      },
+      "notes": {
+        "en": "Floral, fruity",
+        "zh": "花香、果香"
+      },
+      "roast": 0,
+      "ferment": 0,
+      "tint": "#ffd0b3",
+      "image": {
+        "id": null,
+        "url": "/assets/img/tea/hawaii.png",
+        "w": 960,
+        "h": 960,
+        "alt": {
+          "en": "Hawaii Tea in a Tea By The Sea cup",
+          "zh": "夏威夷茶"
+        }
+      }
+    }
+  ],
+  "menu": [
+    {
+      "slug": "seasonal",
+      "name": {
+        "en": "Seasonal Specials",
+        "zh": "季节限定"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 1,
+          "name": {
+            "en": "Peach Jasmine Green Tea Smoothie",
+            "zh": "芝士/满杯桃桃"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Peach and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/peach-jasmine-green-tea-smoothie.png",
+            "w": 720,
+            "h": 960,
+            "alt": {
+              "en": "Peach Jasmine Green Tea Smoothie",
+              "zh": "芝士/满杯桃桃"
+            }
+          },
+          "tags": [
+            "seasonal"
+          ],
+          "soldOut": false
+        },
+        {
+          "id": 2,
+          "name": {
+            "en": "Peach Jasmine Green Tea",
+            "zh": "白桃茉莉绿茶"
+          },
+          "desc": {
+            "en": "Peach Flavored Jasmine Green Tea with Peach Chunk",
+            "zh": ""
+          },
+          "price": "$5.50+",
+          "priceCents": 550,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 550
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 650
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/peach-jasmine-green-tea.png",
+            "w": 720,
+            "h": 960,
+            "alt": {
+              "en": "Peach Jasmine Green Tea",
+              "zh": "白桃茉莉绿茶"
+            }
+          },
+          "tags": [
+            "seasonal"
+          ],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "milk-tea",
+      "name": {
+        "en": "Bubble Milk Tea",
+        "zh": "奶茶系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 3,
+          "name": {
+            "en": "Bubble Milk Tea",
+            "zh": "经典珍珠奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Black Tea, including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.50+",
+          "priceCents": 650,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Bubble Milk Tea",
+              "zh": "经典珍珠奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 4,
+          "name": {
+            "en": "Green Bubble Milk Tea",
+            "zh": "茉香珍珠奶绿"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Jasmine Green Tea, including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.75+",
+          "priceCents": 675,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/green-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Green Bubble Milk Tea",
+              "zh": "茉香珍珠奶绿"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 5,
+          "name": {
+            "en": "Peach Oolong Bubble Milk Tea",
+            "zh": "白桃珍珠奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Peach Oolong Tea(peach, fruity and roasted) , including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.75+",
+          "priceCents": 675,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/peach-oolong-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Peach Oolong Bubble Milk Tea",
+              "zh": "白桃珍珠奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 6,
+          "name": {
+            "en": "Taiwanese Oolong Bubble Milk Tea",
+            "zh": "冻顶乌龙珍珠奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Taiwanese Oolong Tea(floral and light roasted), including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.75+",
+          "priceCents": 675,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/taiwanese-oolong-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Taiwanese Oolong Bubble Milk Tea",
+              "zh": "冻顶乌龙珍珠奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 7,
+          "name": {
+            "en": "Hawaii Bubble Milk Tea",
+            "zh": "夏威夷珍珠奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Hawaii Tea(strong floral and fruity), including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.75+",
+          "priceCents": 675,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/hawaii-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Hawaii Bubble Milk Tea",
+              "zh": "夏威夷珍珠奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 8,
+          "name": {
+            "en": "Classic Oolong Bubble Milk Tea",
+            "zh": "碳焙乌龙珍珠奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Premium Roasted Oolong Tea(smokey and roasted), including Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.75+",
+          "priceCents": 675,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/classic-oolong-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Classic Oolong Bubble Milk Tea",
+              "zh": "碳焙乌龙珍珠奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 9,
+          "name": {
+            "en": "Fresh Taro Bubble Milk Tea",
+            "zh": "芋泥啵啵奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Black Tea, including FRESH Taro Paste and Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.95+",
+          "priceCents": 695,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 695
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 795
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-taro-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Taro Bubble Milk Tea",
+              "zh": "芋泥啵啵奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 10,
+          "name": {
+            "en": "Cheese Foam Milk Tea",
+            "zh": "芝士奶茶"
+          },
+          "desc": {
+            "en": "Black Milk Tea, TOP with Cheese Foam (NO boba in this item, add topping if you want)",
+            "zh": ""
+          },
+          "price": "$6.50+",
+          "priceCents": 650,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/cheese-foam-milk-tea.png",
+            "w": 720,
+            "h": 960,
+            "alt": {
+              "en": "Cheese Foam Milk Tea",
+              "zh": "芝士奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 11,
+          "name": {
+            "en": "Crème Brûlée Milk Tea",
+            "zh": "法式布蕾奶茶"
+          },
+          "desc": {
+            "en": "Black Milk Tea with Crème Brûlée (swirled in a cup). (NO boba in this item, add topping if you want)",
+            "zh": ""
+          },
+          "price": "$6.50+",
+          "priceCents": 650,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/creme-brulee-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Crème Brûlée Milk Tea",
+              "zh": "法式布蕾奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 12,
+          "name": {
+            "en": "Oreo Milk Tea",
+            "zh": "奥利奥奶茶"
+          },
+          "desc": {
+            "en": "Oreo with Black Milk Tea (NO boba in this item, add topping if you want)",
+            "zh": ""
+          },
+          "price": "$6.50+",
+          "priceCents": 650,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/oreo-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Oreo Milk Tea",
+              "zh": "奥利奥奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 13,
+          "name": {
+            "en": "Red Bean Milk Tea",
+            "zh": "红豆奶茶"
+          },
+          "desc": {
+            "en": "Sweetened red bean with Black Milk Tea (NO boba in this item, add topping if you want)",
+            "zh": ""
+          },
+          "price": "$6.50+",
+          "priceCents": 650,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/red-bean-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Red Bean Milk Tea",
+              "zh": "红豆奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "smoothie",
+      "name": {
+        "en": "Cheese Foam / Fruit Tea Smoothie",
+        "zh": "芝芝/水果茶系列"
+      },
+      "shortName": {
+        "en": "Cheese foam smoothies",
+        "zh": "芝芝 / 满杯"
+      },
+      "items": [
+        {
+          "id": 14,
+          "name": {
+            "en": "Black Grape Tea Smoothie",
+            "zh": "满杯/芝芝黑提"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Black Grape and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/black-grape-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Black Grape Tea Smoothie",
+              "zh": "满杯/芝芝黑提"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 15,
+          "name": {
+            "en": "Avocado Tea Smoothie",
+            "zh": "满杯/芝芝牛油果"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Avocado, Pear, FRESHLY BREWED Jasmine Green Tea, and Milk, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/avocado-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Avocado Tea Smoothie",
+              "zh": "满杯/芝芝牛油果"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 16,
+          "name": {
+            "en": "Mango Tea Smoothie",
+            "zh": "满杯/芝芝芒芒"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Mango and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/mango-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Mango Tea Smoothie",
+              "zh": "满杯/芝芝芒芒"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 17,
+          "name": {
+            "en": "Berry Tea Smoothie",
+            "zh": "满杯/芝芝莓果"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Strawberry, Blueberry and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/berry-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Berry Tea Smoothie",
+              "zh": "满杯/芝芝莓果"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 18,
+          "name": {
+            "en": "Strawberry Tea Smoothie",
+            "zh": "满杯/芝芝草莓"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Strawberry and FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/strawberry-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Strawberry Tea Smoothie",
+              "zh": "满杯/芝芝草莓"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 19,
+          "name": {
+            "en": "Pineapple Tea Smoothie",
+            "zh": "满杯/芝芝凤梨"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Pineapple and Four Seasons Oolong Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/pineapple-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Pineapple Tea Smoothie",
+              "zh": "满杯/芝芝凤梨"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 20,
+          "name": {
+            "en": "Watermelon Tea Smoothie",
+            "zh": "满杯/芝芝西瓜"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with FRESH Watermelon and FRESHLY BREWED Four Season Oolong Tea, with Optional Cheese Foam (Recommended).",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/watermelon-tea-smoothie.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Watermelon Tea Smoothie",
+              "zh": "满杯/芝芝西瓜"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 21,
+          "name": {
+            "en": "Mango Pomelo",
+            "zh": "杨枝甘露"
+          },
+          "desc": {
+            "en": "A caffeine-free slush-like beverage that consists of FRESH Mango, White Boba and Grapefruit Pulps, with Cheese Foam. *Caffeine Free",
+            "zh": ""
+          },
+          "price": "$9.25+",
+          "priceCents": 925,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 925
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/mango-pomelo.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Mango Pomelo",
+              "zh": "杨枝甘露"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "fruit-tea",
+      "name": {
+        "en": "Fresh Fruit Tea",
+        "zh": "鲜果茶"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 22,
+          "name": {
+            "en": "Fresh Fruit Green Tea",
+            "zh": "满满水果绿"
+          },
+          "desc": {
+            "en": "Made with FRESH-smashed Watermelon, Orange, Lime, Lemon, and Passion Fruit, mixed with FRESHLY BREWED Jasmine Green Tea *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-fruit-green-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Fruit Green Tea",
+              "zh": "满满水果绿"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 23,
+          "name": {
+            "en": "Fresh Lemon Green Tea",
+            "zh": "仲夏柠檬绿"
+          },
+          "desc": {
+            "en": "Made with FRESH-smashed Whole Lime and Lemon, mixed with FRESHLY BREWED Jasmine Green Tea *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-lemon-green-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Lemon Green Tea",
+              "zh": "仲夏柠檬绿"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 24,
+          "name": {
+            "en": "Fresh Fruit Oolong Tea",
+            "zh": "满满水果四季春"
+          },
+          "desc": {
+            "en": "Made with FRESH-smashed Watermelon, Orange, Lime, Lemon, and Passion Fruit, mixed with FRESHLY BREWED Four Season Oolong Tea. *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-fruit-oolong-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Fruit Oolong Tea",
+              "zh": "满满水果四季春"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 25,
+          "name": {
+            "en": "Fresh Lemon Oolong Tea",
+            "zh": "仲夏四季春"
+          },
+          "desc": {
+            "en": "Made with FRESH-smashed Whole Lime and Lemon, mixed with FRESHLY BREWED Four Season Oolong Tea. *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-lemon-oolong-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Lemon Oolong Tea",
+              "zh": "仲夏四季春"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "coconut",
+      "name": {
+        "en": "Coconut Milk Slush",
+        "zh": "椰椰系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 26,
+          "name": {
+            "en": "Coco Mango",
+            "zh": "芒果椰椰"
+          },
+          "desc": {
+            "en": "A slush-like beverage that consists of Fresh Mango and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/coco-mango.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Coco Mango",
+              "zh": "芒果椰椰"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 27,
+          "name": {
+            "en": "Coco Red Bean",
+            "zh": "红豆椰椰"
+          },
+          "desc": {
+            "en": "A slush-like beverage that consists of Sweetened Red Bean and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/coco-red-bean.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Coco Red Bean",
+              "zh": "红豆椰椰"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 28,
+          "name": {
+            "en": "Coco Watermelon",
+            "zh": "西瓜椰椰"
+          },
+          "desc": {
+            "en": "A slush-like beverage that consists of Fresh Watermelon and Coconut Milk. *Caffeine Free *Dairy Free *Vegan Friendly",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 750
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/coco-watermelon.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Coco Watermelon",
+              "zh": "西瓜椰椰"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "taro",
+      "name": {
+        "en": "Fresh Taro Series",
+        "zh": "芋泥系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 29,
+          "name": {
+            "en": "Fresh Taro Bubble Milk Tea",
+            "zh": "芋泥啵啵奶茶"
+          },
+          "desc": {
+            "en": "Milk Tea made with FRESHLY BREWED Black Tea, including FRESH Taro Paste and Chewy Boba",
+            "zh": ""
+          },
+          "price": "$6.95+",
+          "priceCents": 695,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 695
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 795
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-taro-bubble-milk-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Taro Bubble Milk Tea",
+              "zh": "芋泥啵啵奶茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 30,
+          "name": {
+            "en": "Fresh Taro Bubble With Milk",
+            "zh": "芋泥啵啵牛奶"
+          },
+          "desc": {
+            "en": "FRESH Taro Paste with Milk, Chewy Boba *Caffeine Free",
+            "zh": ""
+          },
+          "price": "$6.95+",
+          "priceCents": 695,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 695
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 795
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/fresh-taro-bubble-with-milk.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Fresh Taro Bubble With Milk",
+              "zh": "芋泥啵啵牛奶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "matcha",
+      "name": {
+        "en": "Organic Matcha Green Tea",
+        "zh": "精品抹茶系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 31,
+          "name": {
+            "en": "Matcha Latte",
+            "zh": "抹茶拿铁"
+          },
+          "desc": {
+            "en": "Organic Japanese Matcha with Milk, Adding Sugar Recommended",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 750
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 850
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/matcha-latte.png",
+            "w": 720,
+            "h": 960,
+            "alt": {
+              "en": "Matcha Latte",
+              "zh": "抹茶拿铁"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 32,
+          "name": {
+            "en": "Frozen Matcha Latte",
+            "zh": "抹茶拿铁冰沙"
+          },
+          "desc": {
+            "en": "A slush-like beverage made with Organic Japanese Matcha with Milk，Adding Sugar Recommended",
+            "zh": ""
+          },
+          "price": "$7.50+",
+          "priceCents": 750,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 750
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 850
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/frozen-matcha-latte.png",
+            "w": 720,
+            "h": 960,
+            "alt": {
+              "en": "Frozen Matcha Latte",
+              "zh": "抹茶拿铁冰沙"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 33,
+          "name": {
+            "en": "Strawberrry Matcha Latte",
+            "zh": "草莓抹茶拿铁"
+          },
+          "desc": {
+            "en": "Organic Japanese Matcha with Milk and chunky strawberry jam",
+            "zh": ""
+          },
+          "price": "$8.25+",
+          "priceCents": 825,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 825
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 925
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/strawberry-matcha-latte.png",
+            "w": 818,
+            "h": 960,
+            "alt": {
+              "en": "Strawberrry Matcha Latte",
+              "zh": "草莓抹茶拿铁"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "yakult",
+      "name": {
+        "en": "Fruit Yakult",
+        "zh": "鲜果养乐多"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 34,
+          "name": {
+            "en": "Grapefruit Yakult",
+            "zh": "西柚养乐多"
+          },
+          "desc": {
+            "en": "Fresh-smashed Grapefruit with Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
+            "zh": ""
+          },
+          "price": "$7.75+",
+          "priceCents": 775,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/grapefruit-yakult.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Grapefruit Yakult",
+              "zh": "西柚养乐多"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 35,
+          "name": {
+            "en": "Orange Yakult",
+            "zh": "鲜橙养乐多"
+          },
+          "desc": {
+            "en": "Fresh-smashed Orange with Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
+            "zh": ""
+          },
+          "price": "$7.75+",
+          "priceCents": 775,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/orange-yakult.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Orange Yakult",
+              "zh": "鲜橙养乐多"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 36,
+          "name": {
+            "en": "Lemon Yakult",
+            "zh": "柠檬养乐多"
+          },
+          "desc": {
+            "en": "Fresh-smashed Lemon and Yakult (Japanese sweetened probiotic milk) *Caffeine Free",
+            "zh": ""
+          },
+          "price": "$7.75+",
+          "priceCents": 775,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 775
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/lemon-yakult.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Lemon Yakult",
+              "zh": "柠檬养乐多"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "pure-tea",
+      "name": {
+        "en": "Pure Traditional Tea",
+        "zh": "纯茶系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 37,
+          "name": {
+            "en": "Classic Oolong Tea",
+            "zh": "炭焙乌龙茶"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Premium Roasted Oolong Tea(smokey and roasted), with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/classic-oolong-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Classic Oolong Tea",
+              "zh": "炭焙乌龙茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 38,
+          "name": {
+            "en": "Jasmine Green Tea",
+            "zh": "高山绿茶"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Jasmine Green Tea, with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/jasmine-green-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Jasmine Green Tea",
+              "zh": "高山绿茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 39,
+          "name": {
+            "en": "Peach Oolong Tea",
+            "zh": "桃香乌龙"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Peach Oolong Tea(peach, fruity and roasted) , with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/peach-oolong-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Peach Oolong Tea",
+              "zh": "桃香乌龙"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 40,
+          "name": {
+            "en": "Taiwanese Oolong Tea",
+            "zh": "冻顶乌龙"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Taiwanese Oolong Tea(floral and light roasted), with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/taiwanese-oolong-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Taiwanese Oolong Tea",
+              "zh": "冻顶乌龙"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 41,
+          "name": {
+            "en": "Osmanthus Tea",
+            "zh": "桂花乌龙茶"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Osmanthus Oolong Tea(floral and roasted) , with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/osmanthus-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Osmanthus Tea",
+              "zh": "桂花乌龙茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 42,
+          "name": {
+            "en": "Earl Grey",
+            "zh": "伯爵茶"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Earl Grey Tea(citrus and floral, slightly smokey), with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/earl-grey.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Earl Grey",
+              "zh": "伯爵茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 43,
+          "name": {
+            "en": "Hawaii Tea",
+            "zh": "夏威夷茶"
+          },
+          "desc": {
+            "en": "FRESHLY BREWED Hawaii Tea (strong floral and fruity), with Optional Cheese Foam (Recommended)",
+            "zh": ""
+          },
+          "price": "$4.75+",
+          "priceCents": 475,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium",
+                "zh": "中杯"
+              },
+              "priceCents": 475
+            },
+            {
+              "name": {
+                "en": "Large (iced only)",
+                "zh": "大杯（仅冰）"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/hawaii-tea.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Hawaii Tea",
+              "zh": "夏威夷茶"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "coffee",
+      "name": {
+        "en": "Gourmet Coffee",
+        "zh": "咖啡系列"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 44,
+          "name": {
+            "en": "Americano",
+            "zh": "美式"
+          },
+          "desc": {
+            "en": "Medium 2 shots | Large 3 shots. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
+            "zh": ""
+          },
+          "price": "$5.25+",
+          "priceCents": 525,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium, iced",
+                "zh": "中杯 冰"
+              },
+              "priceCents": 525
+            },
+            {
+              "name": {
+                "en": "Large, iced",
+                "zh": "大杯 冰"
+              },
+              "priceCents": 625
+            },
+            {
+              "name": {
+                "en": "Medium, hot",
+                "zh": "中杯 热"
+              },
+              "priceCents": 525
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/americano.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Americano",
+              "zh": "美式"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 45,
+          "name": {
+            "en": "Latte",
+            "zh": "拿铁"
+          },
+          "desc": {
+            "en": "Medium 2 shots | Large 3 shots. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
+            "zh": ""
+          },
+          "price": "$5.50+",
+          "priceCents": 550,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium, iced",
+                "zh": "中杯 冰"
+              },
+              "priceCents": 550
+            },
+            {
+              "name": {
+                "en": "Large, iced",
+                "zh": "大杯 冰"
+              },
+              "priceCents": 650
+            },
+            {
+              "name": {
+                "en": "Medium, hot",
+                "zh": "中杯 热"
+              },
+              "priceCents": 550
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/latte.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Latte",
+              "zh": "拿铁"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 46,
+          "name": {
+            "en": "Cheese Foam Coffee",
+            "zh": "芝士咖啡"
+          },
+          "desc": {
+            "en": "Medium 2 shots | Large 3 shots, Top with Cheese Foam. The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
+            "zh": ""
+          },
+          "price": "$5.75+",
+          "priceCents": 575,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium, iced",
+                "zh": "中杯 冰"
+              },
+              "priceCents": 575
+            },
+            {
+              "name": {
+                "en": "Large, iced",
+                "zh": "大杯 冰"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Medium, hot",
+                "zh": "中杯 热"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/cheese-foam-coffee.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Cheese Foam Coffee",
+              "zh": "芝士咖啡"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 47,
+          "name": {
+            "en": "Crème Brûlée Coffee",
+            "zh": "布蕾咖啡"
+          },
+          "desc": {
+            "en": "Medium 2 shots | Large 3 shots, with Crème Brûlée (swirled in a cup). The Dark Roast Blend we use specifically to hone in on the sugar-browning flavors created through maillard reactions during the roasting process. The result is a coffee that sips dreamy and smooth on your palate.REGION: honduras, guatemala, ELEVATION:1000-1600m, VARIETAL: bourbon, catimor, PROCESS: fully washed",
+            "zh": ""
+          },
+          "price": "$5.75+",
+          "priceCents": 575,
+          "hasOptions": true,
+          "sizes": [
+            {
+              "name": {
+                "en": "Medium, iced",
+                "zh": "中杯 冰"
+              },
+              "priceCents": 575
+            },
+            {
+              "name": {
+                "en": "Large, iced",
+                "zh": "大杯 冰"
+              },
+              "priceCents": 675
+            },
+            {
+              "name": {
+                "en": "Medium, hot",
+                "zh": "中杯 热"
+              },
+              "priceCents": 575
+            }
+          ],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/creme-brulee-coffee.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Crème Brûlée Coffee",
+              "zh": "布蕾咖啡"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "dessert",
+      "name": {
+        "en": "Dessert",
+        "zh": "甜品"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 48,
+          "name": {
+            "en": "New York Cheesecake",
+            "zh": "纽约芝士蛋糕"
+          },
+          "desc": {
+            "en": "*Gluten Free, 4.5oz/piece",
+            "zh": ""
+          },
+          "price": "$6.99",
+          "priceCents": 699,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/new-york-cheesecake.png",
+            "w": 640,
+            "h": 960,
+            "alt": {
+              "en": "New York Cheesecake",
+              "zh": "纽约芝士蛋糕"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 49,
+          "name": {
+            "en": "Key Lime Cheesecake",
+            "zh": "青柠芝士蛋糕"
+          },
+          "desc": {
+            "en": "4.9oz/piece",
+            "zh": ""
+          },
+          "price": "$7.99",
+          "priceCents": 799,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/key-lime-cheesecake.png",
+            "w": 640,
+            "h": 960,
+            "alt": {
+              "en": "Key Lime Cheesecake",
+              "zh": "青柠芝士蛋糕"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 50,
+          "name": {
+            "en": "Chocolate Truffle Mousse Cake",
+            "zh": "松露巧克力慕斯蛋糕"
+          },
+          "desc": {
+            "en": "3.5oz/piece",
+            "zh": ""
+          },
+          "price": "$9.99",
+          "priceCents": 999,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/chocolate-truffle-mousse-cake.png",
+            "w": 640,
+            "h": 960,
+            "alt": {
+              "en": "Chocolate Truffle Mousse Cake",
+              "zh": "松露巧克力慕斯蛋糕"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 51,
+          "name": {
+            "en": "Pumpkin Cheesecake",
+            "zh": "南瓜芝士蛋糕"
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$7.99",
+          "priceCents": 799,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/pumpkin-cheesecake.png",
+            "w": 640,
+            "h": 960,
+            "alt": {
+              "en": "Pumpkin Cheesecake",
+              "zh": "南瓜芝士蛋糕"
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "pastry",
+      "name": {
+        "en": "Pastries",
+        "zh": "点心"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 52,
+          "name": {
+            "en": "Butter Croissant",
+            "zh": ""
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$2.99",
+          "priceCents": 299,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/butter-croissant.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Butter Croissant",
+              "zh": ""
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 53,
+          "name": {
+            "en": "Sweet Cheese Danish",
+            "zh": ""
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$4.99",
+          "priceCents": 499,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/sweet-cheese-danish.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Sweet Cheese Danish",
+              "zh": ""
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 54,
+          "name": {
+            "en": "Spinach & Feta Savory Pastry",
+            "zh": ""
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$5.59",
+          "priceCents": 559,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/spinach-feta-savory-pastry.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Spinach & Feta Savory Pastry",
+              "zh": ""
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 55,
+          "name": {
+            "en": "Matcha Cheese Foam Cinnamon Bun",
+            "zh": ""
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$6.69",
+          "priceCents": 669,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/matcha-cheese-foam-cinnamon-bun.png",
+            "w": 960,
+            "h": 960,
+            "alt": {
+              "en": "Matcha Cheese Foam Cinnamon Bun",
+              "zh": ""
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 56,
+          "name": {
+            "en": "Ham & Cheese Croissant",
+            "zh": ""
+          },
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "price": "$5.99",
+          "priceCents": 599,
+          "hasOptions": false,
+          "sizes": [],
+          "image": {
+            "id": null,
+            "url": "/assets/img/drinks/ham-cheese-croissant.png",
+            "w": 640,
+            "h": 960,
+            "alt": {
+              "en": "Ham & Cheese Croissant",
+              "zh": ""
+            }
+          },
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "snacks",
+      "name": {
+        "en": "Asian Snacks",
+        "zh": "亚洲零食"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 57,
+          "name": {
+            "en": "Jasmine Tea Mint Candy",
+            "zh": "铁盒绿箭薄荷糖茉莉花茶味"
+          },
+          "desc": {
+            "en": "0.8oz(23.8g), a unique and refreshing combination of delicate floral jasmine tea aroma and minty coolness.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 58,
+          "name": {
+            "en": "Oreo Sandwich Cookies Ice Cream Matcha Flavor",
+            "zh": "奥利奥夹心饼干冰淇淋抹茶味"
+          },
+          "desc": {
+            "en": "3.4oz (97g), 2 pack inside, crunchy chocolate cookies with a creamy matcha cream filling, offering a rich and refreshing taste.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 59,
+          "name": {
+            "en": "Juice Gummies Peach Flavor",
+            "zh": "白桃爆浆果汁软糖"
+          },
+          "desc": {
+            "en": "2.11oz(60g).Select high-quality white peach juice, 100% juice content, a burst of juice with every bite, filling your mouth with sweet freshness.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 60,
+          "name": {
+            "en": "Lays Potato Chips Texas Bbq Flavor",
+            "zh": "乐事薯片得克萨斯烧烤味"
+          },
+          "desc": {
+            "en": "2oz(56g),seasoned with a bold smoky barbecue flavor and a savory-sweet taste.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 61,
+          "name": {
+            "en": "Lays Potato Chips Mexican Chicken Tomato Flavor",
+            "zh": "乐事薯片墨西哥鸡汁番茄味"
+          },
+          "desc": {
+            "en": "2.5oz(70g), savory, tangy mix of tomato and chicken with Mexican-style spices.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 62,
+          "name": {
+            "en": "Lays Potato Chips Lime Flavor",
+            "zh": "乐事薯片青柠味"
+          },
+          "desc": {
+            "en": "2oz(56g), seasoned with a zesty lime flavor and a light savory taste.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": true
+        },
+        {
+          "id": 63,
+          "name": {
+            "en": "Lays Potato Chips Italian Red Meat Flavor",
+            "zh": "乐事薯片意大利香浓红烩味"
+          },
+          "desc": {
+            "en": "2oz(56g), seasoned with a rich savory meat flavor, blended with tomato and Italian-style herbs.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 64,
+          "name": {
+            "en": "Lays Potato Chips Roasted Seaweed Flavor",
+            "zh": "乐事岩烧海苔味"
+          },
+          "desc": {
+            "en": "2.5oz(70g), topped with real roasted seaweed, offering a savory umami taste",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": true
+        },
+        {
+          "id": 65,
+          "name": {
+            "en": "Peelable Juice Gummies Green Grape Flavor",
+            "zh": "青提剥皮果汁软糖"
+          },
+          "desc": {
+            "en": "2.11oz(60g).Select high-quality green grape juice, 100% juice content, a burst of juice with every bite, filling your mouth with sweet freshness.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 66,
+          "name": {
+            "en": "Lays Potato Chips Numb & Spicy Hot Pot Flavor",
+            "zh": "乐事薯片飘香麻辣锅味"
+          },
+          "desc": {
+            "en": "2.5oz(70g) A bold, savory mix of numbing Sichuan peppercorn, chili and rich hot pot spices.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 67,
+          "name": {
+            "en": "Oreo Sandwich Cookies Red Bean Flavor-Seasonal Special",
+            "zh": "奥利奥夹心饼干春糯豆香味"
+          },
+          "desc": {
+            "en": "A sweet, creamy red bean flavor in a seasonal limited edition.",
+            "zh": ""
+          },
+          "price": "$2.95",
+          "priceCents": 295,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "to-go",
+      "name": {
+        "en": "Snack & To Go Packs",
+        "zh": "零食和零售用品"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 68,
+          "name": {
+            "en": "Milk Chocolate Gummy Bear",
+            "zh": "牛奶巧克力小熊软糖"
+          },
+          "desc": {
+            "en": "Gummy Bear covered by Milk Chocolate. No artificial colors or flavors!",
+            "zh": ""
+          },
+          "price": "$5.99",
+          "priceCents": 599,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 69,
+          "name": {
+            "en": "Ny Espresso Bean Chocolate",
+            "zh": "咖啡味巧克力豆"
+          },
+          "desc": {
+            "en": "Chocolate Covered Espresso Beans NY Blend, Assorted Coffee Flavors, Cream, Cappuccino, Milk and Dark Chocolate",
+            "zh": ""
+          },
+          "price": "$5.99",
+          "priceCents": 599,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 70,
+          "name": {
+            "en": "Venchi Pistachio Cremino Bar",
+            "zh": "Venchi 意大利开心果巧克力"
+          },
+          "desc": {
+            "en": "Three alternating layers of milk and white chocolate with pistachio paste. Rich taste and creamy texture, Product weight: 3.88 oz",
+            "zh": ""
+          },
+          "price": "$9.99",
+          "priceCents": 999,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 71,
+          "name": {
+            "en": "Nutella Biscuits",
+            "zh": ""
+          },
+          "desc": {
+            "en": "9.7 oz bag. A delicious crunchy biscuit made with wheat flour, cane sugar and a creamy heart of Nutella® . Turn your break into a delicious experience.",
+            "zh": ""
+          },
+          "price": "$6.99",
+          "priceCents": 699,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    },
+    {
+      "slug": "soda",
+      "name": {
+        "en": "Soda & Water",
+        "zh": "汽水&矿泉水"
+      },
+      "shortName": null,
+      "items": [
+        {
+          "id": 72,
+          "name": {
+            "en": "Coke(Can)",
+            "zh": ""
+          },
+          "desc": {
+            "en": "12 floz",
+            "zh": ""
+          },
+          "price": "$1.99",
+          "priceCents": 199,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 73,
+          "name": {
+            "en": "Diet Coke(Can)",
+            "zh": ""
+          },
+          "desc": {
+            "en": "12 floz",
+            "zh": ""
+          },
+          "price": "$1.99",
+          "priceCents": 199,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        },
+        {
+          "id": 74,
+          "name": {
+            "en": "Water(Bottle)",
+            "zh": ""
+          },
+          "desc": {
+            "en": "16.9 floz",
+            "zh": ""
+          },
+          "price": "$0.99",
+          "priceCents": 99,
+          "hasOptions": false,
+          "sizes": [],
+          "image": null,
+          "tags": [],
+          "soldOut": false
+        }
+      ]
+    }
+  ],
+  "toppings": [
+    {
+      "name": {
+        "en": "Oat milk",
+        "zh": "燕麦奶"
+      },
+      "priceCents": 75
+    },
+    {
+      "name": {
+        "en": "Aloe",
+        "zh": "芦荟"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Chewy boba",
+        "zh": "珍珠"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Grapefruit pulp",
+        "zh": "西柚果粒"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Lychee jelly",
+        "zh": "荔枝果冻"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Mango popping boba",
+        "zh": "芒果爆爆珠"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Oreo",
+        "zh": "奥利奥"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Pudding",
+        "zh": "布丁"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Red bean",
+        "zh": "红豆"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Taro paste",
+        "zh": "芋泥"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "White boba",
+        "zh": "白珍珠"
+      },
+      "priceCents": 95
+    },
+    {
+      "name": {
+        "en": "Coconut milk",
+        "zh": "椰奶"
+      },
+      "priceCents": 100
+    },
+    {
+      "name": {
+        "en": "Cheese foam",
+        "zh": "芝士奶盖"
+      },
+      "priceCents": 150
+    },
+    {
+      "name": {
+        "en": "Crème brûlée",
+        "zh": "布蕾"
+      },
+      "priceCents": 150
+    }
+  ]
+}
