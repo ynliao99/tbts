@@ -2800,6 +2800,18 @@ html[data-os="android"] .app-badge--ios { display: none; }
   /* 顶栏收起时，菜单页的搜索/分类条顶到最上面，不留空档 */
   .menu-bar { transition: top 400ms var(--ease); }
   .header-hidden body:not(.nav-open) .menu-bar { top: 0; }
+  /* iOS Safari 状态栏后面也会画页面；菜单页在视口上方垫一块白，滚动的菜品不会从状态栏后透出来 */
+  .page-menu::after {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    z-index: 85;
+    height: 50vh;
+    content: "";
+    background: var(--paper);
+    pointer-events: none;
+  }
   /* iOS Safari 的透明工具栏下方会直接画页面内容，遮罩盖不住；
      遮罩淡入完成后把页面藏起来，工具栏后面就只剩白底 */
   body.nav-open > main,
