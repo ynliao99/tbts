@@ -1,0 +1,1331 @@
+{
+ "fetched_at": "2026-10-26",
+ "chowbus_menu_id": 51161,
+ "items": [
+  {
+   "site_category": "seasonal",
+   "site_index": 0,
+   "site_en": "Peach Jasmine Green Tea Smoothie",
+   "chowbus_category_id": "126111",
+   "chowbus_item_id": "8335960",
+   "chowbus_prototype_id": "2973724",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/peach-jasmine-green-tea-smoothie.png"
+  },
+  {
+   "site_category": "seasonal",
+   "site_index": 1,
+   "site_en": "Peach Jasmine Green Tea",
+   "chowbus_category_id": "126111",
+   "chowbus_item_id": "8335968",
+   "chowbus_prototype_id": "2973727",
+   "price_cents": 550,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 550
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 650
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/peach-jasmine-green-tea.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 0,
+   "site_en": "Black Grape Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222714",
+   "chowbus_prototype_id": "1411326",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/black-grape-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 1,
+   "site_en": "Avocado Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222711",
+   "chowbus_prototype_id": "1411327",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/avocado-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 2,
+   "site_en": "Mango Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222729",
+   "chowbus_prototype_id": "1411328",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/mango-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 3,
+   "site_en": "Berry Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222713",
+   "chowbus_prototype_id": "1411329",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/berry-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 4,
+   "site_en": "Strawberry Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222733",
+   "chowbus_prototype_id": "1411330",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/strawberry-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 5,
+   "site_en": "Pineapple Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222705",
+   "chowbus_prototype_id": "1411331",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/pineapple-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 6,
+   "site_en": "Watermelon Tea Smoothie",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222721",
+   "chowbus_prototype_id": "1411332",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/watermelon-tea-smoothie.png"
+  },
+  {
+   "site_category": "smoothie",
+   "site_index": 7,
+   "site_en": "Mango Pomelo",
+   "chowbus_category_id": "126101",
+   "chowbus_item_id": "3222726",
+   "chowbus_prototype_id": "1411335",
+   "price_cents": 925,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 925
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/mango-pomelo.png"
+  },
+  {
+   "site_category": "coffee",
+   "site_index": 0,
+   "site_en": "Americano",
+   "chowbus_category_id": "126108",
+   "chowbus_item_id": "3222718",
+   "chowbus_prototype_id": "1411370",
+   "price_cents": 525,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium (iced)",
+     "price_cents": 525
+    },
+    {
+     "name": "large (iced)",
+     "price_cents": 625
+    },
+    {
+     "name": "medium (hot)",
+     "price_cents": 525
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/americano.png"
+  },
+  {
+   "site_category": "coffee",
+   "site_index": 1,
+   "site_en": "Latte",
+   "chowbus_category_id": "126108",
+   "chowbus_item_id": "3222697",
+   "chowbus_prototype_id": "1411371",
+   "price_cents": 550,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium (iced)",
+     "price_cents": 550
+    },
+    {
+     "name": "large (iced)",
+     "price_cents": 650
+    },
+    {
+     "name": "medium (hot)",
+     "price_cents": 550
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/latte.png"
+  },
+  {
+   "site_category": "coffee",
+   "site_index": 2,
+   "site_en": "Cheese Foam Coffee",
+   "chowbus_category_id": "126108",
+   "chowbus_item_id": "3222720",
+   "chowbus_prototype_id": "1411372",
+   "price_cents": 575,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium (iced)",
+     "price_cents": 575
+    },
+    {
+     "name": "large (iced)",
+     "price_cents": 675
+    },
+    {
+     "name": "medium (hot)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/cheese-foam-coffee.png"
+  },
+  {
+   "site_category": "coffee",
+   "site_index": 3,
+   "site_en": "Crème Brûlée Coffee",
+   "chowbus_category_id": "126108",
+   "chowbus_item_id": "3222735",
+   "chowbus_prototype_id": "1411373",
+   "price_cents": 575,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium (iced)",
+     "price_cents": 575
+    },
+    {
+     "name": "large (iced)",
+     "price_cents": 675
+    },
+    {
+     "name": "medium (hot)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/creme-brulee-coffee.png"
+  },
+  {
+   "site_category": "coconut",
+   "site_index": 0,
+   "site_en": "Coco Mango",
+   "chowbus_category_id": "142948",
+   "chowbus_item_id": "3368082",
+   "chowbus_prototype_id": "1411345",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/coco-mango.png"
+  },
+  {
+   "site_category": "coconut",
+   "site_index": 1,
+   "site_en": "Coco Red Bean",
+   "chowbus_category_id": "142948",
+   "chowbus_item_id": "3368097",
+   "chowbus_prototype_id": "1411344",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/coco-red-bean.png"
+  },
+  {
+   "site_category": "coconut",
+   "site_index": 2,
+   "site_en": "Coco Watermelon",
+   "chowbus_category_id": "142948",
+   "chowbus_item_id": "3368108",
+   "chowbus_prototype_id": "1411346",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/coco-watermelon.png"
+  },
+  {
+   "site_category": "taro",
+   "site_index": 0,
+   "site_en": "Fresh Taro Bubble Milk Tea",
+   "chowbus_category_id": "126104",
+   "chowbus_item_id": "3367086",
+   "chowbus_prototype_id": "1583387",
+   "price_cents": 695,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 695
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 795
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-taro-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "taro",
+   "site_index": 1,
+   "site_en": "Fresh Taro Bubble With Milk",
+   "chowbus_category_id": "126104",
+   "chowbus_item_id": "3367098",
+   "chowbus_prototype_id": "1583392",
+   "price_cents": 695,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 695
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 795
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-taro-bubble-with-milk.png"
+  },
+  {
+   "site_category": "fruit-tea",
+   "site_index": 0,
+   "site_en": "Fresh Fruit Green Tea",
+   "chowbus_category_id": "126102",
+   "chowbus_item_id": "3222716",
+   "chowbus_prototype_id": "1411336",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-fruit-green-tea.png"
+  },
+  {
+   "site_category": "fruit-tea",
+   "site_index": 1,
+   "site_en": "Fresh Lemon Green Tea",
+   "chowbus_category_id": "126102",
+   "chowbus_item_id": "3222725",
+   "chowbus_prototype_id": "1411338",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-lemon-green-tea.png"
+  },
+  {
+   "site_category": "fruit-tea",
+   "site_index": 2,
+   "site_en": "Fresh Fruit Oolong Tea",
+   "chowbus_category_id": "126102",
+   "chowbus_item_id": "3222736",
+   "chowbus_prototype_id": "1411337",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-fruit-oolong-tea.png"
+  },
+  {
+   "site_category": "fruit-tea",
+   "site_index": 3,
+   "site_en": "Fresh Lemon Oolong Tea",
+   "chowbus_category_id": "126102",
+   "chowbus_item_id": "3222703",
+   "chowbus_prototype_id": "1411339",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-lemon-oolong-tea.png"
+  },
+  {
+   "site_category": "yakult",
+   "site_index": 0,
+   "site_en": "Grapefruit Yakult",
+   "chowbus_category_id": "126103",
+   "chowbus_item_id": "3222696",
+   "chowbus_prototype_id": "1411341",
+   "price_cents": 775,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/grapefruit-yakult.png"
+  },
+  {
+   "site_category": "yakult",
+   "site_index": 1,
+   "site_en": "Orange Yakult",
+   "chowbus_category_id": "126103",
+   "chowbus_item_id": "3222700",
+   "chowbus_prototype_id": "1411342",
+   "price_cents": 775,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/orange-yakult.png"
+  },
+  {
+   "site_category": "yakult",
+   "site_index": 2,
+   "site_en": "Lemon Yakult",
+   "chowbus_category_id": "126103",
+   "chowbus_item_id": "3222731",
+   "chowbus_prototype_id": "1411343",
+   "price_cents": 775,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "large only(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/lemon-yakult.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 0,
+   "site_en": "Classic Oolong Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222699",
+   "chowbus_prototype_id": "1411348",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/classic-oolong-tea.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 1,
+   "site_en": "Jasmine Green Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222702",
+   "chowbus_prototype_id": "1411347",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/jasmine-green-tea.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 2,
+   "site_en": "Peach Oolong Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222695",
+   "chowbus_prototype_id": "1411351",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/peach-oolong-tea.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 3,
+   "site_en": "Taiwanese Oolong Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222704",
+   "chowbus_prototype_id": "1411350",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/taiwanese-oolong-tea.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 4,
+   "site_en": "Osmanthus Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222698",
+   "chowbus_prototype_id": "1411352",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/osmanthus-tea.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 5,
+   "site_en": "Earl Grey",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222707",
+   "chowbus_prototype_id": "1411353",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/earl-grey.png"
+  },
+  {
+   "site_category": "pure-tea",
+   "site_index": 6,
+   "site_en": "Hawaii Tea",
+   "chowbus_category_id": "126105",
+   "chowbus_item_id": "3222692",
+   "chowbus_prototype_id": "1411354",
+   "price_cents": 475,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 475
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 575
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/hawaii-tea.png"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 0,
+   "site_en": "Jasmine Tea Mint Candy",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761740",
+   "chowbus_prototype_id": "2754833",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 20,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 1,
+   "site_en": "Oreo Sandwich Cookies Ice Cream Matcha Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761753",
+   "chowbus_prototype_id": "2758613",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 1,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 2,
+   "site_en": "Juice Gummies Peach Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761769",
+   "chowbus_prototype_id": "2758616",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 35,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 3,
+   "site_en": "Lays Potato Chips Texas Bbq Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761780",
+   "chowbus_prototype_id": "2758622",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 3,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 4,
+   "site_en": "Lays Potato Chips Mexican Chicken Tomato Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761786",
+   "chowbus_prototype_id": "2758625",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 2,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 5,
+   "site_en": "Lays Potato Chips Lime Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761796",
+   "chowbus_prototype_id": "2758626",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 0,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 6,
+   "site_en": "Lays Potato Chips Italian Red Meat Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761798",
+   "chowbus_prototype_id": "2758628",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 9,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 7,
+   "site_en": "Lays Potato Chips Roasted Seaweed Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761801",
+   "chowbus_prototype_id": "2758629",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": 0,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 8,
+   "site_en": "Peelable Juice Gummies Green Grape Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761802",
+   "chowbus_prototype_id": "2758632",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 9,
+   "site_en": "Lays Potato Chips Numb & Spicy Hot Pot Flavor",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761815",
+   "chowbus_prototype_id": "2976024",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "snacks",
+   "site_index": 10,
+   "site_en": "Oreo Sandwich Cookies Red Bean Flavor-Seasonal Special",
+   "chowbus_category_id": "289278",
+   "chowbus_item_id": "8761819",
+   "chowbus_prototype_id": "2976027",
+   "price_cents": 295,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 0,
+   "site_en": "Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222715",
+   "chowbus_prototype_id": "1411355",
+   "price_cents": 650,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 650
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 1,
+   "site_en": "Green Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222709",
+   "chowbus_prototype_id": "1411360",
+   "price_cents": 675,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 675
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/green-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 2,
+   "site_en": "Peach Oolong Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222732",
+   "chowbus_prototype_id": "1411363",
+   "price_cents": 675,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 675
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/peach-oolong-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 3,
+   "site_en": "Taiwanese Oolong Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222734",
+   "chowbus_prototype_id": "1411362",
+   "price_cents": 675,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 675
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/taiwanese-oolong-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 4,
+   "site_en": "Hawaii Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222717",
+   "chowbus_prototype_id": "1411365",
+   "price_cents": 675,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 675
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/hawaii-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 5,
+   "site_en": "Classic Oolong Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222728",
+   "chowbus_prototype_id": "1411361",
+   "price_cents": 675,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 675
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 775
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/classic-oolong-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 6,
+   "site_en": "Fresh Taro Bubble Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "4405090",
+   "chowbus_prototype_id": "1583387",
+   "price_cents": 695,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 695
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 795
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/fresh-taro-bubble-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 7,
+   "site_en": "Cheese Foam Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222730",
+   "chowbus_prototype_id": "1411356",
+   "price_cents": 650,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 650
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/cheese-foam-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 8,
+   "site_en": "Crème Brûlée Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222693",
+   "chowbus_prototype_id": "1411357",
+   "price_cents": 650,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 650
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/creme-brulee-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 9,
+   "site_en": "Oreo Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222719",
+   "chowbus_prototype_id": "1411358",
+   "price_cents": 650,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 650
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/oreo-milk-tea.png"
+  },
+  {
+   "site_category": "milk-tea",
+   "site_index": 10,
+   "site_en": "Red Bean Milk Tea",
+   "chowbus_category_id": "126106",
+   "chowbus_item_id": "3222694",
+   "chowbus_prototype_id": "1411359",
+   "price_cents": 650,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 650
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 750
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/red-bean-milk-tea.png"
+  },
+  {
+   "site_category": "matcha",
+   "site_index": 0,
+   "site_en": "Matcha Latte",
+   "chowbus_category_id": "160925",
+   "chowbus_item_id": "3965412",
+   "chowbus_prototype_id": "1759914",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 750
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 850
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/matcha-latte.png"
+  },
+  {
+   "site_category": "matcha",
+   "site_index": 1,
+   "site_en": "Frozen Matcha Latte",
+   "chowbus_category_id": "160925",
+   "chowbus_item_id": "3965425",
+   "chowbus_prototype_id": "1759919",
+   "price_cents": 750,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 750
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 850
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/frozen-matcha-latte.png"
+  },
+  {
+   "site_category": "matcha",
+   "site_index": 2,
+   "site_en": "Strawberrry Matcha Latte",
+   "chowbus_category_id": "160925",
+   "chowbus_item_id": "5209227",
+   "chowbus_prototype_id": "2128327",
+   "price_cents": 825,
+   "price_has_options": true,
+   "sizes": [
+    {
+     "name": "medium",
+     "price_cents": 825
+    },
+    {
+     "name": "large(ice only)",
+     "price_cents": 925
+    }
+   ],
+   "stock": null,
+   "image": "assets/img/drinks/strawberry-matcha-latte.png"
+  },
+  {
+   "site_category": "dessert",
+   "site_index": 0,
+   "site_en": "New York Cheesecake",
+   "chowbus_category_id": "217266",
+   "chowbus_item_id": "5652451",
+   "chowbus_prototype_id": "2255782",
+   "price_cents": 699,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/new-york-cheesecake.png"
+  },
+  {
+   "site_category": "dessert",
+   "site_index": 1,
+   "site_en": "Key Lime Cheesecake",
+   "chowbus_category_id": "217266",
+   "chowbus_item_id": "5652509",
+   "chowbus_prototype_id": "2255787",
+   "price_cents": 799,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/key-lime-cheesecake.png"
+  },
+  {
+   "site_category": "dessert",
+   "site_index": 2,
+   "site_en": "Chocolate Truffle Mousse Cake",
+   "chowbus_category_id": "217266",
+   "chowbus_item_id": "5652543",
+   "chowbus_prototype_id": "2255788",
+   "price_cents": 999,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/chocolate-truffle-mousse-cake.png"
+  },
+  {
+   "site_category": "dessert",
+   "site_index": 3,
+   "site_en": "Pumpkin Cheesecake",
+   "chowbus_category_id": "217266",
+   "chowbus_item_id": "6269008",
+   "chowbus_prototype_id": "2422593",
+   "price_cents": 799,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/pumpkin-cheesecake.png"
+  },
+  {
+   "site_category": "pastry",
+   "site_index": 0,
+   "site_en": "Butter Croissant",
+   "chowbus_category_id": "150492",
+   "chowbus_item_id": "3656274",
+   "chowbus_prototype_id": "1661087",
+   "price_cents": 299,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/butter-croissant.png"
+  },
+  {
+   "site_category": "pastry",
+   "site_index": 1,
+   "site_en": "Sweet Cheese Danish",
+   "chowbus_category_id": "150492",
+   "chowbus_item_id": "3656277",
+   "chowbus_prototype_id": "1661088",
+   "price_cents": 499,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/sweet-cheese-danish.png"
+  },
+  {
+   "site_category": "pastry",
+   "site_index": 2,
+   "site_en": "Spinach & Feta Savory Pastry",
+   "chowbus_category_id": "150492",
+   "chowbus_item_id": "3656278",
+   "chowbus_prototype_id": "1661089",
+   "price_cents": 559,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/spinach-feta-savory-pastry.png"
+  },
+  {
+   "site_category": "pastry",
+   "site_index": 3,
+   "site_en": "Matcha Cheese Foam Cinnamon Bun",
+   "chowbus_category_id": "150492",
+   "chowbus_item_id": "3656281",
+   "chowbus_prototype_id": "1661090",
+   "price_cents": 669,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/matcha-cheese-foam-cinnamon-bun.png"
+  },
+  {
+   "site_category": "pastry",
+   "site_index": 4,
+   "site_en": "Ham & Cheese Croissant",
+   "chowbus_category_id": "150492",
+   "chowbus_item_id": "5652631",
+   "chowbus_prototype_id": "2255791",
+   "price_cents": 599,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "assets/img/drinks/ham-cheese-croissant.png"
+  },
+  {
+   "site_category": "to-go",
+   "site_index": 0,
+   "site_en": "Milk Chocolate Gummy Bear",
+   "chowbus_category_id": "184332",
+   "chowbus_item_id": "4801586",
+   "chowbus_prototype_id": "1941962",
+   "price_cents": 599,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "to-go",
+   "site_index": 1,
+   "site_en": "Ny Espresso Bean Chocolate",
+   "chowbus_category_id": "184332",
+   "chowbus_item_id": "4801584",
+   "chowbus_prototype_id": "1941967",
+   "price_cents": 599,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "to-go",
+   "site_index": 2,
+   "site_en": "Venchi Pistachio Cremino Bar",
+   "chowbus_category_id": "184332",
+   "chowbus_item_id": "5796419",
+   "chowbus_prototype_id": "2294701",
+   "price_cents": 999,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "to-go",
+   "site_index": 3,
+   "site_en": "Nutella Biscuits",
+   "chowbus_category_id": "184332",
+   "chowbus_item_id": "5797402",
+   "chowbus_prototype_id": "2295026",
+   "price_cents": 699,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "soda",
+   "site_index": 0,
+   "site_en": "Coke(Can)",
+   "chowbus_category_id": "160391",
+   "chowbus_item_id": "3947432",
+   "chowbus_prototype_id": "1755004",
+   "price_cents": 199,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "soda",
+   "site_index": 1,
+   "site_en": "Diet Coke(Can)",
+   "chowbus_category_id": "160391",
+   "chowbus_item_id": "3947436",
+   "chowbus_prototype_id": "1755005",
+   "price_cents": 199,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  },
+  {
+   "site_category": "soda",
+   "site_index": 2,
+   "site_en": "Water(Bottle)",
+   "chowbus_category_id": "160391",
+   "chowbus_item_id": "3947450",
+   "chowbus_prototype_id": "1755010",
+   "price_cents": 99,
+   "price_has_options": false,
+   "sizes": [],
+   "stock": null,
+   "image": "chowbus"
+  }
+ ]
+}
