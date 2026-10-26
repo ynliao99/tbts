@@ -74,7 +74,7 @@ if [ -d \"$SITE_DIR\" ]; then mv \"$SITE_DIR\" \"\$prev\"; fi
 mv \"\$new\" \"$SITE_DIR\"
 echo \"已发布：\$(cat $SITE_DIR/.revision)，\$(find $SITE_DIR -type f | wc -l) 个文件\""
 
-tar -C "$work/dist" -cf - . |
+COPYFILE_DISABLE=1 tar --no-xattrs -C "$work/dist" -cf - . |
   ssh -o ControlMaster=auto -o ControlPath="$CONTROL_PATH" -o ControlPersist=45m "$JUMP_HOST" \
     "ssh -o BatchMode=yes $TARGET $(printf '%q' "$remote_script")"
 
