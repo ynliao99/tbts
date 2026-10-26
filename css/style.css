@@ -517,10 +517,6 @@ html.is-ready .hero__copy > *:nth-child(6) { transition-delay: 450ms; }
   gap: 16px;
   margin-top: 32px;
 }
-/* 首屏只做次要入口：比“立即点单”按钮矮，不抢主 CTA */
-.hero__apps { gap: 8px; margin-top: 16px; }
-.hero__apps .app-badge { border-radius: 6px; }
-.hero__apps .app-badge img { height: 32px; }
 .hero__status-cards {
   display: flex;
   flex-direction: column;
@@ -2664,12 +2660,19 @@ html[data-os="android"] .app-badge--ios { display: none; }
     align-items: stretch;
     gap: 8px;
     padding: 96px 32px 48px;
-    background: rgb(255 255 255 / 0.88);
-    backdrop-filter: blur(32px);
-    -webkit-backdrop-filter: blur(32px);
     opacity: 0;
     pointer-events: none;
     transition: opacity 700ms var(--ease);
+  }
+  /* 遮罩上下各多铺出半屏：iOS Safari 的透明地址栏/工具栏后面也要盖住，不露出页面 */
+  .nav__list::before {
+    position: absolute;
+    inset: -50vh 0;
+    z-index: -1;
+    content: "";
+    background: rgb(255 255 255 / 0.94);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
   }
   .nav__list.is-open {
     opacity: 1;
@@ -2700,6 +2703,11 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .nav__list.is-open li:nth-child(3) a { transition-delay: 180ms; }
   .nav__list.is-open li:nth-child(4) a { transition-delay: 230ms; }
   .nav__list.is-open li:nth-child(5) a { transition-delay: 280ms; }
+  /* 下滑收起、上滑出现；菜单展开时不收起（transform 会让遮罩以顶栏为定位基准） */
+  .site-header__inner { transition: transform 400ms var(--ease), box-shadow 700ms var(--ease), background-color 700ms var(--ease); }
+  body:not(.nav-open) .site-header.is-hidden .site-header__inner {
+    transform: translateY(calc(-100% - 24px));
+  }
   .site-header__actions { margin-left: auto; }
   .site-header__actions .btn { display: none; }
   .site-header__actions .btn--app { display: inline-flex; }
