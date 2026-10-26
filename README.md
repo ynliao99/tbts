@@ -22,6 +22,19 @@ assets/svg/       手绘波士顿天际线
 DESIGN.md         设计调研与设计说明
 ```
 
+## 发布
+
+线上站点 teabytheseaboston.com 跑在 wordpress-server（内网 172.27.235.198，经 panel.uswoo.cn 中转）：
+
+```bash
+scripts/deploy.sh --dry-run   # 看看会上传哪些文件
+scripts/deploy.sh             # 发布当前 HEAD（先提交再发布）
+```
+
+- 只上传页面实际用到的文件，没被引用的图片不会上传
+- 站点目录 `/data/sites/teabytheseaboston.com`，上一版保留在 `.prev`，回滚见脚本注释
+- nginx 配置的源文件是 `scripts/nginx/teabytheseaboston.com.conf`，服务器上在 `/etc/nginx/sites.d/`；改完要手动上传，再 `nginx -t && systemctl reload nginx`
+
 ## 内容来源
 
 - 茶底风味、关于我们、场地租赁、联系方式：teabytheseaboston.com
