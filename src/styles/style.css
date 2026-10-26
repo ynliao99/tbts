@@ -2820,8 +2820,8 @@ html[data-os="android"] .app-badge--ios { display: none; }
   }
   /* iOS Safari 的透明工具栏下方会直接画页面内容，遮罩盖不住；
      遮罩淡入完成后把页面藏起来，工具栏后面就只剩白底 */
-  body.nav-open > main,
-  body.nav-open > .site-footer {
+  body.nav-open #app > main,
+  body.nav-open #app > .site-footer {
     visibility: hidden;
     transition: visibility 0s 700ms;
   }
@@ -3115,4 +3115,35 @@ html[data-os="android"] .app-badge--ios { display: none; }
     transform: none !important;
   }
   .photo-shell::after { display: none !important; }
+}
+
+/* CMS 预览横条（?preview=） */
+.preview-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  z-index: 95;
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  background: var(--cobalt, #0033a0);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transform: translateX(-50%);
+  box-shadow: 0 8px 24px rgb(0 51 160 / 0.24);
+}
+
+/* Chowbus 库存为 0 的商品 */
+.sticker__soldout {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  background: var(--ink, #10204a);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }

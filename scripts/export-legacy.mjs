@@ -8,14 +8,14 @@ import vm from "node:vm";
 
 const root = new URL("..", import.meta.url).pathname;
 const ctx = { window: {} };
-vm.runInNewContext(readFileSync(root + "js/data.js", "utf8"), ctx);
+vm.runInNewContext(readFileSync(root + "legacy/data.js", "utf8"), ctx);
 const { info, teas, menu } = ctx.window.TBTS;
 const mapping = JSON.parse(readFileSync(root + "docs/chowbus-mapping.json", "utf8")).items;
 
 const sizeCache = {};
 const dims = (path) => {
   if (!sizeCache[path]) {
-    const out = execFileSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", root + path], { encoding: "utf8" });
+    const out = execFileSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", root + "public/" + path], { encoding: "utf8" });
     sizeCache[path] = { w: +out.match(/pixelWidth: (\d+)/)[1], h: +out.match(/pixelHeight: (\d+)/)[1] };
   }
   return sizeCache[path];
@@ -159,7 +159,7 @@ const blocks = {
       bi("🎂 Birthday bashes", "🎂 生日派对"), bi("🏆 Competitions & game nights", "🏆 比赛与桌游"), bi("🎓 Alumni reunions", "🎓 校友重聚"),
       bi("🎨 Small workshops", "🎨 小型工作坊"), bi("🍵 Social gatherings & catering", "🍵 聚会与饮品外送"),
     ].map((text) => ({ text })),
-    formIntro: bi("We cater, too. Tell us your date and group size below, or email us directly.", "也承接饮品外送订餐（Catering）。在下方填写活动日期与人数即可发起邮件咨询。"),
+    formIntro: bi("We cater, too. Tell us your date and group size below, or email us directly.", "也承接饮品外送订餐（Catering）。在下方填写活动日期与人数提交咨询，或者直接发邮件给我们。"),
     image: IMG("store/interior-hall.jpg", "The open interior of Tea By The Sea with the order counter and harbor windows", "店内大厅、点单台和海景窗"),
     accentImage: IMG("store/sign-wall-refined.jpg", "The blue Tea By The Sea sign", "蓝色招牌"),
     accentCaption: bi("Look for the blue sign", "看到蓝色招牌就到了"),

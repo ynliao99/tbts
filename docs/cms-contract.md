@@ -185,7 +185,7 @@ interface MenuItem {
 | --- | --- | --- |
 | GET | `/content` | 当前线上版本的 `SiteContent`。打包和监控用；官网运行时读的是 `/content/site.json` |
 | GET | `/content/preview?token=` | 草稿生成的 `SiteContent`，`version` 为 `-1`；令牌无效时返回 403 `tbts.preview_token_invalid` |
-| POST | `/inquiries` | 请求：`{ name, email, phone?, eventDate?, guests?, details, lang: "en"\|"zh", website: "" }`。`website` 是 honeypot，必须为空。返回 `{ id }`；被限流时返回 429 `tbts.inquiry_rate_limited` |
+| POST | `/inquiries` | 请求：`{ name?, email, phone?, eventDate?, guests?, details, lang: "en"\|"zh", website: "" }`，必填只有 `email` 和 `details`（官网表单里的「日期与人数」填在 `details`）。`website` 是 honeypot，必须为空。返回 `{ id }`；被限流时返回 429 `tbts.inquiry_rate_limited` |
 
 ## 6. 文件与目录
 
