@@ -517,6 +517,10 @@ html.is-ready .hero__copy > *:nth-child(6) { transition-delay: 450ms; }
   gap: 16px;
   margin-top: 32px;
 }
+/* 首屏只做次要入口：比“立即点单”按钮矮，不抢主 CTA */
+.hero__apps { gap: 8px; margin-top: 16px; }
+.hero__apps .app-badge { border-radius: 6px; }
+.hero__apps .app-badge img { height: 32px; }
 .hero__status-cards {
   display: flex;
   flex-direction: column;
@@ -2235,6 +2239,56 @@ html.is-ready .scene {
   background: var(--paper);
   color: var(--cobalt);
 }
+.final-cta__sub {
+  max-width: 36rem;
+  margin: 16px 0 0;
+  color: rgb(255 255 255 / 0.8);
+  font-size: 18px;
+  line-height: 28px;
+}
+.final-cta__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.app-badges__label {
+  margin: 20px 0 10px;
+  color: rgb(255 255 255 / 0.72);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* ---------- App store badges ---------- */
+/* 官方徽标原样使用（Apple / Google 品牌规范：不改色、不加描边），只统一高度 */
+.app-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.app-badge {
+  display: inline-flex;
+  border-radius: 9px;
+  transition: transform 0.3s var(--spring), box-shadow 0.3s var(--ease);
+}
+.app-badge img {
+  display: block;
+  width: auto;
+  height: 44px;
+}
+.app-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.25);
+}
+.app-badges--footer { margin-bottom: 8px; }
+.app-badges--footer .app-badge img { height: 40px; }
+.site-footer__head--app { margin-top: 24px; }
+.menu-hero__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -2657,6 +2711,8 @@ html.is-ready .scene {
     align-items: start;
     flex-direction: column;
   }
+  .final-cta__actions,
+  .menu-hero__actions { align-items: flex-start; }
   .site-footer__legal { grid-template-columns: 1fr; }
 }
 
