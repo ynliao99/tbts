@@ -3178,3 +3178,11 @@ a.menu-row {
 }
 a.menu-row:hover .menu-row__name,
 a.menu-row:focus-visible .menu-row__name { color: var(--cobalt); text-decoration: underline; text-underline-offset: 3px; }
+
+/* 售罄的商品照常列出，整体置灰（标签本身不灰） */
+.sticker.is-soldout .photo-shell,
+.sticker.is-soldout .sticker__price { filter: grayscale(1); opacity: .55; }
+.sticker.is-soldout .sticker__name,
+.sticker.is-soldout .sticker__zh,
+.sticker.is-soldout .sticker__desc { opacity: .55; }
+a.menu-row.is-soldout > span { opacity: .5; }

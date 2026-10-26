@@ -122,7 +122,7 @@ onBeforeUnmount(() => { spy?.disconnect(); cleanupReveal(); });
           </ul>
           <ul v-else class="menu-list">
             <li v-for="it in c.shown" :key="it.id">
-              <a class="menu-row" :href="it.orderUrl || content.store.links.order" target="_blank" rel="noopener">
+              <a class="menu-row" :class="{ 'is-soldout': it.soldOut }" :href="it.orderUrl || content.store.links.order" target="_blank" rel="noopener">
               <span class="menu-row__name">{{ it.name.en }}</span>
               <span class="menu-row__price">{{ it.price }}<template v-if="it.soldOut"> · <span lang="en">Sold out</span><span lang="zh">售罄</span></template></span>
               <span v-if="it.name.zh" class="menu-row__zh">{{ it.name.zh }}</span>

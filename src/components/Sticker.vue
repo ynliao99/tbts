@@ -10,7 +10,7 @@ const content = useContent();
 </script>
 
 <template>
-  <li class="sticker" :style="{ '--sticker-index': index }">
+  <li class="sticker" :class="{ 'is-soldout': item.soldOut }" :style="{ '--sticker-index': index }">
     <a class="sticker__link" :href="item.orderUrl || content.store.links.order" target="_blank" rel="noopener" :aria-label="`${item.name.en} ${item.price} · Order on Chowbus`">
     <div class="sticker__img">
       <div class="photo-shell">
