@@ -167,7 +167,9 @@
       if (document.body.classList.contains("nav-open")) {
         lastY = y;
       } else if (Math.abs(y - lastY) > 8) {
-        siteHeader.classList.toggle("is-hidden", y > lastY && y > 120);
+        const hidden = y > lastY && y > 120;
+        siteHeader.classList.toggle("is-hidden", hidden);
+        document.documentElement.classList.toggle("header-hidden", hidden);
         lastY = y;
       }
       ticking = false;

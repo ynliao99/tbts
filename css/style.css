@@ -2468,7 +2468,7 @@ html[data-os="android"] .app-badge--ios { display: none; }
   top: 96px;
   z-index: 30;
   padding: 16px 0 8px;
-  background: rgb(255 255 255 / 0.88);
+  background: rgb(255 255 255 / 0.94);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
 }
@@ -2796,6 +2796,16 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .site-header__inner { transition: transform 400ms var(--ease), box-shadow 700ms var(--ease), background-color 700ms var(--ease); }
   body:not(.nav-open) .site-header.is-hidden .site-header__inner {
     transform: translateY(calc(-100% - 24px));
+  }
+  /* 顶栏收起时，菜单页的搜索/分类条顶到最上面，不留空档 */
+  .menu-bar { transition: top 400ms var(--ease); }
+  .header-hidden body:not(.nav-open) .menu-bar { top: 0; }
+  /* iOS Safari 的透明工具栏下方会直接画页面内容，遮罩盖不住；
+     遮罩淡入完成后把页面藏起来，工具栏后面就只剩白底 */
+  body.nav-open > main,
+  body.nav-open > .site-footer {
+    visibility: hidden;
+    transition: visibility 0s 700ms;
   }
   .site-header__actions { margin-left: auto; }
   .site-header__actions .btn { display: none; }
