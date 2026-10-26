@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tea By The Sea · East Boston Waterfront Tea</title>
-  <meta name="description" content="Freshly brewed bubble tea, fruit tea, matcha and coffee on the East Boston waterfront, with a view of the Boston skyline. 99 Sumner Street, open daily 11am–9pm.">
+  <meta name="description" content="Fresh brewed loose leaf tea, real fruit and Boston skyline views at Tea By The Sea on the East Boston waterfront. Open daily at 99 Sumner Street.">
   <link rel="icon" href="assets/img/brand/favicon.png">
   <meta property="og:title" content="Tea By The Sea · East Boston Waterfront Tea">
-  <meta property="og:image" content="assets/img/store/drinks-skyline.jpg">
+  <meta property="og:description" content="Fresh brewed loose leaf tea, real fruit and Boston skyline views on the East Boston waterfront.">
+  <meta property="og:image" content="assets/img/store/cup-in-hand.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=Shantell+Sans:ital,wght,BNCE,INFM@0,300..800,-100..100,0..100;1,300..800,-100..100,0..100&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20261025-4">
+  <link rel="stylesheet" href="css/style.css?v=redesign-2">
 </head>
 <body>
 <svg class="sprite" aria-hidden="true">
@@ -27,6 +29,8 @@
   <symbol id="i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="16.6" cy="7.4" r=".6"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24"><path d="M4.5 5.5c3-1 5.5-.5 7.5 1 2-1.5 4.5-2 7.5-1v13c-3-1-5.5-.5-7.5 1-2-1.5-4.5-2-7.5-1z"/><path d="M12 6.5v13"/></symbol>
   <symbol id="i-gull" viewBox="0 0 40 16"><path d="M2 12C7 4 14 4 20 11c6-7 13-7 18 1"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4m0 10v4M3 12h4m10 0h4m-2.8-6.2-2.8 2.8m-6.8 6.8-2.8 2.8m0-12.4 2.8 2.8m6.8 6.8 2.8 2.8"/></symbol>
+  <symbol id="i-cup" viewBox="0 0 24 24"><path d="M6 8h12l-1.2 11a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 8Z"/><path d="M5 8h14M13 3l-1.5 5"/></symbol>
 </svg>
 
 <a class="skip" href="#main">
@@ -35,26 +39,27 @@
 
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="brand" href="index.html" aria-label="Tea By The Sea home">
-      <img src="assets/img/brand/logo.webp" alt="" width="56" height="56">
+    <a class="brand" href="index.html" aria-current="page" aria-label="Tea By The Sea home">
+      <img src="assets/img/brand/logo.webp" alt="" width="48" height="48">
     </a>
     <nav class="nav" aria-label="Main">
-      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list">
-        <span lang="en">Menu</span><span lang="zh">导航</span>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Open navigation">
+        <span class="nav__toggle-lines" aria-hidden="true"><i></i><i></i></span>
+        <span class="visually-hidden" lang="en">Menu</span><span class="visually-hidden" lang="zh">导航</span>
       </button>
       <ul id="nav-list" class="nav__list">
         <li><a href="menu.html"><span lang="en">Menu</span><span lang="zh">菜单</span></a></li>
-        <li><a href="#teas"><span lang="en">Our teas</span><span lang="zh">茶底</span></a></li>
-        <li><a href="#deck"><span lang="en">The view</span><span lang="zh">海景</span></a></li>
-        <li><a href="#space"><span lang="en">Events</span><span lang="zh">场地</span></a></li>
-        <li><a href="#visit"><span lang="en">Visit</span><span lang="zh">到店</span></a></li>
+        <li><a href="#teas" data-nav-section="teas"><span lang="en">Our teas</span><span lang="zh">茶底</span></a></li>
+        <li><a href="#deck" data-nav-section="deck"><span lang="en">The view</span><span lang="zh">海景</span></a></li>
+        <li><a href="#space" data-nav-section="space"><span lang="en">Events</span><span lang="zh">场地</span></a></li>
+        <li><a href="#visit" data-nav-section="visit"><span lang="en">Visit</span><span lang="zh">到店</span></a></li>
       </ul>
     </nav>
     <div class="site-header__actions">
       <button class="lang-switch" type="button" data-lang-switch aria-label="切换到中文 / Switch to English">
         <span class="lang-switch__opt" data-opt="en">EN</span><span class="lang-switch__opt" data-opt="zh">中</span>
       </button>
-      <a class="btn btn--primary btn--sm" data-order href="#">
+      <a class="btn btn--primary btn--sm" data-order href="https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845" target="_blank" rel="noopener">
         <span lang="en">Order online</span><span lang="zh">在线点单</span>
       </a>
     </div>
@@ -62,34 +67,42 @@
 </header>
 
 <main id="main">
-  <!-- HERO: the one animated scene on the page -->
+  <!-- HERO -->
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero__grid">
       <div class="hero__copy">
+        <p class="hero__eyebrow"><span lang="en">East Boston waterfront tea house</span><span lang="zh">东波士顿海滨茶饮店</span></p>
         <h1 id="hero-title" class="hero__title">
-          <span lang="en">Tea by the sea,<br>Boston across the water.</span>
-          <span lang="zh">海边喝杯茶，<br>对岸是波士顿。</span>
+          <span lang="en">Real tea. Harbor air.<br>Boston in view.</span>
+          <span lang="zh">真茶现泡。海风作伴。<br>波士顿就在眼前。</span>
         </h1>
         <p class="hero__lede">
-          <span lang="en">Freshly brewed loose-leaf tea, fresh-cut fruit and a deck facing the whole downtown skyline. Right on the East Boston waterfront.</span>
-          <span lang="zh">现泡原叶茶、现切鲜果，还有一整面波士顿天际线的海景露台。就在东波士顿海边。</span>
+          <span lang="en">Fresh brewed loose leaf tea, real fruit and a waterfront deck facing the downtown skyline. Made daily at 99 Sumner Street.</span>
+          <span lang="zh">每日现泡原叶茶、真实鲜果，加上一整面波士顿天际线的海景露台。就在 99 Sumner Street。</span>
         </p>
         <div class="hero__actions">
-          <a class="btn btn--primary" data-order href="#">
+          <a class="btn btn--primary" data-order href="https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845" target="_blank" rel="noopener">
             <span lang="en">Order for pickup</span><span lang="zh">在线点单自取</span>
           </a>
-          <a class="btn btn--ghost" href="menu.html">
-            <span lang="en">See the menu</span><span lang="zh">看看菜单</span>
+          <a class="text-link" href="menu.html">
+            <span lang="en">Browse the full menu</span><span lang="zh">浏览完整菜单</span>
           </a>
         </div>
         <p class="open-badge" data-open-status aria-live="polite"></p>
+        <ul class="hero__proof" aria-label="Store highlights">
+          <li><strong>8</strong><span lang="en">tea bases</span><span lang="zh">款原叶茶底</span></li>
+          <li><strong>11–9</strong><span lang="en">open daily</span><span lang="zh">每日营业</span></li>
+          <li><strong>Harbor</strong><span lang="en">front deck</span><span lang="zh">海滨露台</span></li>
+        </ul>
       </div>
 
-      <figure class="hero__photo">
-        <img src="assets/img/store/cup-in-hand.png" width="864" height="940"
-             alt="A hand holding a Tea By The Sea fruit tea against the harbor and Boston skyline">
+      <figure class="hero__photo" data-parallax="0.12">
+        <div class="photo-shell">
+          <img src="assets/img/store/cup-in-hand.png" width="864" height="940"
+               alt="A hand holding a Tea By The Sea fruit tea against the harbor and Boston skyline">
+        </div>
         <figcaption class="note">
-          <span lang="en">the view from our deck</span><span lang="zh">露台上的风景</span>
+          <span lang="en">Your tea comes with this view</span><span lang="zh">这一杯，自带海景</span>
         </figcaption>
         <svg class="note-arrow" viewBox="0 0 80 60" aria-hidden="true"><path d="M6 8c22 2 44 12 56 38m0 0-12-4m12 4 3-13"/></svg>
       </figure>
@@ -129,15 +142,161 @@
     </button>
   </section>
 
-  <!-- TEA BASES -->
+  <!-- TAGLINE REVEAL (B11 Mandatory word-by-word scroll illumination) -->
+  <section class="tagline" aria-label="What makes Tea By The Sea different" data-tagline-section>
+    <div class="wrap tagline__inner">
+      <p class="section-kicker"><span lang="en">Why East Boston walks to the water</span><span lang="zh">为什么大家都往海边走</span></p>
+      <p class="tagline__text">
+        <span lang="en" data-tagline-copy>Fresh loose leaf tea tastes different when the harbor breeze rolls in and the Boston skyline sits right across your table.</span>
+        <span lang="zh" data-tagline-copy>当海风吹过港湾，波士顿天际线坐到桌边，每日现泡的原叶茶也有了不一样的味道。</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- THREE CORE BENEFITS + DESIGN-TO-MOTION STORY LOOPS -->
+  <section class="benefits" aria-labelledby="benefits-title" data-motion-section>
+    <div class="wrap">
+      <header class="section-head">
+        <p class="section-kicker"><span lang="en">What goes into every cup</span><span lang="zh">每一杯里的讲究</span></p>
+        <h2 id="benefits-title" class="section-title">
+          <span lang="en">Real leaf, custom sweetness, harbor seat included.</span>
+          <span lang="zh">原叶现泡、甜度随心，外加一整片海景。</span>
+        </h2>
+      </header>
+
+      <div class="benefits__bento">
+        <!-- Card 1: Loose leaf brewed daily (Story: steep clock & aroma wave) -->
+        <article class="benefit-card benefit-card--wide" data-motion-card>
+          <div class="benefit-card__copy">
+            <span class="benefit-card__kicker"><span lang="en">Freshly brewed daily</span><span lang="zh">每日现泡原叶茶</span></span>
+            <h3>
+              <span lang="en">Eight East Asian loose leaf bases, steeped in small batches</span>
+              <span lang="zh">八款东亚原叶茶底，每日小锅现泡</span>
+            </h3>
+            <p>
+              <span lang="en"><strong>Real tea aroma without powder</strong> — Jasmine green, roasted oolong, osmanthus and Assam black tea are brewed fresh every morning so the finish stays clean and floral.</span>
+              <span lang="zh"><strong>拒绝茶粉与浓缩液</strong> — 茉莉绿茶、炭焙乌龙、桂花乌龙与阿萨姆红茶每天清晨现泡，入口花香清晰、回甘干净。</span>
+            </p>
+          </div>
+          <div class="benefit-visual benefit-visual--steep" aria-hidden="true">
+            <div class="steep-card">
+              <div class="steep-card__top">
+                <span class="steep-card__badge"><span class="pulse-dot"></span><span lang="en">Small batch brew</span><span lang="zh">现泡进行中</span></span>
+                <span class="steep-card__temp" data-story-temp>92°C</span>
+              </div>
+              <div class="steep-card__aroma">
+                <span class="aroma-chip" data-aroma-chip="0"><svg class="icon"><use href="#i-leaf"/></svg><span lang="en">Jasmine Green</span><span lang="zh">高山茉莉</span></span>
+                <span class="aroma-chip" data-aroma-chip="1"><svg class="icon"><use href="#i-flame"/></svg><span lang="en">Roasted Oolong</span><span lang="zh">炭焙乌龙</span></span>
+                <span class="aroma-chip" data-aroma-chip="2"><svg class="icon"><use href="#i-spark"/></svg><span lang="en">Osmanthus</span><span lang="zh">馥郁桂花</span></span>
+              </div>
+              <div class="steep-bar">
+                <div class="steep-bar__label">
+                  <span><span lang="en">Infusion clarity</span><span lang="zh">茶汤萃取度</span></span>
+                  <strong data-story-pct>94%</strong>
+                </div>
+                <div class="steep-bar__track"><span class="steep-bar__fill" data-story-bar></span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Adjustable sweetness & ice (Story: interactive customizer scrubber) -->
+        <article class="benefit-card" data-motion-card>
+          <div class="benefit-card__copy">
+            <span class="benefit-card__kicker"><span lang="en">Made to your taste</span><span lang="zh">甜度冰量可调</span></span>
+            <h3>
+              <span lang="en">Dial in your exact sweetness, ice or warmth</span>
+              <span lang="zh">甜度、冰量与冷热都随你定</span>
+            </h3>
+            <p>
+              <span lang="en"><strong>Full control on every drink</strong> — Pick light sugar to let the fruit and tea shine, go less ice, or ask for a warm cup on breezy harbor afternoons.</span>
+              <span lang="zh"><strong>每杯都能客制化</strong> — 想要三分糖突出茶香、少冰去冰，或是在海风天点一杯温热奶茶都可以。</span>
+            </p>
+          </div>
+          <div class="benefit-visual benefit-visual--dial" aria-hidden="true">
+            <div class="dial-stage">
+              <div class="dial-row">
+                <span class="dial-row__label"><span lang="en">Sweetness</span><span lang="zh">甜度</span></span>
+                <div class="dial-pills" data-story-sweet>
+                  <span class="dial-pill">30%</span>
+                  <span class="dial-pill is-active">50%</span>
+                  <span class="dial-pill">70%</span>
+                  <span class="dial-pill">100%</span>
+                </div>
+              </div>
+              <div class="dial-row">
+                <span class="dial-row__label"><span lang="en">Temperature</span><span lang="zh">冰量 / 温度</span></span>
+                <div class="dial-pills" data-story-ice>
+                  <span class="dial-pill is-active"><span lang="en">Less ice</span><span lang="zh">少冰</span></span>
+                  <span class="dial-pill"><span lang="en">No ice</span><span lang="zh">去冰</span></span>
+                  <span class="dial-pill"><span lang="en">Warm</span><span lang="zh">温热</span></span>
+                </div>
+              </div>
+              <div class="dial-summary">
+                <svg class="icon"><use href="#i-cup"/></svg>
+                <span data-story-order><span lang="en">50% sweet · Less ice · Fresh fruit</span><span lang="zh">半糖 · 少冰 · 鲜果现切</span></span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: All-year waterfront deck (Story: harbor path & skyline light) -->
+        <article class="benefit-card" data-motion-card>
+          <div class="benefit-card__copy">
+            <span class="benefit-card__kicker"><span lang="en">Year round patio</span><span lang="zh">全年海景露台</span></span>
+            <h3>
+              <span lang="en">Front row to the downtown Boston skyline</span>
+              <span lang="zh">正对市中心天际线的海滨座位</span>
+            </h3>
+            <p>
+              <span lang="en"><strong>Indoor lounge and outdoor deck</strong> — Step right out onto the East Boston harborwalk or unwind on the window sofas with friends all year.</span>
+              <span lang="zh"><strong>室内沙发与户外露台</strong> — 推门就是东波士顿海滨步道，四季都能看着对岸天际线喝茶聊天。</span>
+            </p>
+          </div>
+          <div class="benefit-visual benefit-visual--harbor" aria-hidden="true">
+            <div class="harbor-card">
+              <svg class="harbor-card__svg" viewBox="0 0 320 110">
+                <path class="harbor-card__route" id="harbor-route" d="M 16 82 Q 96 52 164 74 T 304 58" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5 5"/>
+                <circle class="harbor-card__ferry" data-story-ferry r="6" cx="16" cy="82"/>
+                <circle class="harbor-card__pin" cx="304" cy="58" r="5"/>
+              </svg>
+              <div class="harbor-card__meta">
+                <span><span lang="en">99 Sumner St · Waterfront</span><span lang="zh">99 Sumner St · 海滨入口</span></span>
+                <strong><span lang="en">Open all 4 seasons</span><span lang="zh">四季开放</span></strong>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS (3-Step Visit Experience) -->
+  <section class="journey" aria-labelledby="journey-title" data-reveal-section>
+    <div class="wrap journey__grid">
+      <header class="section-head">
+        <p class="section-kicker"><span lang="en">Your waterfront tea break</span><span lang="zh">你的海滨喝茶路线</span></p>
+        <h2 id="journey-title" class="section-title"><span lang="en">Three simple steps to a better afternoon.</span><span lang="zh">三步，把普通下午变成海边时光。</span></h2>
+        <p class="section-sub"><span lang="en">Order ahead so your cup is waiting when you reach the harborwalk.</span><span lang="zh">提前在线下单，走到海边就能直接拿上刚泡好的那一杯。</span></p>
+      </header>
+      <ol class="journey__steps">
+        <li data-reveal-item><span class="journey__number">01</span><div><h3><span lang="en">Choose your tea base</span><span lang="zh">选一款茶底</span></h3><p><span lang="en">Start with one of eight loose leaf teas, then pick your fruit, milk or cheese foam and set your sweetness and ice.</span><span lang="zh">从八款现泡原叶茶底开始，搭配鲜果、鲜奶或芝士奶盖，再调好甜度与冰量。</span></p></div></li>
+        <li data-reveal-item><span class="journey__number">02</span><div><h3><span lang="en">Order online for pickup</span><span lang="zh">在线点单自取</span></h3><p><span lang="en">Place your pickup order on Chowbus and we will brew and shake it fresh for your arrival.</span><span lang="zh">在 Chowbus 在线点单，我们会在你到店前新鲜现做。</span></p></div></li>
+        <li data-reveal-item><span class="journey__number">03</span><div><h3><span lang="en">Pick up by the harbor or stay for the view</span><span lang="zh">从海滨入口取餐，或留下看海</span></h3><p><span lang="en">Use the waterfront entrance at 99 Sumner Street, grab a patio table and watch Boston across the water.</span><span lang="zh">从 99 Sumner Street 海滨入口进店，在露台找个位子，看波士顿在港湾对岸流动。</span></p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TEA BASES (8 Tea Explorer with elastic transition) -->
   <section id="teas" class="teas" aria-labelledby="teas-title">
     <div class="wrap">
       <header class="section-head">
+        <p class="section-kicker"><span lang="en">Eight loose leaf foundations</span><span lang="zh">八款现泡原叶茶底</span></p>
         <h2 id="teas-title" class="section-title">
           <span lang="en">Start with the tea</span><span lang="zh">一切从茶底开始</span>
         </h2>
         <p class="section-sub">
-          <span lang="en">Eight loose-leaf teas from across East Asia, picked after many rounds of tasting and brewed fresh every day. Every drink on the menu is built on one of them.</span>
+          <span lang="en">Eight loose leaf teas from across East Asia, selected through repeated tastings and brewed fresh every day. Every drink begins with one of them.</span>
           <span lang="zh">八款原叶茶，来自东亚各产区，经过多轮试饮挑选，每天现泡。菜单上每一杯都从其中一款开始。</span>
         </p>
       </header>
@@ -147,16 +306,23 @@
         <div class="tea-stage" role="tabpanel" data-tea-panel tabindex="0">
           <div class="tea-stage__cup">
             <span class="tea-stage__splash" aria-hidden="true"></span>
-            <img data-tea-img src="" alt="" width="700" height="700">
+            <img data-tea-img src="assets/img/tea/bubble-milk-tea.png" alt="House Milk Tea Blend in a Tea By The Sea cup" width="700" height="700">
           </div>
-          <div class="tea-stage__info">
+          <div class="tea-stage__info" data-tea-info>
+            <span class="tea-stage__badge" data-tea-badge><span lang="en">Base 01 / 08</span><span lang="zh">茶底 01 / 08</span></span>
             <h3 class="tea-stage__name" data-tea-name></h3>
             <p class="tea-stage__zh" data-tea-zh></p>
             <p class="tea-stage__desc" data-tea-desc></p>
             <dl class="tea-meters">
-              <div><dt><span lang="en">Flavor notes</span><span lang="zh">香气</span></dt><dd data-tea-notes></dd></div>
-              <div><dt><span lang="en">Roast</span><span lang="zh">焙火程度</span></dt><dd class="meter meter--roast" data-tea-roast></dd></div>
-              <div><dt><span lang="en">Fermentation</span><span lang="zh">发酵程度</span></dt><dd class="meter meter--ferment" data-tea-ferment></dd></div>
+              <div><dt><span lang="en">Flavor notes</span><span lang="zh">香气风味</span></dt><dd data-tea-notes></dd></div>
+              <div>
+                <dt><span lang="en">Roast level</span><span lang="zh">焙火程度</span></dt>
+                <dd><div class="meter meter--roast" data-tea-roast></div><div class="meter-bar"><span class="meter-bar__fill" data-tea-roast-bar></span></div></dd>
+              </div>
+              <div>
+                <dt><span lang="en">Fermentation</span><span lang="zh">发酵程度</span></dt>
+                <dd><div class="meter meter--ferment" data-tea-ferment></div><div class="meter-bar"><span class="meter-bar__fill" data-tea-ferment-bar></span></div></dd>
+              </div>
             </dl>
           </div>
         </div>
@@ -168,9 +334,12 @@
   <section class="favs" aria-labelledby="favs-title">
     <div class="wrap">
       <header class="section-head section-head--row">
-        <h2 id="favs-title" class="section-title">
-          <span lang="en">What people order</span><span lang="zh">大家都在点</span>
-        </h2>
+        <div>
+          <p class="section-kicker"><span lang="en">Customer favorites</span><span lang="zh">人气必点</span></p>
+          <h2 id="favs-title" class="section-title">
+            <span lang="en">What people order</span><span lang="zh">大家都在点</span>
+          </h2>
+        </div>
         <a class="link-squiggle" href="menu.html">
           <span lang="en">Full menu &amp; prices</span><span lang="zh">完整菜单和价格</span>
         </a>
@@ -188,33 +357,42 @@
   <section id="deck" class="deck" aria-labelledby="deck-title">
     <div class="wrap deck__grid">
       <div class="deck__copy">
+        <p class="section-kicker"><span lang="en">The harbor view</span><span lang="zh">港湾海景</span></p>
         <h2 id="deck-title" class="section-title">
-          <span lang="en">A front‑row seat to the skyline</span><span lang="zh">坐在天际线的第一排</span>
+          <span lang="en">A front row seat to the skyline</span><span lang="zh">坐在天际线的第一排</span>
         </h2>
         <p>
           <span lang="en">Our lounge and patio sit right on the harbor, facing downtown Boston. Come for a drink, stay for the sunset. The waterfront patio is open all year, and of course there are seasonal drinks.</span>
           <span lang="zh">店里的休息区和户外露台就在港湾边，正对波士顿市中心。来喝一杯，顺便看个日落。海边露台全年开放，当然还有季节限定饮品。</span>
         </p>
         <p>
-          <span lang="en">Tea By The Sea was founded by people from tea-drinking families and cultures. Whether you've had a hundred bubble teas or this is your first, we hope there's something here for you.</span>
+          <span lang="en">Tea By The Sea was founded by people from families rooted in tea culture. Whether you have had a hundred bubble teas or this is your first, we hope there is something here for you.</span>
           <span lang="zh">Tea By The Sea 的创始人来自喝茶长大的家庭。无论你是奶茶老手（希望这里能有一点家的感觉）还是第一次尝试，都希望你能在这里找到喜欢的那一杯。</span>
         </p>
       </div>
       <div class="collage">
-        <figure class="snap snap--a">
-          <img src="assets/img/store/drinks-skyline.jpg" alt="Five fruit teas lined up on the railing with the Boston skyline behind" loading="lazy" width="1707" height="1280">
+        <figure class="snap snap--a" data-parallax="0.08">
+          <div class="photo-shell">
+            <img src="assets/img/store/drinks-skyline.jpg" alt="Five fruit teas lined up on the railing with the Boston skyline behind" loading="lazy" width="1707" height="1280">
+          </div>
           <figcaption><span lang="en">fruit teas on the railing</span><span lang="zh">栏杆上的水果茶</span></figcaption>
         </figure>
-        <figure class="snap snap--b">
-          <img src="assets/img/store/sunset-skyline.jpg" alt="Sunset over the Boston skyline seen from the harbor" loading="lazy" width="1200" height="900">
+        <figure class="snap snap--b" data-parallax="-0.06">
+          <div class="photo-shell">
+            <img src="assets/img/store/sunset-skyline.jpg" alt="Sunset over the Boston skyline seen from the harbor" loading="lazy" width="1200" height="900">
+          </div>
           <figcaption><span lang="en">sunsets like this</span><span lang="zh">这样的日落</span></figcaption>
         </figure>
-        <figure class="snap snap--c">
-          <img src="assets/img/store/cherry-blossom.jpg" alt="Cherry blossoms along the waterfront park in spring" loading="lazy" width="1200" height="1601">
+        <figure class="snap snap--c" data-parallax="0.1">
+          <div class="photo-shell">
+            <img src="assets/img/store/cherry-blossom.jpg" alt="Cherry blossoms along the waterfront park in spring" loading="lazy" width="1200" height="1601">
+          </div>
           <figcaption><span lang="en">spring on the harborwalk</span><span lang="zh">春天的海滨步道</span></figcaption>
         </figure>
-        <figure class="snap snap--d">
-          <img src="assets/img/store/lounge.jpg" alt="The lounge inside Tea By The Sea with sofas and harbor windows" loading="lazy" width="1200" height="900">
+        <figure class="snap snap--d" data-parallax="-0.08">
+          <div class="photo-shell">
+            <img src="assets/img/store/lounge.jpg" alt="The lounge inside Tea By The Sea with sofas and harbor windows" loading="lazy" width="1200" height="900">
+          </div>
           <figcaption><span lang="en">the lounge</span><span lang="zh">店内休息区</span></figcaption>
         </figure>
       </div>
@@ -225,6 +403,7 @@
   <section class="press" aria-labelledby="press-title">
     <div class="wrap press__grid">
       <div>
+        <p class="section-kicker"><span lang="en">Press &amp; community</span><span lang="zh">媒体推荐与口碑</span></p>
         <h2 id="press-title" class="press__title">
           <span lang="en">Recommended by The New York Times</span><span lang="zh">《纽约时报》推荐</span>
         </h2>
@@ -234,22 +413,29 @@
         </p>
         <p class="press__reviews">
           <span lang="en">Like us? Leave a review on</span><span lang="zh">喜欢的话，欢迎在这里留个评价：</span>
-          <a data-review="google" href="#">Google</a>,
+          <a data-review="google" href="https://www.google.com/maps/search/?api=1&amp;query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128" target="_blank" rel="noopener">Google</a>,
           <a href="https://www.yelp.com/biz/teabythesea-boston" target="_blank" rel="noopener">Yelp</a>,
           <a href="https://www.tripadvisor.com/Restaurant_Review-g60745-d28054986-Reviews-Tea_By_The_Sea-Boston_Massachusetts.html" target="_blank" rel="noopener">Tripadvisor</a>
         </p>
       </div>
-      <img class="press__img" src="assets/img/store/nyt-feature.png" loading="lazy" width="2000" height="941"
-           alt="Clipping of The New York Times 36 Hours in Boston feature mentioning Tea By The Sea">
+      <div class="press__frame" data-parallax="0.06">
+        <img class="press__img" src="assets/img/store/nyt-feature.png" loading="lazy" width="2000" height="941"
+             alt="Clipping of The New York Times 36 Hours in Boston feature mentioning Tea By The Sea">
+      </div>
     </div>
   </section>
 
   <!-- SPACE RENTAL -->
   <section id="space" class="space" aria-labelledby="space-title">
     <div class="wrap space__grid">
-      <img class="space__img" src="assets/img/store/interior-hall.jpg" loading="lazy" width="1200" height="900"
-           alt="The open interior of Tea By The Sea with the order counter and harbor windows">
+      <div class="space__media" data-parallax="0.07">
+        <div class="photo-shell">
+          <img class="space__img" src="assets/img/store/interior-hall.jpg" loading="lazy" width="1200" height="900"
+               alt="The open interior of Tea By The Sea with the order counter and harbor windows">
+        </div>
+      </div>
       <div class="space__copy">
+        <p class="section-kicker"><span lang="en">Events &amp; catering</span><span lang="zh">场地预约与外送</span></p>
         <h2 id="space-title" class="section-title">
           <span lang="en">Host your thing here</span><span lang="zh">来这里办活动</span>
         </h2>
@@ -258,12 +444,31 @@
           <span lang="zh">生日会、室内比赛、社团聚会、校友重聚、小型工作坊，或者只是一大群朋友聚一聚。空间自带海景，饮品管够。</span>
         </p>
         <p>
-          <span lang="en">We cater, too.</span><span lang="zh">也承接饮品外送订餐（Catering）。</span>
+          <span lang="en">We cater, too. Tell us your date and group size below, or email us directly.</span><span lang="zh">也承接饮品外送订餐（Catering）。在下方填写活动日期与人数即可发起邮件咨询。</span>
         </p>
-        <a class="btn btn--primary" data-email-space href="#">
-          <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
-          <span lang="en">Email us about your event</span><span lang="zh">发邮件咨询场地</span>
-        </a>
+
+        <form class="event-form" data-event-form novalidate>
+          <div class="event-form__row">
+            <label class="event-form__field">
+              <span><span lang="en">Your email</span><span lang="zh">联系邮箱</span></span>
+              <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+            </label>
+            <label class="event-form__field">
+              <span><span lang="en">Date &amp; group size</span><span lang="zh">日期与大致人数</span></span>
+              <input type="text" name="details" required placeholder="May 18 · 25 guests">
+            </label>
+          </div>
+          <p class="event-form__feedback" data-event-feedback hidden aria-live="polite"></p>
+          <div class="event-form__actions">
+            <button class="btn btn--primary" type="submit">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span lang="en">Draft event inquiry</span><span lang="zh">生成咨询邮件</span>
+            </button>
+            <a class="text-link" data-email-space href="mailto:teabythesea.boston@gmail.com?subject=Event%20%2F%20space%20rental%20inquiry">
+              <span lang="en">Email directly</span><span lang="zh">直接发邮件</span>
+            </a>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -272,6 +477,7 @@
   <section id="visit" class="visit" aria-labelledby="visit-title">
     <div class="wrap visit__grid">
       <div class="visit__info">
+        <p class="section-kicker"><span lang="en">East Boston waterfront</span><span lang="zh">东波士顿海滨</span></p>
         <h2 id="visit-title" class="section-title">
           <span lang="en">Come find us</span><span lang="zh">来店里坐坐</span>
         </h2>
@@ -279,16 +485,19 @@
           <li>
             <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
             <div>
-              <a data-map-link href="#" target="_blank" rel="noopener" data-address></a>
+              <a data-map-link href="https://www.google.com/maps/search/?api=1&amp;query=Tea+By+The+Sea+99+Sumner+St+East+Boston+MA+02128" target="_blank" rel="noopener" data-address>
+                <span lang="en">Waterfront Entrance at<br>99 Sumner Street<br>East Boston, MA 02128</span>
+                <span lang="zh">海滨入口<br>99 Sumner Street<br>East Boston, MA 02128</span>
+              </a>
             </div>
           </li>
           <li>
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            <a data-phone href="#"></a>
+            <a data-phone href="tel:+15086857127">508-685-7127</a>
           </li>
           <li>
             <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
-            <a data-email href="#"></a>
+            <a data-email href="mailto:teabythesea.boston@gmail.com">teabythesea.boston@gmail.com</a>
           </li>
         </ul>
         <h3 class="hours-title">
@@ -307,6 +516,36 @@
       </div>
     </div>
   </section>
+
+  <!-- FAQ -->
+  <section class="faq" aria-labelledby="faq-title" data-reveal-section>
+    <div class="wrap faq__grid">
+      <header class="section-head">
+        <p class="section-kicker"><span lang="en">Before you visit</span><span lang="zh">到店之前</span></p>
+        <h2 id="faq-title" class="section-title"><span lang="en">Good to know.</span><span lang="zh">你可能想知道。</span></h2>
+        <p class="section-sub"><span lang="en">The useful details on hours, entrance, drink customization and private events.</span><span lang="zh">关于营业时间、海滨入口、甜度冰量与包场外送的常见问题。</span></p>
+      </header>
+      <div class="faq__list">
+        <details open data-reveal-item><summary><span lang="en">When are you open?</span><span lang="zh">营业时间是什么？</span></summary><p><span lang="en">We are open every day from 11am to 9pm, all year round.</span><span lang="zh">全年每天 11:00 至 21:00 营业。</span></p></details>
+        <details data-reveal-item><summary><span lang="en">Which entrance should I use?</span><span lang="zh">应该从哪个入口进店？</span></summary><p><span lang="en">Use the waterfront entrance at 99 Sumner Street facing the harborwalk. The map above points right to the building.</span><span lang="zh">请走 99 Sumner Street 朝向海滨步道一侧的入口，上方地图可直接导航。</span></p></details>
+        <details data-reveal-item><summary><span lang="en">Can I change the sweetness and ice?</span><span lang="zh">可以调整甜度和冰量吗？</span></summary><p><span lang="en">Yes. Sweetness and ice levels are adjustable on every drink when you order online or at the counter.</span><span lang="zh">可以，在线点单或到店点单时，每杯饮品都能自由调整甜度和冰量。</span></p></details>
+        <details data-reveal-item><summary><span lang="en">Do you make warm drinks?</span><span lang="zh">有温饮或热饮吗？</span></summary><p><span lang="en">Most milk teas, pure teas, taro drinks and coffees can be made warm or hot. Select your temperature when ordering.</span><span lang="zh">大部分奶茶、纯茶、芋泥和咖啡系列都可以做温饮或热饮，点单时选择温度即可。</span></p></details>
+        <details data-reveal-item><summary><span lang="en">Can I host an event here?</span><span lang="zh">可以在店里办活动吗？</span></summary><p><span lang="en">Yes. We welcome birthdays, meetups, workshops and group gatherings with harbor views. Use the inquiry form above to share your date and headcount.</span><span lang="zh">可以。生日、社团聚会、工作坊和团体包场都欢迎，可通过上方表单或邮件告知日期和人数。</span></p></details>
+        <details data-reveal-item><summary><span lang="en">Do you offer catering?</span><span lang="zh">提供饮品外送订餐（Catering）吗？</span></summary><p><span lang="en">Yes. Email us with your event details, delivery time and the drinks you have in mind.</span><span lang="zh">提供。请发邮件告诉我们活动时间、人数和想预订的饮品。</span></p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta" aria-labelledby="final-cta-title" data-reveal-section>
+    <div class="wrap final-cta__inner">
+      <div>
+        <p class="section-kicker"><span lang="en">Tea is brewing</span><span lang="zh">茶已经在泡了</span></p>
+        <h2 id="final-cta-title"><span lang="en">Your next harbor break starts here.</span><span lang="zh">下一次海边休息，从这一杯开始。</span></h2>
+      </div>
+      <a class="btn btn--primary" data-order href="https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845" target="_blank" rel="noopener"><span lang="en">Order for pickup</span><span lang="zh">在线点单自取</span></a>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -317,24 +556,25 @@
     </div>
     <div>
       <h2 class="site-footer__head"><span lang="en">Visit</span><span lang="zh">地址</span></h2>
-      <p data-address-plain></p>
+      <p data-address-plain>99 Sumner Street<br>East Boston, MA 02128</p>
       <p><span lang="en">Daily 11am – 9pm</span><span lang="zh">每天 11:00 – 21:00</span></p>
     </div>
     <div>
       <h2 class="site-footer__head"><span lang="en">Say hi</span><span lang="zh">联系我们</span></h2>
-      <p><a data-phone href="#"></a></p>
-      <p><a data-email href="#"></a></p>
+      <p><a data-phone href="tel:+15086857127">508-685-7127</a></p>
+      <p><a data-email href="mailto:teabythesea.boston@gmail.com">teabythesea.boston@gmail.com</a></p>
     </div>
     <div>
       <h2 class="site-footer__head"><span lang="en">Follow along</span><span lang="zh">关注我们</span></h2>
       <p class="socials">
-        <a data-instagram href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
-        <a data-xhs href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span lang="en">RedNote</span><span lang="zh">小红书</span></a>
+        <a data-instagram href="https://www.instagram.com/teabythesea.boston/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+        <a data-xhs href="https://www.xiaohongshu.com/user/profile/5f7b970400000000010079cd" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span lang="en">RedNote</span><span lang="zh">小红书</span></a>
       </p>
     </div>
   </div>
   <div class="wrap site-footer__legal">
-    <p>© <span data-year></span> Tea By The Sea</p>
+    <p>© <span data-year>2026</span> Tea By The Sea</p>
+    <p class="site-footer__policies"><a href="privacy.html"><span lang="en">Privacy</span><span lang="zh">隐私</span></a><a href="terms.html"><span lang="en">Terms</span><span lang="zh">条款</span></a></p>
     <p>
       <a lang="en" href="https://www.overseasstudentsservices.com/" target="_blank" rel="noopener">Overseas Student Service Corp.</a>
       <a lang="zh" href="https://www.overseasstudent.com/" target="_blank" rel="noopener">留学生网 · Overseas Student Service Corp.</a>
@@ -343,6 +583,6 @@
 </footer>
 
 <script src="js/data.js"></script>
-<script src="js/main.js?v=20261025-3"></script>
+<script src="js/main.js?v=redesign-2"></script>
 </body>
 </html>

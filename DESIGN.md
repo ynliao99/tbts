@@ -1,57 +1,28 @@
-# Tea By The Sea — 官网重做设计说明
+# Tea By The Sea — 官网重做设计说明（`landing-page-design` + `design-to-motion`）
 
-## 1. 调研：可用于指导设计的 skill / 方法
+## 1. 设计技能与字体保留说明
 
 | 来源 | 内容 | 本项目怎么用 |
 | --- | --- | --- |
-| [anthropics/skills · frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) | 官方前端设计 skill：先从题材本身找视觉语言；先做 token 计划（色/字/版式/原则）再对照"AI 默认风格"自查；"大胆只花在一个地方"；不加无意义的编号、全大写小标签、每个 section 都淡入 | 主方法论。下面第 2 节就是按它的两步法写的计划 |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 在 frontend-design 基础上扩展的 24 个命令（shape / critique / audit / delight / polish …）+ 62 条反模式检测规则 | 借用其反模式清单：不用 Inter/系统默认字体、不用灰字压彩底、不嵌套卡片、不用弹跳缓动；用 audit 思路做可访问性与响应式自检 |
-| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | "反模板" skill，强调先定艺术方向、用真实图片、在真实浏览器里截图自检 | 用店铺真实照片，不用图库；每轮都用 Playwright 截图桌面/手机复查 |
-| 参考站 [heytea.com](https://www.heytea.com) | 黑色单线手绘插画 + 大量留白 + 手写感英文字体 | 保留"单线手绘 + 留白"，但换成品牌钴蓝线条，并加入色块、动效和可交互的东西，让它更活泼 |
+| [`elayadesign/ai-design-skills` · `landing-page-design`](https://github.com/elayadesign/ai-design-skills) | 着陆页信息架构、单一主转化入口、强制逐词点亮标语段（B11）、间距与字号尺度、嵌套圆角公式、浮动岛屿导航与全屏移动端菜单 | 重构页面结构、转化层级、间距/圆角尺度与滚动入场动效 |
+| [`elayadesign/ai-design-skills` · `design-to-motion`](https://github.com/elayadesign/ai-design-skills) | Website 模式下的卡片分层加载（`card`/`photo`/`wipe`）与离屏暂停的视觉故事循环（B4） | 为三大核心收益 Bento 卡片增加实时故事循环、图片骨架屏柔焦显现与进度擦除动画 |
+| 保留活泼可爱字体（用户指定优先） | `Shantell Sans`（可变字体，含 `INFM` 随意度与 `BNCE` 弹跳轴）+ `ZCOOL KuaiLe` 站酷快乐体 + `Outfit` 正文 | 保留手绘活泼可爱的标题、注释与茶底字形，并利用 `BNCE`/`INFM` 可变字体轴在悬停与逐词点亮时产生弹性跳动感 |
 
-没有找到专门针对餐饮/奶茶店的 skill；通用做法是用 frontend-design 的流程，把店铺自己的题材（海边、波士顿天际线、茶底风味）作为视觉来源。
+## 2. 页面结构与动效层次
 
-## 2. 设计计划（token system）
-
-**题材**：东波士顿海边的茶饮店，正对波士顿天际线，有户外平台；中英双语客群（留学生/华人 + 本地人）。
-**页面主要任务**：让人想来（风景）→ 知道喝什么（菜单/茶底）→ 去下单或到店（Chowbus / 地址营业时间）。
-
-### 色彩
-| token | hex | 来源 |
-| --- | --- | --- |
-| `--cobalt` | `#0033A0` | 店内招牌、杯套的钴蓝 |
-| `--navy` | `#184283` | logo 字色，用于正文 |
-| `--foam` | `#EEF3FF` | 浅海雾蓝，替代奶油色背景 |
-| `--peach` | `#FF8F6B` | 菜单里的白桃/日落色，作为第二强调色 |
-| `--mango` | `#FFC83D` | 芒果/太阳，只用于小面积点缀（太阳、徽章） |
-| `--matcha` | `#8CC36B` | 茶叶图标 |
-
-### 字体
-- **Shantell Sans**（可变字体，有 `INFM` 随意度、`BNCE` 跳动轴）：标题与手写注释。手绘感但比喜茶那种更圆润活泼；hover 时把 BNCE 轴调高，字会"跳"起来。
-- **Outfit**：正文，几何无衬线，呼应 logo 的几何字形。
-- **ZCOOL KuaiLe 站酷快乐体**：中文标题；中文正文走系统 PingFang / Noto Sans SC。
-
-### 版式
-```
-┌ header: logo · 菜单 茶底 风景 到店 · EN/中 · [Order Online] ┐
-│ HERO  左：手写大标题 + 一句话 + 下单按钮      右：真实照片(手握杯子对着海) │
-│       底部：手绘波士顿天际线 + 循环波浪 + 漂在海上的杯子吉祥物、海鸥     │
-├ 茶底 8 款：左侧杯子大图，右侧风味/焙火🔥/发酵🍃 手绘刻度，点选切换 ┤
-├ 人气饮品：贴纸式照片（微倾斜 + 粗蓝描边），分类 chips 过滤 → 完整菜单页 ┤
-├ 风景：拍立得拼贴 + 手写注释 ；NYT 推荐 ┤
-├ 到店：地址/营业时间(实时显示是否营业)/地图 ；场地租赁 ┤
-└ footer：波浪顶边 + 社交 ┘
-```
-左对齐为主；手写注释和箭头允许打破网格。
-
-### 原则
-1. **大胆只花在一个地方**：首屏"海 + 天际线 + 漂浮杯子"是唯一的自动动画场景；其余动效都由用户触发（切换茶底、hover 贴纸、切换语言）。
-2. **线条都是一支笔画的**：所有插画统一 2.5px 钴蓝线 + SVG 抖动滤镜，形成手绘感；颜色以错位色块（像 risograph 套印）点缀，而不是渐变。
-3. **数据是真的**：菜单、价格、茶底风味全部来自现有官网和 Chowbus，集中在 `js/data.js`，方便以后改价。
-4. **中英双语一键切换**，菜品名始终中英并列（与店内菜单一致）。
-
-### 对照"AI 默认风格"自查后的修改
-- 原想用奶油底 + 衬线大标题 → 改成海雾蓝白底 + 手写体，贴合"海边"和喜茶参照。
-- 原想把菜单做成等高圆角卡片网格 → 改成倾斜贴纸 + 粗描边，卡片大小随图片比例。
-- 去掉了 section 上方的全大写小标签和 01/02/03 编号（内容不是序列）。
-- 风味刻度不用进度条，用手绘小火焰/叶子图标。
+1. **浮动玻璃岛屿导航（`.site-header`）**：顶部悬浮药丸导航，支持当前阅读区块高亮（`IntersectionObserver` scroll-spy）、中英双语切换，移动端汉堡按钮纯 GPU `transform` 旋转为 `X` 并展开全屏毛玻璃菜单。
+2. **单一主转化首屏（`.hero`）**：
+   - 主标题：`Real tea. Harbor air. Boston in view.` / `真茶现泡。海风作伴。波士顿就在眼前。`
+   - 唯一主按钮：`Order for pickup`，菜单降为文字链接 `Browse the full menu`。
+   - 动效：首屏文案与图片分层入场、照片 3D 鼠标微倾与滚动轻微视差、天际线海浪与海鸥动效、可点击互动的波霸杯吉祥物。
+3. **滚动逐词点亮品牌标语（`.tagline`，B11 强制模块）**：基于 `IntersectionObserver` 逐词检测触发线，按阅读顺序逐词点亮并触发可变字体 `BNCE` 弹性跃动。
+4. **三大核心收益 Bento 区块（`.benefits`，`design-to-motion` Website 模式）**：
+   - 每日现泡原叶茶：小锅现泡温度与香气标签循环 + 萃取度进度条动态擦除。
+   - 甜度冰量随心调：甜度与冰量/温热胶囊自动巡检切换 + 杯型摘要实时同步。
+   - 全年海景露台：港湾航线虚线路径与渡轮圆点往返轨迹动画。
+   - 离开视口自动暂停 `requestAnimationFrame` 时钟，兼顾移动端性能。
+5. **三步到店体验（`.journey`）**：选茶底 → 在线点单 → 海滨入口取餐或看海。
+6. **八款茶底探索器（`#teas`）**：切换茶底时触发杯身弹性倾倒过渡（`--spring`）、背景有机色块形变、风味信息分层上浮，以及焙火🔥/发酵🍃图标与进度条同步擦除。
+7. **人气饮品（`.favs`）**：分类切换触发贴纸卡片错峰入场，图片带骨架屏柔焦加载过渡。
+8. **海景露台（`#deck`）、《纽约时报》背书（`.press`）、活动场地预约（`#space`，含前端邮箱与必填项校验）、到店信息（`#visit`）、6 项常见问题（`.faq`）、底部点单召唤（`.final-cta`）与精简页脚（含 `privacy.html`、`terms.html`、`404.html`）**。
+9. **无障碍与性能**：全站动效仅操作 `transform`、`opacity`、`filter`，完整支持 `prefers-reduced-motion: reduce`。
