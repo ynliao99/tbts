@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=Shantell+Sans:ital,wght,BNCE,INFM@0,300..800,-100..100,0..100;1,300..800,-100..100,0..100&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=redesign-3">
+  <link rel="stylesheet" href="css/style.css?v=redesign-4">
 </head>
 <body>
 <svg class="sprite" aria-hidden="true">
@@ -276,14 +276,16 @@
 
   <!-- HOW IT WORKS (3-Step Visit Experience) -->
   <section class="journey" aria-labelledby="journey-title" data-reveal-section>
-    <div class="wrap journey__grid">
-      <div class="journey__intro">
-        <header class="section-head">
+    <div class="wrap journey__layout">
+      <header class="section-head journey__head">
+        <div>
           <p class="section-kicker"><span lang="en">Your waterfront tea break</span><span lang="zh">你的海滨喝茶路线</span></p>
           <h2 id="journey-title" class="section-title"><span lang="en">Three simple steps to a better afternoon.</span><span lang="zh">三步，把普通下午变成海边时光。</span></h2>
           <p class="section-sub"><span lang="en">Order ahead so your cup is waiting when you reach the harborwalk.</span><span lang="zh">提前在线下单，走到海边就能直接拿上刚泡好的那一杯。</span></p>
-          <a class="btn btn--ghost journey__order" data-order href="https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845" target="_blank" rel="noopener"><span lang="en">Order now</span><span lang="zh">立即点单</span></a>
-        </header>
+        </div>
+        <a class="btn btn--ghost journey__order" data-order href="https://pos.chowbus.com/online-ordering/store/Tea-by-the-Sea/13845" target="_blank" rel="noopener"><span lang="en">Order now</span><span lang="zh">立即点单</span></a>
+      </header>
+      <div class="journey__body">
         <figure class="journey__photo" data-reveal-item>
           <picture>
             <source srcset="assets/img/store/pickup-four-refined.webp" type="image/webp">
@@ -291,12 +293,12 @@
           </picture>
           <figcaption><span lang="en">made fresh, packed for the harbor</span><span lang="zh">新鲜现做，拎去海边</span></figcaption>
         </figure>
+        <ol class="journey__steps">
+          <li data-reveal-item><span class="journey__number">01</span><div><h3><span lang="en">Choose your tea base</span><span lang="zh">选一款茶底</span></h3><p><span lang="en">Start with one of eight loose leaf teas, then pick your fruit, milk or cheese foam and set your sweetness and ice.</span><span lang="zh">从八款现泡原叶茶底开始，搭配鲜果、鲜奶或芝士奶盖，再调好甜度与冰量。</span></p></div></li>
+          <li data-reveal-item><span class="journey__number">02</span><div><h3><span lang="en">Order online for pickup</span><span lang="zh">在线点单自取</span></h3><p><span lang="en">Place your pickup order ahead and we will brew and shake it fresh for your arrival.</span><span lang="zh">提前在线下单，我们会在你到店前新鲜现做。</span></p></div></li>
+          <li data-reveal-item><span class="journey__number">03</span><div><h3><span lang="en">Pick up by the harbor or stay for the view</span><span lang="zh">从海滨入口取餐，或留下看海</span></h3><p><span lang="en">Use the waterfront entrance at 99 Sumner Street, grab a patio table and watch Boston across the water.</span><span lang="zh">从 99 Sumner Street 海滨入口进店，在露台找个位子，看波士顿在港湾对岸流动。</span></p></div></li>
+        </ol>
       </div>
-      <ol class="journey__steps">
-        <li data-reveal-item><span class="journey__number">01</span><div><h3><span lang="en">Choose your tea base</span><span lang="zh">选一款茶底</span></h3><p><span lang="en">Start with one of eight loose leaf teas, then pick your fruit, milk or cheese foam and set your sweetness and ice.</span><span lang="zh">从八款现泡原叶茶底开始，搭配鲜果、鲜奶或芝士奶盖，再调好甜度与冰量。</span></p></div></li>
-        <li data-reveal-item><span class="journey__number">02</span><div><h3><span lang="en">Order online for pickup</span><span lang="zh">在线点单自取</span></h3><p><span lang="en">Place your pickup order ahead and we will brew and shake it fresh for your arrival.</span><span lang="zh">提前在线下单，我们会在你到店前新鲜现做。</span></p></div></li>
-        <li data-reveal-item><span class="journey__number">03</span><div><h3><span lang="en">Pick up by the harbor or stay for the view</span><span lang="zh">从海滨入口取餐，或留下看海</span></h3><p><span lang="en">Use the waterfront entrance at 99 Sumner Street, grab a patio table and watch Boston across the water.</span><span lang="zh">从 99 Sumner Street 海滨入口进店，在露台找个位子，看波士顿在港湾对岸流动。</span></p></div></li>
-      </ol>
     </div>
   </section>
 
