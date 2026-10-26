@@ -1875,8 +1875,6 @@ html.is-ready .scene {
   line-height: 18px;
   font-weight: 600;
 }
-  color: var(--ink-soft);
-}
 
 .event-form {
   margin-top: 24px;
@@ -1884,13 +1882,14 @@ html.is-ready .scene {
   border: 2px solid var(--cobalt);
   border-radius: var(--radius-xl);
   background: var(--foam);
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 .event-form__row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 16px;
 }
 .event-form__field {
   display: grid;
@@ -1940,6 +1939,7 @@ html.is-ready .scene {
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
+  margin-top: 4px;
 }
 
 /* ---------- Visit & Hours ---------- */
