@@ -11,7 +11,7 @@ const content = useContent();
 
 <template>
   <li class="sticker" :class="{ 'is-soldout': item.soldOut }" :style="{ '--sticker-index': index }">
-    <a class="sticker__link" :href="item.orderUrl || content.store.links.order" target="_blank" rel="noopener" :aria-label="`${item.name.en} ${item.price} · Order on Chowbus`">
+    <a class="sticker__link" :href="item.orderUrl || content.store.links.order" target="_blank" rel="noopener" :aria-disabled="item.soldOut || undefined" :tabindex="item.soldOut ? -1 : undefined" :aria-label="`${item.name.en} ${item.price} · Order on Chowbus`">
     <div class="sticker__img">
       <div class="photo-shell">
         <OssImage v-if="item.image" :media="item.image" :alt="item.name.en" :w="720" :h="900" sizes="(max-width: 40rem) 46vw, (max-width: 60rem) 30vw, 22vw" :widths="[360, 720]" />

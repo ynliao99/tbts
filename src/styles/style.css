@@ -3179,10 +3179,23 @@ a.menu-row {
 a.menu-row:hover .menu-row__name,
 a.menu-row:focus-visible .menu-row__name { color: var(--cobalt); text-decoration: underline; text-underline-offset: 3px; }
 
-/* 售罄的商品照常列出，整体置灰（标签本身不灰） */
-.sticker.is-soldout .photo-shell,
-.sticker.is-soldout .sticker__price { filter: grayscale(1); opacity: .55; }
+/* 售罄的商品照常列出，做成禁用态：图片蒙一层白、文字变淡、不能点也没有悬停效果 */
+.sticker.is-soldout,
+.menu-list li:has(> a.menu-row.is-soldout) { cursor: not-allowed; }
+.sticker.is-soldout .sticker__link,
+a.menu-row.is-soldout { pointer-events: none; }
+.sticker.is-soldout .sticker__img,
+.sticker.is-soldout:hover .sticker__img { transform: rotate(var(--tilt)); box-shadow: 6px 6px 0 var(--cobalt-soft); }
+.sticker.is-soldout:hover .sticker__img img { transform: none; }
+.sticker.is-soldout .sticker__img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(255 255 255 / 0.6);
+  pointer-events: none;
+}
+.sticker.is-soldout .sticker__soldout { z-index: 1; }
 .sticker.is-soldout .sticker__name,
 .sticker.is-soldout .sticker__zh,
-.sticker.is-soldout .sticker__desc { opacity: .55; }
+.sticker.is-soldout .sticker__desc,
 a.menu-row.is-soldout > span { opacity: .5; }
