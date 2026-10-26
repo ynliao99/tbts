@@ -2825,22 +2825,30 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .visit__apps { display: none; }
   .signature { padding: 64px 0; }
-  .signature__grid { grid-template-columns: 1fr; gap: 16px; }
-  /* 手机上横排：文字在左、饮品在右，三张卡一屏内看完大半 */
+  /* minmax(0, 1fr)：标题长词不会把卡片撑出屏幕（iOS 会因此整页缩放错位） */
+  .signature__grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  /* 手机上：标题占整行，说明和按钮在左、饮品在右下 */
   .signature-card__link {
     min-height: 0;
-    padding: 24px 45% 24px 24px;
+    padding: 24px;
   }
   .signature-card__title { font-size: 44px; }
   .signature-card__title :lang(zh) { font-size: 40px; }
-  .signature-card__desc { font-size: 15px; line-height: 22px; }
+  .signature-card__desc,
+  .signature-card__more { position: relative; z-index: 1; }
+  .signature-card__desc {
+    max-width: 56%;
+    font-size: 15px;
+    line-height: 22px;
+  }
   .signature-card__img {
     position: absolute;
     right: 4px;
     bottom: -12px;
-    width: 42%;
+    width: 44%;
     height: auto;
-    max-height: calc(100% + 4px);
+    max-height: calc(100% - 64px);
+    object-position: right bottom;
     margin: 0;
     padding: 0;
   }
@@ -2858,6 +2866,13 @@ html[data-os="android"] .app-badge--ios { display: none; }
     flex-direction: column;
   }
   .site-footer__legal { grid-template-columns: 1fr; }
+}
+
+/* 窄屏手机（如 320px）：缩小顶栏间距和 logo，菜单按钮不被挤出屏幕 */
+@media (max-width: 24rem) {
+  .site-header__inner { gap: 8px; padding-inline: 8px; }
+  .brand img { width: 40px; height: 40px; }
+  .site-header__actions { gap: 6px; }
 }
 
 @media (max-width: 40rem) {
