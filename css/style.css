@@ -2465,9 +2465,14 @@ html[data-os="android"] .app-badge--ios { display: none; }
   line-height: 28px;
 }
 .menu-hero__wave { display: none; }
+/* 菜单页（所有宽度）：搜索/分类条直接吸顶，顶栏只在它上方出现（main.js），两者不叠在一起 */
+.page-menu .site-header__inner { transition: transform 400ms var(--ease), box-shadow 700ms var(--ease), background-color 700ms var(--ease); }
+.page-menu:not(.nav-open) .site-header.is-hidden .site-header__inner {
+  transform: translateY(calc(-100% - 32px));
+}
 .menu-bar {
   position: sticky;
-  top: 96px;
+  top: 0;
   z-index: 30;
   padding: 16px 0 8px;
   background: rgb(255 255 255 / 0.94);
@@ -2801,8 +2806,6 @@ html[data-os="android"] .app-badge--ios { display: none; }
   body:not(.nav-open) .site-header.is-hidden .site-header__inner {
     transform: translateY(calc(-100% - 24px));
   }
-  /* 菜单页：搜索/分类条直接吸顶；顶栏只在它上方出现（main.js），两者不叠在一起 */
-  .menu-bar { top: 0; }
   /* iOS Safari 状态栏后面也会画页面；菜单页在视口上方垫一块白，滚动的菜品不会从状态栏后透出来 */
   .page-menu::after {
     position: fixed;
