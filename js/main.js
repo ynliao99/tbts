@@ -263,7 +263,10 @@
       });
       const activeTab = $$(".tea-tab", tabs)[i];
       if (activeTab && tabs.scrollWidth > tabs.clientWidth) {
-        activeTab.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+        // Scroll only the tab row; scrollIntoView would also move the page to this section on load.
+        const offset = activeTab.getBoundingClientRect().left - tabs.getBoundingClientRect().left + tabs.scrollLeft;
+        const left = offset - (tabs.clientWidth - activeTab.offsetWidth) / 2;
+        tabs.scrollTo({ left, behavior: animate ? "smooth" : "instant" });
       }
       panel.setAttribute("aria-labelledby", `tea-tab-${t.id}`);
       explorer.style.setProperty("--tint", TINTS[t.id]);
@@ -432,6 +435,12 @@
     if (hashTarget) hashTarget.scrollIntoView({ behavior: "instant" });
 
     const chipFor = (id) => $(`.chip[data-cat="${id}"]`, chips);
+    const scrollChipIntoRow = (chip) => {
+      const l = chip.getBoundingClientRect().left - chips.getBoundingClientRect().left + chips.scrollLeft;
+      const w = chip.offsetWidth;
+      if (l < chips.scrollLeft) chips.scrollTo({ left: l });
+      else if (l + w > chips.scrollLeft + chips.clientWidth) chips.scrollTo({ left: l + w - chips.clientWidth });
+    };
     const spy = new IntersectionObserver(
       (entries) => {
         entries.forEach((en) => {
@@ -440,7 +449,7 @@
           const chip = chipFor(en.target.dataset.cat);
           if (chip) {
             chip.setAttribute("aria-current", "true");
-            chip.scrollIntoView({ block: "nearest", inline: "nearest" });
+            scrollChipIntoRow(chip);
           }
         });
       },
