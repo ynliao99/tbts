@@ -2278,8 +2278,7 @@ html[data-os="android"] .app-badge--ios { display: none; }
 }
 .visit__apps .app-badge img { height: 36px; }
 
-/* 页脚：放在 logo 下方，徽标竖排 */
-.site-footer__app { margin-top: 24px; }
+/* 页脚：宽屏单独一列，中等宽度回到 logo 下方；徽标竖排 */
 .app-badges--footer {
   flex-direction: column;
   align-items: flex-start;
@@ -2300,11 +2299,14 @@ html[data-os="android"] .app-badge--ios { display: none; }
   color: var(--paper);
   text-underline-offset: 4px;
 }
+/* 宽屏一行排完：logo、App、地址、联系、关注各占一列 */
 .site-footer__grid {
   display: grid;
-  grid-template-columns: 0.72fr 1.28fr 1fr 1fr;
+  grid-auto-flow: column;
+  justify-content: space-between;
   gap: 48px;
 }
+.site-footer__grid > :first-child { display: contents; }
 .site-footer__logo {
   width: 96px;
   filter: brightness(0) invert(1);
@@ -2553,15 +2555,17 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .visit__grid { gap: 48px; }
   .stickers { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   /* 三列：logo + App 徽标占左侧两行，右边两列放地址/联系/关注 */
-  /* 中等宽度仍放四列：按内容宽度排开，列间均分剩余空间 */
-  .site-footer__grid {
-    grid-template-columns: repeat(4, auto);
-    justify-content: space-between;
-    gap: 32px;
-  }
 }
 
 @media (max-width: 60rem) {
+  /* 放不下五列时 App 回到 logo 下方，四列按内容宽度排开 */
+  .site-footer__grid {
+    grid-template-columns: repeat(4, auto);
+    grid-auto-flow: row;
+    gap: 32px;
+  }
+  .site-footer__grid > :first-child { display: block; }
+  .site-footer__app { margin-top: 24px; }
   :root { --gutter: 24px; }
   .hero {
     padding-top: 120px;
