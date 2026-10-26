@@ -2553,8 +2553,12 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .visit__grid { gap: 48px; }
   .stickers { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   /* 三列：logo + App 徽标占左侧两行，右边两列放地址/联系/关注 */
-  .site-footer__grid { grid-template-columns: minmax(10rem, 0.8fr) 1fr 1fr; }
-  .site-footer__grid > :first-child { grid-row: span 2; }
+  /* 中等宽度仍放四列：按内容宽度排开，列间均分剩余空间 */
+  .site-footer__grid {
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    gap: 32px;
+  }
 }
 
 @media (max-width: 60rem) {
@@ -2712,7 +2716,6 @@ html[data-os="android"] .app-badge--ios { display: none; }
   .site-header__actions .btn { display: none; }
   .site-header__actions .btn--app { display: inline-flex; }
   .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .site-footer__grid > :first-child { grid-row: auto; }
   .visit__apps { display: none; }
   .hero__title,
   .menu-hero h1 { font-size: 48px; }
