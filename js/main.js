@@ -422,6 +422,9 @@
       .join("");
     function itemZh(it) { return it.zh || ""; }
     bindPhotoShells(menuRoot);
+    // Sections are rendered after load, so jump to a #cat-… link from the homepage by hand.
+    const hashTarget = location.hash.startsWith("#cat-") && document.getElementById(location.hash.slice(1));
+    if (hashTarget) hashTarget.scrollIntoView({ behavior: "instant" });
 
     const chipFor = (id) => $(`.chip[data-cat="${id}"]`, chips);
     const spy = new IntersectionObserver(
