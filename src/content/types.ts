@@ -8,6 +8,8 @@ export interface Tea {
 export interface MenuItem {
   id: number; name: Bi; desc: Bi; price: string; priceCents: number; hasOptions: boolean;
   sizes: { name: Bi; priceCents: number }[]; image: Media | null; tags: string[]; soldOut: boolean;
+  /** 点单链接（Chowbus 没有单品链接，目前就是门店点单页）；为空时用 store.links.order */
+  orderUrl?: string | null;
 }
 export interface MenuCategory { slug: string; name: Bi; shortName: Bi | null; items: MenuItem[] }
 

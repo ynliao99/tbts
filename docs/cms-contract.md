@@ -1,6 +1,6 @@
 # Tea By The Sea CMS 接口与内容契约
 
-版本 1（2026-10-26）。官网（`ynliao99/tbts`）、Vectra 后端（`portal_api`）和 Vectra 前端（`uswoo_portal`）三方以本文为准。要改动，先改这份文档，再改代码。背景和取舍见 [`plan-vue-cms.md`](plan-vue-cms.md)。
+版本 1（2026-10-26；同日补充：招牌卡片 4 张含咖啡，菜品 `orderUrl`）。官网（`ynliao99/tbts`）、Vectra 后端（`portal_api`）和 Vectra 前端（`uswoo_portal`）三方以本文为准。要改动，先改这份文档，再改代码。背景和取舍见 [`plan-vue-cms.md`](plan-vue-cms.md)。
 
 ## 1. 通用约定
 
@@ -80,6 +80,7 @@ interface MenuItem {
   image: Media | null;
   tags: ("new" | "hot" | "seasonal")[];
   soldOut: boolean;
+  orderUrl: string | null;     // 点单链接，新窗口打开。Chowbus 没有单品链接，目前导出为门店点单页；手填商品为 null，官网回退到 store.links.order
 }
 ```
 
@@ -106,7 +107,7 @@ interface MenuItem {
 | block_key | 字段 |
 | --- | --- |
 | `hero` | `eyebrow` text；`title` rich；`lede` textarea；`proof` list[3] { `value` string, `label` text }；`image` image；`caption` text |
-| `signature` | `kicker` text；`title` text；`sub` textarea；`cards` list[3] { `theme` select(boba/smoothie/matcha), `title` text, `desc` textarea, `more` text, `category` categoryRef, `image` image } |
+| `signature` | `kicker` text；`title` text；`sub` textarea；`cards` list[4] { `theme` select(boba/smoothie/matcha/coffee), `title` text, `desc` textarea, `more` text, `category` categoryRef, `image` image } |
 | `tagline` | `kicker` text；`text` textarea |
 | `benefits` | `kicker` text；`title` text；`cards` list[3] { `kicker` text, `title` text, `body` rich } |
 | `journey` | `kicker` text；`title` text；`sub` textarea；`image` image；`caption` text；`steps` list[3] { `title` text, `body` textarea } |

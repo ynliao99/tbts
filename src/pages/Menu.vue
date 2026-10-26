@@ -45,6 +45,15 @@ const scrollChipIntoRow = (chip: HTMLElement) => {
   if (l < row.scrollLeft) row.scrollTo({ left: l });
   else if (l + w > row.scrollLeft + row.clientWidth) row.scrollTo({ left: l + w - row.clientWidth });
 };
+// 桌面：鼠标滚轮在分类条上上下滚动时，改成横向滚动分类条；滚到两头再交还给页面
+const onChipsWheel = (e: WheelEvent) => {
+  const row = chips.value;
+  if (!row || row.scrollWidth <= row.clientWidth || Math.abs(e.deltaX) >= Math.abs(e.deltaY)) return;
+  const max = row.scrollWidth - row.clientWidth;
+  if ((e.deltaY < 0 && row.scrollLeft <= 0) || (e.deltaY > 0 && row.scrollLeft >= max - 1)) return;
+  e.preventDefault();
+  row.scrollLeft += e.deltaMode === 1 ? e.deltaY * 32 : e.deltaY;
+};
 const bind = () => {
   spy?.disconnect();
   cleanupReveal();
@@ -92,7 +101,7 @@ onBeforeUnmount(() => { spy?.disconnect(); cleanupReveal(); });
           <span class="visually-hidden">Search the menu / 搜索菜单</span>
           <input v-model="query" type="search" placeholder="Search: mango, 芝士, oolong…" autocomplete="off">
         </label>
-        <nav ref="chips" class="chips" aria-label="Menu categories">
+        <nav ref="chips" class="chips" aria-label="Menu categories" @wheel="onChipsWheel">
           <a
             v-for="c in content.menu" :key="c.slug" class="chip" :href="`#cat-${c.slug}`" :data-cat="c.slug"
             :aria-current="currentCat === c.slug ? 'true' : undefined"
@@ -112,11 +121,13 @@ onBeforeUnmount(() => { spy?.disconnect(); cleanupReveal(); });
             <Sticker v-for="(it, i) in c.shown" :key="it.id" :item="it" :index="i" with-desc />
           </ul>
           <ul v-else class="menu-list">
-            <li v-for="it in c.shown" :key="it.id" class="menu-row">
+            <li v-for="it in c.shown" :key="it.id">
+              <a class="menu-row" :href="it.orderUrl || content.store.links.order" target="_blank" rel="noopener">
               <span class="menu-row__name">{{ it.name.en }}</span>
               <span class="menu-row__price">{{ it.price }}<template v-if="it.soldOut"> · <span lang="en">Sold out</span><span lang="zh">售罄</span></template></span>
               <span v-if="it.name.zh" class="menu-row__zh">{{ it.name.zh }}</span>
               <span v-if="it.desc.en" class="menu-row__desc">{{ cleanCopy(it.desc.en) }}</span>
+              </a>
             </li>
           </ul>
         </section>

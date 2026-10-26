@@ -54,6 +54,7 @@ const menuOut = menu.map((c) => ({
       image: it.img ? media(it.img, it.en, it.zh || "") : null,
       tags: c.id === "seasonal" ? ["seasonal"] : [],
       soldOut: m.stock === 0,
+      orderUrl: info.orderUrl,
     };
   }),
 }));
@@ -79,11 +80,12 @@ const blocks = {
     visible: true,
     kicker: bi("Built on premium Asian tea", "以精品亚洲原叶茶为底"),
     title: bi("Boba. Smoothies. Matcha.", "珍珠 · 冰沙 · 抹茶"),
-    sub: bi("Three ways to drink our tea, each starting from leaves brewed fresh that morning.", "三种喝法，每一杯都从当天早上现泡的原叶茶开始。"),
+    sub: bi("Three ways to drink our tea, each starting from leaves brewed fresh that morning, plus coffee made the tea-shop way.", "三种喝法，每一杯都从当天早上现泡的原叶茶开始；再加一杯茶饮店风格的咖啡。"),
     cards: [
       { theme: "boba", title: bi("Boba", "珍珠奶茶"), desc: bi("Chewy tapioca pearls in milk tea made with freshly brewed black or oolong tea.", "Q 弹珍珠，配现泡红茶或乌龙做的奶茶。"), more: bi("See boba drinks", "看珍珠奶茶"), category: "milk-tea", image: IMG("drinks/bubble-milk-tea.png", "Bubble milk tea with boba pearls", "珍珠奶茶") },
       { theme: "smoothie", title: bi("Smoothies", "鲜果冰沙"), desc: bi("Real fruit blended with ice: mango pomelo, strawberry, peach, watermelon and more.", "真实鲜果打成冰沙：杨枝甘露、草莓、蜜桃、西瓜等等。"), more: bi("See smoothies", "看冰沙"), category: "smoothie", image: IMG("drinks/mango-pomelo.png", "Mango pomelo smoothie with white boba and cheese foam", "杨枝甘露") },
       { theme: "matcha", title: bi("Matcha", "抹茶"), desc: bi("Organic Japanese matcha as a latte, a frozen blend, or layered with strawberry.", "日本有机抹茶，做成拿铁、冰沙，或者叠上草莓。"), more: bi("See matcha drinks", "看抹茶"), category: "matcha", image: IMG("drinks/strawberry-matcha-latte.png", "Strawberry matcha latte", "草莓抹茶拿铁") },
+      { theme: "coffee", title: bi("Coffee", "咖啡"), desc: bi("Espresso with a tea-shop twist: topped with cheese foam, torched crème brûlée, or a classic latte.", "茶饮店做的意式咖啡：加芝士奶盖、炙烤布蕾，或者一杯经典拿铁。"), more: bi("See coffee", "看咖啡"), category: "coffee", image: IMG("drinks/latte.png", "Iced latte", "冰拿铁") },
     ],
   },
   tagline: {

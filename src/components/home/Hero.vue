@@ -61,37 +61,38 @@ const sayHi = () => {
       </figure>
     </div>
 
-    <div class="scene" aria-hidden="true">
-      <svg class="scene__sun" viewBox="0 0 120 120">
+    <!-- 吉祥物放在场景里、海面之前，杯底沉进海浪 -->
+    <div class="scene">
+      <svg class="scene__sun" viewBox="0 0 120 120" aria-hidden="true">
         <circle cx="64" cy="58" r="34" class="sun-fill" />
         <g class="sun-line"><circle cx="58" cy="62" r="34" />
           <path d="M58 14V4M58 120v-10M10 62H0M116 62h-10M24 28l-7-7M99 103l-7-7M24 96l-7 7M99 21l-7 7" /></g>
       </svg>
-      <svg class="scene__gull scene__gull--a" viewBox="0 0 40 16"><use href="#i-gull" /></svg>
-      <svg class="scene__gull scene__gull--b" viewBox="0 0 40 16"><use href="#i-gull" /></svg>
-      <img class="scene__skyline" src="/assets/svg/skyline.svg" alt="">
-      <div class="scene__sea">
+      <svg class="scene__gull scene__gull--a" viewBox="0 0 40 16" aria-hidden="true"><use href="#i-gull" /></svg>
+      <svg class="scene__gull scene__gull--b" viewBox="0 0 40 16" aria-hidden="true"><use href="#i-gull" /></svg>
+      <img class="scene__skyline" src="/assets/svg/skyline.svg" alt="" aria-hidden="true">
+      <button class="mascot" :class="{ 'is-hello': hello }" type="button" aria-label="Say hi to our cup" @click="sayHi">
+        <span class="mascot__bubble">{{ bubble }}</span>
+        <svg viewBox="0 0 120 190" aria-hidden="true">
+          <g class="mascot__body">
+            <path class="m-straw" d="M70 4 62 46" />
+            <path class="m-lid" d="M22 50c2-18 18-26 38-26s36 8 38 26Z" />
+            <path class="m-rim" d="M16 50h88v9H16z" />
+            <path class="m-cup" d="M20 59h80l-8 112c-.4 6-5 10-11 10H39c-6 0-10.6-4-11-10Z" />
+            <path class="m-tea" d="M22 92c12 5 24-4 38 0s26 5 38 0l-6 79c-.4 6-5 10-11 10H39c-6 0-10.6-4-11-10Z" />
+            <g class="m-boba"><circle cx="40" cy="166" r="5" /><circle cx="54" cy="170" r="5" /><circle cx="68" cy="167" r="5" /><circle cx="81" cy="163" r="5" /><circle cx="47" cy="156" r="5" /><circle cx="74" cy="154" r="5" /></g>
+            <g class="m-face"><circle cx="46" cy="116" r="3.4" /><circle cx="74" cy="116" r="3.4" /><path d="M52 126c4 5 12 5 16 0" /></g>
+            <g class="m-cheek"><ellipse cx="38" cy="126" rx="6" ry="3.4" /><ellipse cx="82" cy="126" rx="6" ry="3.4" /></g>
+            <path class="m-arm m-arm--wave" d="M100 104c8-4 13-12 14-22" />
+            <path class="m-arm" d="M22 108c-8 4-12 10-12 18" />
+          </g>
+        </svg>
+      </button>
+      <div class="scene__sea" aria-hidden="true">
         <svg class="wave wave--back" viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 Q 50 2 100 20 T 200 20 T 300 20 T 400 20 T 500 20 T 600 20 T 700 20 T 800 20 T 900 20 T 1000 20 T 1100 20 T 1200 20" /></svg>
         <svg class="wave wave--front" viewBox="0 0 1200 40" preserveAspectRatio="none"><path class="wave__fill" d="M0 22 Q 75 4 150 22 T 300 22 T 450 22 T 600 22 T 750 22 T 900 22 T 1050 22 T 1200 22 V40 H0Z" /><path class="wave__line" d="M0 22 Q 75 4 150 22 T 300 22 T 450 22 T 600 22 T 750 22 T 900 22 T 1050 22 T 1200 22" /></svg>
       </div>
     </div>
 
-    <button class="mascot" :class="{ 'is-hello': hello }" type="button" aria-label="Say hi to our cup" @click="sayHi">
-      <span class="mascot__bubble">{{ bubble }}</span>
-      <svg viewBox="0 0 120 190" aria-hidden="true">
-        <g class="mascot__body">
-          <path class="m-straw" d="M70 4 62 46" />
-          <path class="m-lid" d="M22 50c2-18 18-26 38-26s36 8 38 26Z" />
-          <path class="m-rim" d="M16 50h88v9H16z" />
-          <path class="m-cup" d="M20 59h80l-8 112c-.4 6-5 10-11 10H39c-6 0-10.6-4-11-10Z" />
-          <path class="m-tea" d="M22 92c12 5 24-4 38 0s26 5 38 0l-6 79c-.4 6-5 10-11 10H39c-6 0-10.6-4-11-10Z" />
-          <g class="m-boba"><circle cx="40" cy="166" r="5" /><circle cx="54" cy="170" r="5" /><circle cx="68" cy="167" r="5" /><circle cx="81" cy="163" r="5" /><circle cx="47" cy="156" r="5" /><circle cx="74" cy="154" r="5" /></g>
-          <g class="m-face"><circle cx="46" cy="116" r="3.4" /><circle cx="74" cy="116" r="3.4" /><path d="M52 126c4 5 12 5 16 0" /></g>
-          <g class="m-cheek"><ellipse cx="38" cy="126" rx="6" ry="3.4" /><ellipse cx="82" cy="126" rx="6" ry="3.4" /></g>
-          <path class="m-arm m-arm--wave" d="M100 104c8-4 13-12 14-22" />
-          <path class="m-arm" d="M22 108c-8 4-12 10-12 18" />
-        </g>
-      </svg>
-    </button>
   </section>
 </template>
