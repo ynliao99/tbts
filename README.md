@@ -2,6 +2,8 @@
 
 东波士顿海边茶饮店 Tea By The Sea 的新官网。静态 HTML/CSS/JS，无构建步骤，没有任何依赖。
 
+> 这是改成 Vue + CMS 之前的旧版纯静态站，保留在这个分支上，用 GitHub Pages 发布供对照：https://ynliao99.github.io/tbts/ （Settings → Pages → Deploy from a branch → `claude/tea-by-sea-website-jjogk4` / `(root)`）。当前正式站在 main 分支。
+
 ## 本地预览
 
 ```bash
