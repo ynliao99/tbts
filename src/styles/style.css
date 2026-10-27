@@ -2058,7 +2058,22 @@ html.is-ready .scene {
   font-weight: 600;
   color: var(--cobalt);
 }
-.event-form__field input {
+.event-form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: opacity 400ms var(--ease);
+}
+.event-form__row--3 { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1.25fr) minmax(0, .7fr); }
+.event-form__field small { font-weight: 500; color: var(--ink-soft, #5b6785); }
+.event-form__field b { color: var(--peach); }
+.event-form__field textarea { resize: vertical; min-height: 104px; font-family: inherit; }
+.event-form__field input,
+.event-form__field textarea {
   width: 100%;
   padding: 8px 12px;
   border: 1.5px solid var(--cobalt);
@@ -2069,11 +2084,13 @@ html.is-ready .scene {
   line-height: 20px;
   transition: border-color 700ms var(--ease), box-shadow 700ms var(--ease);
 }
-.event-form__field input:focus {
+.event-form__field input:focus,
+.event-form__field textarea:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--cobalt-soft);
 }
-.event-form__field input[aria-invalid="true"] {
+.event-form__field input[aria-invalid="true"],
+.event-form__field textarea[aria-invalid="true"] {
   border-color: var(--peach);
   box-shadow: 0 0 0 3px var(--peach-soft);
 }
@@ -2882,7 +2899,8 @@ html[data-os="android"] .app-badge--ios { display: none; }
     padding: 32px;
   }
   .tea-stage__cup { min-height: 20rem; }
-  .event-form__row { grid-template-columns: 1fr; }
+  .event-form__row,
+  .event-form__row--3 { grid-template-columns: 1fr; }
   .final-cta__inner {
     align-items: start;
     flex-direction: column;
@@ -3199,3 +3217,45 @@ a.menu-row.is-soldout { pointer-events: none; }
 .sticker.is-soldout .sticker__zh,
 .sticker.is-soldout .sticker__desc,
 a.menu-row.is-soldout > span { opacity: .5; }
+
+/* 咨询表单提交中：字段锁住变淡，按钮里三颗珍珠轮流跳、底下一道光扫过；成功后对勾描出来 */
+.event-form { position: relative; }
+.event-form.is-sending .event-form__fields { opacity: .55; }
+.event-form__submit { position: relative; overflow: hidden; }
+.event-form__submit:disabled { cursor: progress; }
+.event-form.is-sending .event-form__submit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 20%, rgb(255 255 255 / .35) 50%, transparent 80%);
+  transform: translateX(-100%);
+  animation: inquiry-sheen 1.3s var(--ease) infinite;
+}
+@keyframes inquiry-sheen { to { transform: translateX(100%); } }
+.boba-dots { display: inline-flex; align-items: flex-end; gap: 4px; height: 18px; }
+.boba-dots i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: boba-bounce 900ms var(--ease) infinite;
+}
+.boba-dots i:nth-child(2) { animation-delay: 150ms; }
+.boba-dots i:nth-child(3) { animation-delay: 300ms; }
+@keyframes boba-bounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-9px); }
+}
+.event-form__feedback { display: flex; align-items: center; gap: 8px; animation: inquiry-pop 450ms var(--spring) both; }
+@keyframes inquiry-pop { from { opacity: 0; transform: translateY(6px) scale(.98); } }
+.event-form__check { flex: none; width: 22px; height: 22px; fill: none; stroke: var(--cobalt); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.event-form__check circle { stroke-dasharray: 63; stroke-dashoffset: 63; animation: inquiry-draw 600ms var(--ease) forwards; }
+.event-form__check path { stroke-dasharray: 16; stroke-dashoffset: 16; animation: inquiry-draw 350ms var(--ease) 450ms forwards; }
+@keyframes inquiry-draw { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .boba-dots i,
+  .event-form.is-sending .event-form__submit::after,
+  .event-form__feedback { animation: none; }
+  .event-form__check circle,
+  .event-form__check path { animation: none; stroke-dashoffset: 0; }
+}
