@@ -2,13 +2,13 @@
 
 东波士顿海边茶饮店 Tea By The Sea 的新官网。静态 HTML/CSS/JS，无构建步骤，没有任何依赖。
 
-> 这是改成 Vue + CMS 之前的旧版纯静态站，保留在这个分支上，用 GitHub Pages 发布供对照：https://ynliao99.github.io/tbts/ （Settings → Pages → Deploy from a branch → `claude/tea-by-sea-website-jjogk4` / `(root)`）。当前正式站在 main 分支。
+> 这个分支用 GitHub Pages 发布旧网站存档：https://ynliao99.github.io/tbts/ 是原 Wix 官网的离线快照（`index.html` + `index_files/`，由 `旧网站/` 整理而来：修正中文编码、去掉浏览器插件注入的代码、把 Wix CDN 上的图片和视频存到本地）；https://ynliao99.github.io/tbts/static/ 是改成 Vue + CMS 之前的纯静态版（下文说的就是这一版，文件在 `static/`）。Pages 设置：Settings → Pages → Deploy from a branch → `claude/tea-by-sea-website-jjogk4` / `(root)`。当前正式站在 main 分支。
 
 ## 本地预览
 
 ```bash
 python3 -m http.server 8000
-# 打开 http://localhost:8000
+# 旧 Wix 站 http://localhost:8000 ，纯静态版 http://localhost:8000/static/
 ```
 
 ## 结构
